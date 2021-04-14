@@ -1,0 +1,43 @@
+version: "3"
+
+# DockerVolumeを使うと、コンテナを削除してもデータが残るので便利
+volumes:
+  db-data:
+    # ボリューム名を明示的に指定する
+    name: pokemonote_backend_db-data
+
+services:
+  web:
+    # コンテナ名を明示的に指定する
+    container_name: pokemonote_backend_web
+    # Dockerfileからイメージを作成
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - ".:/pokemonote_backend"
+    environment:
+      # databese.ymlで受け取る環境変数を指定(HOSTは本来不要だが、CircleCIとの兼ね合いで用意している)
+      DATABASE_HOST: db
+      DATABASE_PASSWORD: ${DATABASE_PASSWORD}
+      # rails credentials:edit のコマンドで EDITOR="vim" のオプションを省略できるようにする
+      EDITOR: vim
+    # stdin_openとttyで -it オプションと同じ意味を持つ
+    stdin_open: true
+    tty: true
+    # dbを立ち上げてからwebを立ち上げる
+    depends_on:
+      - db
+
+  db:
+    # コンテナ名を明示的に指定する
+    container_name: pokemonote_backend_db
+    image: mysql:5.6
+    # 3306のポートはMySQLが使用しているので、4306を当てている
+    ports:
+      - "4306:3306"
+    volumes:
+      - "db-data:/var/lib/mysql"
+    # パスワードを設定しておかないと、MySQLのコンテナがUpにならない
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DATABASE_PASSWORD}
