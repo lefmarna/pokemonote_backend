@@ -22,6 +22,8 @@ services:
       DATABASE_PASSWORD: ${DATABASE_PASSWORD}
       # rails credentials:edit のコマンドで EDITOR="vim" のオプションを省略できるようにする
       EDITOR: vim
+      # アクセスを許可するオリジンの設定
+      VUE_ORIGIN_ADDRESS: ${VUE_ORIGIN_ADDRESS}
     # stdin_openとttyで -it オプションと同じ意味を持つ
     stdin_open: true
     tty: true

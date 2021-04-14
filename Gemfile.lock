@@ -126,6 +126,8 @@ GEM
     puma (3.12.6)
     racc (1.5.2)
     rack (2.2.3)
+    rack-cors (1.1.1)
+      rack (>= 2.0.0)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails (6.0.3.6)
@@ -225,6 +227,7 @@ DEPENDENCIES
   mysql2 (>= 0.4.4)
   pry-rails
   puma (~> 3.11)
+  rack-cors
   rails (~> 6.0.0)
   rails-i18n
   rspec-rails
