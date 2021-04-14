@@ -24,6 +24,10 @@ module PokemonoteBackend
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.0
 
+    # タイムゾーンとロケールの設定
+    config.time_zone = 'Tokyo'
+    config.i18n.default_locale = :ja
+
     # RSpec関連のファイルを自動生成する設定
     config.generators do |g|
       g.test_framework :rspec,
