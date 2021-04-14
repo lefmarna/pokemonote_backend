@@ -51,5 +51,6 @@ test:
 production:
   <<: *default
   database: pokemonote_backend_production
-  username: pokemonote_backend
-  password: <%= ENV['POKEMONOTE_BACKEND_DATABASE_PASSWORD'] %>
+  username: root
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+  socket: /var/lib/mysql/mysql.sock
