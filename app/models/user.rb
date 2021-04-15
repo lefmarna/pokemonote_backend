@@ -6,4 +6,9 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
   include DeviseTokenAuth::Concerns::User
+
+  with_options presence: true do
+    validates :username, uniqueness: {case_sensitive: false}, length: { minimum: 3, maximum: 25 }, format: { with: /\A[a-z\d]+\z/i }
+    validates :nickname
+  end
 end
