@@ -17,6 +17,9 @@ services:
     volumes:
       - ".:/pokemonote_backend"
     environment:
+      # AWSの認証情報
+      AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}
+      AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY}
       # databese.ymlで受け取る環境変数を指定(HOSTは本来不要だが、CircleCIとの兼ね合いで用意している)
       DATABASE_HOST: db
       DATABASE_PASSWORD: ${DATABASE_PASSWORD}
