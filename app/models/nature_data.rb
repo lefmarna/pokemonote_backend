@@ -1,4 +1,4 @@
-class Nature < ActiveHash::Base
+class NatureData < ActiveHash::Base
   self.data = [
     {
       id: 0,
