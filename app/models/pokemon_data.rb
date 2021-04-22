@@ -19723,4 +19723,8 @@ class PokemonData < ActiveHash::Base
       "id": 1038
     }
   ]
+
+  include ActiveHash::Associations
+  has_many :pokemons
+  
 end

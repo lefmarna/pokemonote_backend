@@ -8,6 +8,7 @@ class User < ActiveRecord::Base
   include DeviseTokenAuth::Concerns::User
 
   has_one_attached :image
+  has_many :pokemons, dependent: :destroy
 
   with_options presence: true do
     validates :username, uniqueness: {case_sensitive: false}, length: { minimum: 3, maximum: 25 }, format: { with: /\A[a-z\d]+\z/i }
