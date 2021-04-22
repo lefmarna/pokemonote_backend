@@ -34,7 +34,7 @@ ActiveRecord::Schema.define(version: 2021_04_22_070153) do
   end
 
   create_table "pokemons", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
-    t.integer "pokemon_data_id", null: false
+    t.integer "pokemon_data_id", limit: 2, null: false
     t.integer "nature_data_id", limit: 2, null: false
     t.integer "lv", limit: 2
     t.integer "hp_iv", limit: 2

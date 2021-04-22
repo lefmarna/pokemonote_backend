@@ -1,7 +1,7 @@
 class CreatePokemons < ActiveRecord::Migration[6.0]
   def change
     create_table :pokemons do |t|
-      t.integer    :pokemon_data_id,           null: false
+      t.integer    :pokemon_data_id, limit: 2, null: false
       t.integer    :nature_data_id,  limit: 2, null: false
       t.integer    :lv,              limit: 2
       t.integer    :hp_iv,           limit: 2
