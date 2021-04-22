@@ -301,4 +301,8 @@ class NatureData < ActiveHash::Base
       },
     },
   ]
+
+  include ActiveHash::Associations
+  has_many :pokemons
+  
 end
