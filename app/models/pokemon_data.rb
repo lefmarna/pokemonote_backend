@@ -16,7 +16,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 65,
         "speed": 45
-      }
+      },
+      "id": 1
     },
     {
       "no": 2,
@@ -34,7 +35,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 80,
         "speed": 60
-      }
+      },
+      "id": 2
     },
     {
       "no": 3,
@@ -52,7 +54,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 100,
         "speed": 80
-      }
+      },
+      "id": 3
     },
     {
       "no": 3,
@@ -70,7 +73,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 122,
         "spDefence": 120,
         "speed": 80
-      }
+      },
+      "id": 4
     },
     {
       "no": 4,
@@ -88,7 +92,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 50,
         "speed": 65
-      }
+      },
+      "id": 5
     },
     {
       "no": 5,
@@ -106,7 +111,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 65,
         "speed": 80
-      }
+      },
+      "id": 6
     },
     {
       "no": 6,
@@ -124,7 +130,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 109,
         "spDefence": 85,
         "speed": 100
-      }
+      },
+      "id": 7
     },
     {
       "no": 6,
@@ -142,7 +149,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 130,
         "spDefence": 85,
         "speed": 100
-      }
+      },
+      "id": 8
     },
     {
       "no": 6,
@@ -160,7 +168,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 159,
         "spDefence": 115,
         "speed": 100
-      }
+      },
+      "id": 9
     },
     {
       "no": 7,
@@ -178,7 +187,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 64,
         "speed": 43
-      }
+      },
+      "id": 10
     },
     {
       "no": 8,
@@ -196,7 +206,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 80,
         "speed": 58
-      }
+      },
+      "id": 11
     },
     {
       "no": 9,
@@ -214,7 +225,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 85,
         "spDefence": 105,
         "speed": 78
-      }
+      },
+      "id": 12
     },
     {
       "no": 9,
@@ -232,7 +244,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 135,
         "spDefence": 115,
         "speed": 78
-      }
+      },
+      "id": 13
     },
     {
       "no": 10,
@@ -250,7 +263,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 20,
         "spDefence": 20,
         "speed": 45
-      }
+      },
+      "id": 14
     },
     {
       "no": 11,
@@ -268,7 +282,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 25,
         "spDefence": 25,
         "speed": 30
-      }
+      },
+      "id": 15
     },
     {
       "no": 12,
@@ -286,7 +301,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 90,
         "spDefence": 80,
         "speed": 70
-      }
+      },
+      "id": 16
     },
     {
       "no": 13,
@@ -304,7 +320,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 20,
         "spDefence": 20,
         "speed": 50
-      }
+      },
+      "id": 17
     },
     {
       "no": 14,
@@ -322,7 +339,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 25,
         "spDefence": 25,
         "speed": 35
-      }
+      },
+      "id": 18
     },
     {
       "no": 15,
@@ -340,7 +358,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 80,
         "speed": 75
-      }
+      },
+      "id": 19
     },
     {
       "no": 15,
@@ -358,7 +377,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 15,
         "spDefence": 80,
         "speed": 145
-      }
+      },
+      "id": 20
     },
     {
       "no": 16,
@@ -376,7 +396,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 35,
         "spDefence": 35,
         "speed": 56
-      }
+      },
+      "id": 21
     },
     {
       "no": 17,
@@ -394,7 +415,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 50,
         "speed": 71
-      }
+      },
+      "id": 22
     },
     {
       "no": 18,
@@ -412,7 +434,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 70,
         "speed": 101
-      }
+      },
+      "id": 23
     },
     {
       "no": 18,
@@ -430,7 +453,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 135,
         "spDefence": 80,
         "speed": 121
-      }
+      },
+      "id": 24
     },
     {
       "no": 19,
@@ -448,7 +472,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 25,
         "spDefence": 35,
         "speed": 72
-      }
+      },
+      "id": 25
     },
     {
       "no": 19,
@@ -466,7 +491,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 25,
         "spDefence": 35,
         "speed": 72
-      }
+      },
+      "id": 26
     },
     {
       "no": 20,
@@ -484,7 +510,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 70,
         "speed": 97
-      }
+      },
+      "id": 27
     },
     {
       "no": 20,
@@ -502,7 +529,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 80,
         "speed": 77
-      }
+      },
+      "id": 28
     },
     {
       "no": 21,
@@ -520,7 +548,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 31,
         "spDefence": 31,
         "speed": 70
-      }
+      },
+      "id": 29
     },
     {
       "no": 22,
@@ -538,7 +567,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 61,
         "spDefence": 61,
         "speed": 100
-      }
+      },
+      "id": 30
     },
     {
       "no": 23,
@@ -556,7 +586,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 54,
         "speed": 55
-      }
+      },
+      "id": 31
     },
     {
       "no": 24,
@@ -574,7 +605,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 79,
         "speed": 80
-      }
+      },
+      "id": 32
     },
     {
       "no": 25,
@@ -592,7 +624,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 50,
         "speed": 90
-      }
+      },
+      "id": 33
     },
     {
       "no": 26,
@@ -610,7 +643,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 90,
         "spDefence": 80,
         "speed": 110
-      }
+      },
+      "id": 34
     },
     {
       "no": 26,
@@ -628,7 +662,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 85,
         "speed": 110
-      }
+      },
+      "id": 35
     },
     {
       "no": 27,
@@ -646,7 +681,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 20,
         "spDefence": 30,
         "speed": 40
-      }
+      },
+      "id": 36
     },
     {
       "no": 27,
@@ -664,7 +700,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 10,
         "spDefence": 35,
         "speed": 40
-      }
+      },
+      "id": 37
     },
     {
       "no": 28,
@@ -682,7 +719,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 55,
         "speed": 65
-      }
+      },
+      "id": 38
     },
     {
       "no": 28,
@@ -700,7 +738,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 25,
         "spDefence": 65,
         "speed": 65
-      }
+      },
+      "id": 39
     },
     {
       "no": 29,
@@ -718,7 +757,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 40,
         "speed": 41
-      }
+      },
+      "id": 40
     },
     {
       "no": 30,
@@ -736,7 +776,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 55,
         "speed": 56
-      }
+      },
+      "id": 41
     },
     {
       "no": 31,
@@ -754,7 +795,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 75,
         "spDefence": 85,
         "speed": 76
-      }
+      },
+      "id": 42
     },
     {
       "no": 32,
@@ -772,7 +814,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 40,
         "speed": 50
-      }
+      },
+      "id": 43
     },
     {
       "no": 33,
@@ -790,7 +833,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 55,
         "speed": 65
-      }
+      },
+      "id": 44
     },
     {
       "no": 34,
@@ -808,7 +852,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 85,
         "spDefence": 75,
         "speed": 85
-      }
+      },
+      "id": 45
     },
     {
       "no": 35,
@@ -826,7 +871,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 65,
         "speed": 35
-      }
+      },
+      "id": 46
     },
     {
       "no": 36,
@@ -844,7 +890,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 90,
         "speed": 60
-      }
+      },
+      "id": 47
     },
     {
       "no": 37,
@@ -862,7 +909,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 65,
         "speed": 65
-      }
+      },
+      "id": 48
     },
     {
       "no": 37,
@@ -880,7 +928,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 65,
         "speed": 65
-      }
+      },
+      "id": 49
     },
     {
       "no": 38,
@@ -898,7 +947,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 81,
         "spDefence": 100,
         "speed": 100
-      }
+      },
+      "id": 50
     },
     {
       "no": 38,
@@ -916,7 +966,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 81,
         "spDefence": 100,
         "speed": 109
-      }
+      },
+      "id": 51
     },
     {
       "no": 39,
@@ -934,7 +985,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 25,
         "speed": 20
-      }
+      },
+      "id": 52
     },
     {
       "no": 40,
@@ -952,7 +1004,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 85,
         "spDefence": 50,
         "speed": 45
-      }
+      },
+      "id": 53
     },
     {
       "no": 41,
@@ -970,7 +1023,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 30,
         "spDefence": 40,
         "speed": 55
-      }
+      },
+      "id": 54
     },
     {
       "no": 42,
@@ -988,7 +1042,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 75,
         "speed": 90
-      }
+      },
+      "id": 55
     },
     {
       "no": 43,
@@ -1006,7 +1061,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 75,
         "spDefence": 65,
         "speed": 30
-      }
+      },
+      "id": 56
     },
     {
       "no": 44,
@@ -1024,7 +1080,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 85,
         "spDefence": 75,
         "speed": 40
-      }
+      },
+      "id": 57
     },
     {
       "no": 45,
@@ -1042,7 +1099,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 110,
         "spDefence": 90,
         "speed": 50
-      }
+      },
+      "id": 58
     },
     {
       "no": 46,
@@ -1060,7 +1118,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 55,
         "speed": 25
-      }
+      },
+      "id": 59
     },
     {
       "no": 47,
@@ -1078,7 +1137,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 80,
         "speed": 30
-      }
+      },
+      "id": 60
     },
     {
       "no": 48,
@@ -1096,7 +1156,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 55,
         "speed": 45
-      }
+      },
+      "id": 61
     },
     {
       "no": 49,
@@ -1114,7 +1175,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 90,
         "spDefence": 75,
         "speed": 90
-      }
+      },
+      "id": 62
     },
     {
       "no": 50,
@@ -1132,7 +1194,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 35,
         "spDefence": 45,
         "speed": 95
-      }
+      },
+      "id": 63
     },
     {
       "no": 50,
@@ -1150,7 +1213,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 35,
         "spDefence": 45,
         "speed": 90
-      }
+      },
+      "id": 64
     },
     {
       "no": 51,
@@ -1168,7 +1232,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 70,
         "speed": 120
-      }
+      },
+      "id": 65
     },
     {
       "no": 51,
@@ -1186,7 +1251,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 70,
         "speed": 110
-      }
+      },
+      "id": 66
     },
     {
       "no": 52,
@@ -1204,7 +1270,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 40,
         "speed": 90
-      }
+      },
+      "id": 67
     },
     {
       "no": 52,
@@ -1222,7 +1289,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 40,
         "speed": 90
-      }
+      },
+      "id": 68
     },
     {
       "no": 52,
@@ -1240,7 +1308,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 40,
         "speed": 40
-      }
+      },
+      "id": 69
     },
     {
       "no": 53,
@@ -1258,7 +1327,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 65,
         "speed": 115
-      }
+      },
+      "id": 70
     },
     {
       "no": 53,
@@ -1276,7 +1346,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 75,
         "spDefence": 65,
         "speed": 115
-      }
+      },
+      "id": 71
     },
     {
       "no": 54,
@@ -1294,7 +1365,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 50,
         "speed": 55
-      }
+      },
+      "id": 72
     },
     {
       "no": 55,
@@ -1312,7 +1384,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 80,
         "speed": 85
-      }
+      },
+      "id": 73
     },
     {
       "no": 56,
@@ -1330,7 +1403,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 35,
         "spDefence": 45,
         "speed": 70
-      }
+      },
+      "id": 74
     },
     {
       "no": 57,
@@ -1348,7 +1422,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 70,
         "speed": 95
-      }
+      },
+      "id": 75
     },
     {
       "no": 58,
@@ -1366,7 +1441,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 50,
         "speed": 60
-      }
+      },
+      "id": 76
     },
     {
       "no": 59,
@@ -1384,7 +1460,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 80,
         "speed": 95
-      }
+      },
+      "id": 77
     },
     {
       "no": 60,
@@ -1402,7 +1479,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 40,
         "speed": 90
-      }
+      },
+      "id": 78
     },
     {
       "no": 61,
@@ -1420,7 +1498,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 50,
         "speed": 90
-      }
+      },
+      "id": 79
     },
     {
       "no": 62,
@@ -1438,7 +1517,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 90,
         "speed": 70
-      }
+      },
+      "id": 80
     },
     {
       "no": 63,
@@ -1456,7 +1536,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 105,
         "spDefence": 55,
         "speed": 90
-      }
+      },
+      "id": 81
     },
     {
       "no": 64,
@@ -1474,7 +1555,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 120,
         "spDefence": 70,
         "speed": 105
-      }
+      },
+      "id": 82
     },
     {
       "no": 65,
@@ -1492,7 +1574,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 135,
         "spDefence": 95,
         "speed": 120
-      }
+      },
+      "id": 83
     },
     {
       "no": 65,
@@ -1510,7 +1593,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 175,
         "spDefence": 105,
         "speed": 150
-      }
+      },
+      "id": 84
     },
     {
       "no": 66,
@@ -1528,7 +1612,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 35,
         "spDefence": 35,
         "speed": 35
-      }
+      },
+      "id": 85
     },
     {
       "no": 67,
@@ -1546,7 +1631,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 60,
         "speed": 45
-      }
+      },
+      "id": 86
     },
     {
       "no": 68,
@@ -1564,7 +1650,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 85,
         "speed": 55
-      }
+      },
+      "id": 87
     },
     {
       "no": 69,
@@ -1582,7 +1669,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 30,
         "speed": 40
-      }
+      },
+      "id": 88
     },
     {
       "no": 70,
@@ -1600,7 +1688,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 85,
         "spDefence": 45,
         "speed": 55
-      }
+      },
+      "id": 89
     },
     {
       "no": 71,
@@ -1618,7 +1707,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 70,
         "speed": 70
-      }
+      },
+      "id": 90
     },
     {
       "no": 72,
@@ -1636,7 +1726,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 100,
         "speed": 70
-      }
+      },
+      "id": 91
     },
     {
       "no": 73,
@@ -1654,7 +1745,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 120,
         "speed": 100
-      }
+      },
+      "id": 92
     },
     {
       "no": 74,
@@ -1672,7 +1764,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 30,
         "spDefence": 30,
         "speed": 20
-      }
+      },
+      "id": 93
     },
     {
       "no": 74,
@@ -1690,7 +1783,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 30,
         "spDefence": 30,
         "speed": 20
-      }
+      },
+      "id": 94
     },
     {
       "no": 75,
@@ -1708,7 +1802,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 45,
         "speed": 35
-      }
+      },
+      "id": 95
     },
     {
       "no": 75,
@@ -1726,7 +1821,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 45,
         "speed": 35
-      }
+      },
+      "id": 96
     },
     {
       "no": 76,
@@ -1744,7 +1840,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 65,
         "speed": 45
-      }
+      },
+      "id": 97
     },
     {
       "no": 76,
@@ -1762,7 +1859,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 65,
         "speed": 45
-      }
+      },
+      "id": 98
     },
     {
       "no": 77,
@@ -1780,7 +1878,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 65,
         "speed": 90
-      }
+      },
+      "id": 99
     },
     {
       "no": 77,
@@ -1798,7 +1897,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 65,
         "speed": 90
-      }
+      },
+      "id": 100
     },
     {
       "no": 78,
@@ -1816,7 +1916,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 80,
         "speed": 105
-      }
+      },
+      "id": 101
     },
     {
       "no": 78,
@@ -1834,7 +1935,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 80,
         "speed": 105
-      }
+      },
+      "id": 102
     },
     {
       "no": 79,
@@ -1852,7 +1954,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 40,
         "speed": 15
-      }
+      },
+      "id": 103
     },
     {
       "no": 79,
@@ -1870,7 +1973,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 40,
         "speed": 15
-      }
+      },
+      "id": 104
     },
     {
       "no": 80,
@@ -1888,7 +1992,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 80,
         "speed": 30
-      }
+      },
+      "id": 105
     },
     {
       "no": 80,
@@ -1906,7 +2011,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 70,
         "speed": 30
-      }
+      },
+      "id": 106
     },
     {
       "no": 80,
@@ -1924,7 +2030,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 130,
         "spDefence": 80,
         "speed": 30
-      }
+      },
+      "id": 107
     },
     {
       "no": 81,
@@ -1942,7 +2049,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 55,
         "speed": 45
-      }
+      },
+      "id": 108
     },
     {
       "no": 82,
@@ -1960,7 +2068,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 120,
         "spDefence": 70,
         "speed": 70
-      }
+      },
+      "id": 109
     },
     {
       "no": 83,
@@ -1978,7 +2087,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 58,
         "spDefence": 62,
         "speed": 60
-      }
+      },
+      "id": 110
     },
     {
       "no": 83,
@@ -1996,7 +2106,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 58,
         "spDefence": 62,
         "speed": 55
-      }
+      },
+      "id": 111
     },
     {
       "no": 84,
@@ -2014,7 +2125,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 35,
         "spDefence": 35,
         "speed": 75
-      }
+      },
+      "id": 112
     },
     {
       "no": 85,
@@ -2032,7 +2144,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 60,
         "speed": 110
-      }
+      },
+      "id": 113
     },
     {
       "no": 86,
@@ -2050,7 +2163,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 70,
         "speed": 45
-      }
+      },
+      "id": 114
     },
     {
       "no": 87,
@@ -2068,7 +2182,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 95,
         "speed": 70
-      }
+      },
+      "id": 115
     },
     {
       "no": 88,
@@ -2086,7 +2201,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 50,
         "speed": 25
-      }
+      },
+      "id": 116
     },
     {
       "no": 88,
@@ -2104,7 +2220,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 50,
         "speed": 25
-      }
+      },
+      "id": 117
     },
     {
       "no": 89,
@@ -2122,7 +2239,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 100,
         "speed": 50
-      }
+      },
+      "id": 118
     },
     {
       "no": 89,
@@ -2140,7 +2258,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 100,
         "speed": 50
-      }
+      },
+      "id": 119
     },
     {
       "no": 90,
@@ -2158,7 +2277,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 25,
         "speed": 40
-      }
+      },
+      "id": 120
     },
     {
       "no": 91,
@@ -2176,7 +2296,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 85,
         "spDefence": 45,
         "speed": 70
-      }
+      },
+      "id": 121
     },
     {
       "no": 92,
@@ -2194,7 +2315,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 35,
         "speed": 80
-      }
+      },
+      "id": 122
     },
     {
       "no": 93,
@@ -2212,7 +2334,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 115,
         "spDefence": 55,
         "speed": 95
-      }
+      },
+      "id": 123
     },
     {
       "no": 94,
@@ -2230,7 +2353,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 130,
         "spDefence": 75,
         "speed": 110
-      }
+      },
+      "id": 124
     },
     {
       "no": 94,
@@ -2248,7 +2372,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 170,
         "spDefence": 95,
         "speed": 130
-      }
+      },
+      "id": 125
     },
     {
       "no": 95,
@@ -2266,7 +2391,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 30,
         "spDefence": 45,
         "speed": 70
-      }
+      },
+      "id": 126
     },
     {
       "no": 96,
@@ -2284,7 +2410,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 43,
         "spDefence": 90,
         "speed": 42
-      }
+      },
+      "id": 127
     },
     {
       "no": 97,
@@ -2302,7 +2429,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 73,
         "spDefence": 115,
         "speed": 67
-      }
+      },
+      "id": 128
     },
     {
       "no": 98,
@@ -2320,7 +2448,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 25,
         "spDefence": 25,
         "speed": 50
-      }
+      },
+      "id": 129
     },
     {
       "no": 99,
@@ -2338,7 +2467,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 50,
         "speed": 75
-      }
+      },
+      "id": 130
     },
     {
       "no": 100,
@@ -2356,7 +2486,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 55,
         "speed": 100
-      }
+      },
+      "id": 131
     },
     {
       "no": 101,
@@ -2374,7 +2505,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 80,
         "speed": 150
-      }
+      },
+      "id": 132
     },
     {
       "no": 102,
@@ -2392,7 +2524,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 45,
         "speed": 40
-      }
+      },
+      "id": 133
     },
     {
       "no": 103,
@@ -2410,7 +2543,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 125,
         "spDefence": 75,
         "speed": 55
-      }
+      },
+      "id": 134
     },
     {
       "no": 103,
@@ -2428,7 +2562,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 125,
         "spDefence": 75,
         "speed": 45
-      }
+      },
+      "id": 135
     },
     {
       "no": 104,
@@ -2446,7 +2581,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 50,
         "speed": 35
-      }
+      },
+      "id": 136
     },
     {
       "no": 105,
@@ -2464,7 +2600,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 80,
         "speed": 45
-      }
+      },
+      "id": 137
     },
     {
       "no": 105,
@@ -2482,7 +2619,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 80,
         "speed": 45
-      }
+      },
+      "id": 138
     },
     {
       "no": 106,
@@ -2500,7 +2638,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 35,
         "spDefence": 110,
         "speed": 87
-      }
+      },
+      "id": 139
     },
     {
       "no": 107,
@@ -2518,7 +2657,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 35,
         "spDefence": 110,
         "speed": 76
-      }
+      },
+      "id": 140
     },
     {
       "no": 108,
@@ -2536,7 +2676,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 75,
         "speed": 30
-      }
+      },
+      "id": 141
     },
     {
       "no": 109,
@@ -2554,7 +2695,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 45,
         "speed": 35
-      }
+      },
+      "id": 142
     },
     {
       "no": 110,
@@ -2572,7 +2714,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 85,
         "spDefence": 70,
         "speed": 60
-      }
+      },
+      "id": 143
     },
     {
       "no": 110,
@@ -2590,7 +2733,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 85,
         "spDefence": 70,
         "speed": 60
-      }
+      },
+      "id": 144
     },
     {
       "no": 111,
@@ -2608,7 +2752,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 30,
         "spDefence": 30,
         "speed": 25
-      }
+      },
+      "id": 145
     },
     {
       "no": 112,
@@ -2626,7 +2771,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 45,
         "speed": 40
-      }
+      },
+      "id": 146
     },
     {
       "no": 113,
@@ -2644,7 +2790,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 35,
         "spDefence": 105,
         "speed": 50
-      }
+      },
+      "id": 147
     },
     {
       "no": 114,
@@ -2662,7 +2809,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 40,
         "speed": 60
-      }
+      },
+      "id": 148
     },
     {
       "no": 115,
@@ -2680,7 +2828,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 80,
         "speed": 90
-      }
+      },
+      "id": 149
     },
     {
       "no": 115,
@@ -2698,7 +2847,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 100,
         "speed": 100
-      }
+      },
+      "id": 150
     },
     {
       "no": 116,
@@ -2716,7 +2866,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 25,
         "speed": 60
-      }
+      },
+      "id": 151
     },
     {
       "no": 117,
@@ -2734,7 +2885,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 45,
         "speed": 85
-      }
+      },
+      "id": 152
     },
     {
       "no": 118,
@@ -2752,7 +2904,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 35,
         "spDefence": 50,
         "speed": 63
-      }
+      },
+      "id": 153
     },
     {
       "no": 119,
@@ -2770,7 +2923,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 80,
         "speed": 68
-      }
+      },
+      "id": 154
     },
     {
       "no": 120,
@@ -2788,7 +2942,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 55,
         "speed": 85
-      }
+      },
+      "id": 155
     },
     {
       "no": 121,
@@ -2806,7 +2961,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 85,
         "speed": 115
-      }
+      },
+      "id": 156
     },
     {
       "no": 122,
@@ -2824,7 +2980,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 120,
         "speed": 90
-      }
+      },
+      "id": 157
     },
     {
       "no": 122,
@@ -2842,7 +2999,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 90,
         "spDefence": 90,
         "speed": 100
-      }
+      },
+      "id": 158
     },
     {
       "no": 123,
@@ -2860,7 +3018,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 80,
         "speed": 105
-      }
+      },
+      "id": 159
     },
     {
       "no": 124,
@@ -2878,7 +3037,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 115,
         "spDefence": 95,
         "speed": 95
-      }
+      },
+      "id": 160
     },
     {
       "no": 125,
@@ -2896,7 +3056,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 85,
         "speed": 105
-      }
+      },
+      "id": 161
     },
     {
       "no": 126,
@@ -2914,7 +3075,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 85,
         "speed": 93
-      }
+      },
+      "id": 162
     },
     {
       "no": 127,
@@ -2932,7 +3094,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 70,
         "speed": 85
-      }
+      },
+      "id": 163
     },
     {
       "no": 127,
@@ -2950,7 +3113,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 90,
         "speed": 105
-      }
+      },
+      "id": 164
     },
     {
       "no": 128,
@@ -2968,7 +3132,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 70,
         "speed": 110
-      }
+      },
+      "id": 165
     },
     {
       "no": 129,
@@ -2986,7 +3151,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 15,
         "spDefence": 20,
         "speed": 80
-      }
+      },
+      "id": 166
     },
     {
       "no": 130,
@@ -3004,7 +3170,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 100,
         "speed": 81
-      }
+      },
+      "id": 167
     },
     {
       "no": 130,
@@ -3022,7 +3189,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 130,
         "speed": 81
-      }
+      },
+      "id": 168
     },
     {
       "no": 131,
@@ -3040,7 +3208,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 85,
         "spDefence": 95,
         "speed": 60
-      }
+      },
+      "id": 169
     },
     {
       "no": 132,
@@ -3058,7 +3227,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 48,
         "spDefence": 48,
         "speed": 48
-      }
+      },
+      "id": 170
     },
     {
       "no": 133,
@@ -3076,7 +3246,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 65,
         "speed": 55
-      }
+      },
+      "id": 171
     },
     {
       "no": 134,
@@ -3094,7 +3265,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 110,
         "spDefence": 95,
         "speed": 65
-      }
+      },
+      "id": 172
     },
     {
       "no": 135,
@@ -3112,7 +3284,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 110,
         "spDefence": 95,
         "speed": 130
-      }
+      },
+      "id": 173
     },
     {
       "no": 136,
@@ -3130,7 +3303,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 110,
         "speed": 65
-      }
+      },
+      "id": 174
     },
     {
       "no": 137,
@@ -3148,7 +3322,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 85,
         "spDefence": 75,
         "speed": 40
-      }
+      },
+      "id": 175
     },
     {
       "no": 138,
@@ -3166,7 +3341,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 90,
         "spDefence": 55,
         "speed": 35
-      }
+      },
+      "id": 176
     },
     {
       "no": 139,
@@ -3184,7 +3360,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 115,
         "spDefence": 70,
         "speed": 55
-      }
+      },
+      "id": 177
     },
     {
       "no": 140,
@@ -3202,7 +3379,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 45,
         "speed": 55
-      }
+      },
+      "id": 178
     },
     {
       "no": 141,
@@ -3220,7 +3398,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 70,
         "speed": 80
-      }
+      },
+      "id": 179
     },
     {
       "no": 142,
@@ -3238,7 +3417,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 75,
         "speed": 130
-      }
+      },
+      "id": 180
     },
     {
       "no": 142,
@@ -3256,7 +3436,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 95,
         "speed": 150
-      }
+      },
+      "id": 181
     },
     {
       "no": 143,
@@ -3274,7 +3455,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 110,
         "speed": 30
-      }
+      },
+      "id": 182
     },
     {
       "no": 144,
@@ -3292,7 +3474,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 125,
         "speed": 85
-      }
+      },
+      "id": 183
     },
     {
       "no": 144,
@@ -3310,7 +3493,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 125,
         "spDefence": 100,
         "speed": 95
-      }
+      },
+      "id": 184
     },
     {
       "no": 145,
@@ -3328,7 +3512,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 125,
         "spDefence": 90,
         "speed": 100
-      }
+      },
+      "id": 185
     },
     {
       "no": 145,
@@ -3346,7 +3531,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 85,
         "spDefence": 90,
         "speed": 100
-      }
+      },
+      "id": 186
     },
     {
       "no": 146,
@@ -3364,7 +3550,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 125,
         "spDefence": 85,
         "speed": 90
-      }
+      },
+      "id": 187
     },
     {
       "no": 146,
@@ -3382,7 +3569,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 125,
         "speed": 90
-      }
+      },
+      "id": 188
     },
     {
       "no": 147,
@@ -3400,7 +3588,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 50,
         "speed": 50
-      }
+      },
+      "id": 189
     },
     {
       "no": 148,
@@ -3418,7 +3607,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 70,
         "speed": 70
-      }
+      },
+      "id": 190
     },
     {
       "no": 149,
@@ -3436,7 +3626,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 100,
         "speed": 80
-      }
+      },
+      "id": 191
     },
     {
       "no": 150,
@@ -3454,7 +3645,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 154,
         "spDefence": 90,
         "speed": 130
-      }
+      },
+      "id": 192
     },
     {
       "no": 150,
@@ -3472,7 +3664,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 154,
         "spDefence": 100,
         "speed": 130
-      }
+      },
+      "id": 193
     },
     {
       "no": 150,
@@ -3490,7 +3683,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 194,
         "spDefence": 120,
         "speed": 140
-      }
+      },
+      "id": 194
     },
     {
       "no": 151,
@@ -3508,7 +3702,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 100,
         "speed": 100
-      }
+      },
+      "id": 195
     },
     {
       "no": 152,
@@ -3526,7 +3721,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 49,
         "spDefence": 65,
         "speed": 45
-      }
+      },
+      "id": 196
     },
     {
       "no": 153,
@@ -3544,7 +3740,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 63,
         "spDefence": 80,
         "speed": 60
-      }
+      },
+      "id": 197
     },
     {
       "no": 154,
@@ -3562,7 +3759,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 83,
         "spDefence": 100,
         "speed": 80
-      }
+      },
+      "id": 198
     },
     {
       "no": 155,
@@ -3580,7 +3778,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 50,
         "speed": 65
-      }
+      },
+      "id": 199
     },
     {
       "no": 156,
@@ -3598,7 +3797,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 65,
         "speed": 80
-      }
+      },
+      "id": 200
     },
     {
       "no": 157,
@@ -3616,7 +3816,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 109,
         "spDefence": 85,
         "speed": 100
-      }
+      },
+      "id": 201
     },
     {
       "no": 158,
@@ -3634,7 +3835,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 44,
         "spDefence": 48,
         "speed": 43
-      }
+      },
+      "id": 202
     },
     {
       "no": 159,
@@ -3652,7 +3854,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 59,
         "spDefence": 63,
         "speed": 58
-      }
+      },
+      "id": 203
     },
     {
       "no": 160,
@@ -3670,7 +3873,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 79,
         "spDefence": 83,
         "speed": 78
-      }
+      },
+      "id": 204
     },
     {
       "no": 161,
@@ -3688,7 +3892,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 35,
         "spDefence": 45,
         "speed": 20
-      }
+      },
+      "id": 205
     },
     {
       "no": 162,
@@ -3706,7 +3911,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 55,
         "speed": 90
-      }
+      },
+      "id": 206
     },
     {
       "no": 163,
@@ -3724,7 +3930,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 36,
         "spDefence": 56,
         "speed": 50
-      }
+      },
+      "id": 207
     },
     {
       "no": 164,
@@ -3742,7 +3949,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 86,
         "spDefence": 96,
         "speed": 70
-      }
+      },
+      "id": 208
     },
     {
       "no": 165,
@@ -3760,7 +3968,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 80,
         "speed": 55
-      }
+      },
+      "id": 209
     },
     {
       "no": 166,
@@ -3778,7 +3987,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 110,
         "speed": 85
-      }
+      },
+      "id": 210
     },
     {
       "no": 167,
@@ -3796,7 +4006,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 40,
         "speed": 30
-      }
+      },
+      "id": 211
     },
     {
       "no": 168,
@@ -3814,7 +4025,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 70,
         "speed": 40
-      }
+      },
+      "id": 212
     },
     {
       "no": 169,
@@ -3832,7 +4044,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 80,
         "speed": 130
-      }
+      },
+      "id": 213
     },
     {
       "no": 170,
@@ -3850,7 +4063,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 56,
         "spDefence": 56,
         "speed": 67
-      }
+      },
+      "id": 214
     },
     {
       "no": 171,
@@ -3868,7 +4082,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 76,
         "spDefence": 76,
         "speed": 67
-      }
+      },
+      "id": 215
     },
     {
       "no": 172,
@@ -3886,7 +4101,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 35,
         "spDefence": 35,
         "speed": 60
-      }
+      },
+      "id": 216
     },
     {
       "no": 173,
@@ -3904,7 +4120,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 55,
         "speed": 15
-      }
+      },
+      "id": 217
     },
     {
       "no": 174,
@@ -3922,7 +4139,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 20,
         "speed": 15
-      }
+      },
+      "id": 218
     },
     {
       "no": 175,
@@ -3940,7 +4158,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 65,
         "speed": 20
-      }
+      },
+      "id": 219
     },
     {
       "no": 176,
@@ -3958,7 +4177,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 105,
         "speed": 40
-      }
+      },
+      "id": 220
     },
     {
       "no": 177,
@@ -3976,7 +4196,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 45,
         "speed": 70
-      }
+      },
+      "id": 221
     },
     {
       "no": 178,
@@ -3994,7 +4215,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 70,
         "speed": 95
-      }
+      },
+      "id": 222
     },
     {
       "no": 179,
@@ -4012,7 +4234,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 45,
         "speed": 35
-      }
+      },
+      "id": 223
     },
     {
       "no": 180,
@@ -4030,7 +4253,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 60,
         "speed": 45
-      }
+      },
+      "id": 224
     },
     {
       "no": 181,
@@ -4048,7 +4272,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 115,
         "spDefence": 90,
         "speed": 55
-      }
+      },
+      "id": 225
     },
     {
       "no": 181,
@@ -4066,7 +4291,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 165,
         "spDefence": 110,
         "speed": 45
-      }
+      },
+      "id": 226
     },
     {
       "no": 182,
@@ -4084,7 +4310,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 90,
         "spDefence": 100,
         "speed": 50
-      }
+      },
+      "id": 227
     },
     {
       "no": 183,
@@ -4102,7 +4329,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 20,
         "spDefence": 50,
         "speed": 40
-      }
+      },
+      "id": 228
     },
     {
       "no": 184,
@@ -4120,7 +4348,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 80,
         "speed": 50
-      }
+      },
+      "id": 229
     },
     {
       "no": 185,
@@ -4138,7 +4367,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 30,
         "spDefence": 65,
         "speed": 30
-      }
+      },
+      "id": 230
     },
     {
       "no": 186,
@@ -4156,7 +4386,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 90,
         "spDefence": 100,
         "speed": 70
-      }
+      },
+      "id": 231
     },
     {
       "no": 187,
@@ -4174,7 +4405,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 35,
         "spDefence": 55,
         "speed": 50
-      }
+      },
+      "id": 232
     },
     {
       "no": 188,
@@ -4192,7 +4424,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 65,
         "speed": 80
-      }
+      },
+      "id": 233
     },
     {
       "no": 189,
@@ -4210,7 +4443,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 95,
         "speed": 110
-      }
+      },
+      "id": 234
     },
     {
       "no": 190,
@@ -4228,7 +4462,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 55,
         "speed": 85
-      }
+      },
+      "id": 235
     },
     {
       "no": 191,
@@ -4246,7 +4481,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 30,
         "spDefence": 30,
         "speed": 30
-      }
+      },
+      "id": 236
     },
     {
       "no": 192,
@@ -4264,7 +4500,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 105,
         "spDefence": 85,
         "speed": 30
-      }
+      },
+      "id": 237
     },
     {
       "no": 193,
@@ -4282,7 +4519,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 75,
         "spDefence": 45,
         "speed": 95
-      }
+      },
+      "id": 238
     },
     {
       "no": 194,
@@ -4300,7 +4538,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 25,
         "spDefence": 25,
         "speed": 15
-      }
+      },
+      "id": 239
     },
     {
       "no": 195,
@@ -4318,7 +4557,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 65,
         "speed": 35
-      }
+      },
+      "id": 240
     },
     {
       "no": 196,
@@ -4336,7 +4576,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 130,
         "spDefence": 95,
         "speed": 110
-      }
+      },
+      "id": 241
     },
     {
       "no": 197,
@@ -4354,7 +4595,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 130,
         "speed": 65
-      }
+      },
+      "id": 242
     },
     {
       "no": 198,
@@ -4372,7 +4614,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 85,
         "spDefence": 42,
         "speed": 91
-      }
+      },
+      "id": 243
     },
     {
       "no": 199,
@@ -4390,7 +4633,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 110,
         "speed": 30
-      }
+      },
+      "id": 244
     },
     {
       "no": 199,
@@ -4408,7 +4652,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 110,
         "spDefence": 110,
         "speed": 30
-      }
+      },
+      "id": 245
     },
     {
       "no": 200,
@@ -4426,7 +4671,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 85,
         "spDefence": 85,
         "speed": 85
-      }
+      },
+      "id": 246
     },
     {
       "no": 201,
@@ -4444,7 +4690,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 72,
         "spDefence": 48,
         "speed": 48
-      }
+      },
+      "id": 247
     },
     {
       "no": 202,
@@ -4462,7 +4709,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 33,
         "spDefence": 58,
         "speed": 33
-      }
+      },
+      "id": 248
     },
     {
       "no": 203,
@@ -4480,7 +4728,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 90,
         "spDefence": 65,
         "speed": 85
-      }
+      },
+      "id": 249
     },
     {
       "no": 204,
@@ -4498,7 +4747,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 35,
         "spDefence": 35,
         "speed": 15
-      }
+      },
+      "id": 250
     },
     {
       "no": 205,
@@ -4516,7 +4766,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 60,
         "speed": 40
-      }
+      },
+      "id": 251
     },
     {
       "no": 206,
@@ -4534,7 +4785,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 65,
         "speed": 45
-      }
+      },
+      "id": 252
     },
     {
       "no": 207,
@@ -4552,7 +4804,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 35,
         "spDefence": 65,
         "speed": 85
-      }
+      },
+      "id": 253
     },
     {
       "no": 208,
@@ -4570,7 +4823,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 65,
         "speed": 30
-      }
+      },
+      "id": 254
     },
     {
       "no": 208,
@@ -4588,7 +4842,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 95,
         "speed": 30
-      }
+      },
+      "id": 255
     },
     {
       "no": 209,
@@ -4606,7 +4861,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 40,
         "speed": 30
-      }
+      },
+      "id": 256
     },
     {
       "no": 210,
@@ -4624,7 +4880,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 60,
         "speed": 45
-      }
+      },
+      "id": 257
     },
     {
       "no": 211,
@@ -4642,7 +4899,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 55,
         "speed": 85
-      }
+      },
+      "id": 258
     },
     {
       "no": 212,
@@ -4660,7 +4918,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 80,
         "speed": 65
-      }
+      },
+      "id": 259
     },
     {
       "no": 212,
@@ -4678,7 +4937,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 100,
         "speed": 75
-      }
+      },
+      "id": 260
     },
     {
       "no": 213,
@@ -4696,7 +4956,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 10,
         "spDefence": 230,
         "speed": 5
-      }
+      },
+      "id": 261
     },
     {
       "no": 214,
@@ -4714,7 +4975,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 95,
         "speed": 85
-      }
+      },
+      "id": 262
     },
     {
       "no": 214,
@@ -4732,7 +4994,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 105,
         "speed": 75
-      }
+      },
+      "id": 263
     },
     {
       "no": 215,
@@ -4750,7 +5013,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 35,
         "spDefence": 75,
         "speed": 115
-      }
+      },
+      "id": 264
     },
     {
       "no": 216,
@@ -4768,7 +5032,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 50,
         "speed": 40
-      }
+      },
+      "id": 265
     },
     {
       "no": 217,
@@ -4786,7 +5051,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 75,
         "spDefence": 75,
         "speed": 55
-      }
+      },
+      "id": 266
     },
     {
       "no": 218,
@@ -4804,7 +5070,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 40,
         "speed": 20
-      }
+      },
+      "id": 267
     },
     {
       "no": 219,
@@ -4822,7 +5089,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 90,
         "spDefence": 80,
         "speed": 30
-      }
+      },
+      "id": 268
     },
     {
       "no": 220,
@@ -4840,7 +5108,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 30,
         "spDefence": 30,
         "speed": 50
-      }
+      },
+      "id": 269
     },
     {
       "no": 221,
@@ -4858,7 +5127,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 60,
         "speed": 50
-      }
+      },
+      "id": 270
     },
     {
       "no": 222,
@@ -4876,7 +5146,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 95,
         "speed": 35
-      }
+      },
+      "id": 271
     },
     {
       "no": 222,
@@ -4894,7 +5165,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 100,
         "speed": 30
-      }
+      },
+      "id": 272
     },
     {
       "no": 223,
@@ -4912,7 +5184,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 35,
         "speed": 65
-      }
+      },
+      "id": 273
     },
     {
       "no": 224,
@@ -4930,7 +5203,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 105,
         "spDefence": 75,
         "speed": 45
-      }
+      },
+      "id": 274
     },
     {
       "no": 225,
@@ -4948,7 +5222,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 45,
         "speed": 75
-      }
+      },
+      "id": 275
     },
     {
       "no": 226,
@@ -4966,7 +5241,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 140,
         "speed": 70
-      }
+      },
+      "id": 276
     },
     {
       "no": 227,
@@ -4984,7 +5260,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 70,
         "speed": 70
-      }
+      },
+      "id": 277
     },
     {
       "no": 228,
@@ -5002,7 +5279,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 50,
         "speed": 65
-      }
+      },
+      "id": 278
     },
     {
       "no": 229,
@@ -5020,7 +5298,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 110,
         "spDefence": 80,
         "speed": 95
-      }
+      },
+      "id": 279
     },
     {
       "no": 229,
@@ -5038,7 +5317,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 140,
         "spDefence": 90,
         "speed": 115
-      }
+      },
+      "id": 280
     },
     {
       "no": 230,
@@ -5056,7 +5336,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 95,
         "speed": 85
-      }
+      },
+      "id": 281
     },
     {
       "no": 231,
@@ -5074,7 +5355,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 40,
         "speed": 40
-      }
+      },
+      "id": 282
     },
     {
       "no": 232,
@@ -5092,7 +5374,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 60,
         "speed": 50
-      }
+      },
+      "id": 283
     },
     {
       "no": 233,
@@ -5110,7 +5393,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 105,
         "spDefence": 95,
         "speed": 60
-      }
+      },
+      "id": 284
     },
     {
       "no": 234,
@@ -5128,7 +5412,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 85,
         "spDefence": 65,
         "speed": 85
-      }
+      },
+      "id": 285
     },
     {
       "no": 235,
@@ -5146,7 +5431,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 20,
         "spDefence": 45,
         "speed": 75
-      }
+      },
+      "id": 286
     },
     {
       "no": 236,
@@ -5164,7 +5450,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 35,
         "spDefence": 35,
         "speed": 35
-      }
+      },
+      "id": 287
     },
     {
       "no": 237,
@@ -5182,7 +5469,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 35,
         "spDefence": 110,
         "speed": 70
-      }
+      },
+      "id": 288
     },
     {
       "no": 238,
@@ -5200,7 +5488,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 85,
         "spDefence": 65,
         "speed": 65
-      }
+      },
+      "id": 289
     },
     {
       "no": 239,
@@ -5218,7 +5507,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 55,
         "speed": 95
-      }
+      },
+      "id": 290
     },
     {
       "no": 240,
@@ -5236,7 +5526,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 55,
         "speed": 83
-      }
+      },
+      "id": 291
     },
     {
       "no": 241,
@@ -5254,7 +5545,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 70,
         "speed": 100
-      }
+      },
+      "id": 292
     },
     {
       "no": 242,
@@ -5272,7 +5564,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 75,
         "spDefence": 135,
         "speed": 55
-      }
+      },
+      "id": 293
     },
     {
       "no": 243,
@@ -5290,7 +5583,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 115,
         "spDefence": 100,
         "speed": 115
-      }
+      },
+      "id": 294
     },
     {
       "no": 244,
@@ -5308,7 +5602,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 90,
         "spDefence": 75,
         "speed": 100
-      }
+      },
+      "id": 295
     },
     {
       "no": 245,
@@ -5326,7 +5621,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 90,
         "spDefence": 115,
         "speed": 85
-      }
+      },
+      "id": 296
     },
     {
       "no": 246,
@@ -5344,7 +5640,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 50,
         "speed": 41
-      }
+      },
+      "id": 297
     },
     {
       "no": 247,
@@ -5362,7 +5659,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 70,
         "speed": 51
-      }
+      },
+      "id": 298
     },
     {
       "no": 248,
@@ -5380,7 +5678,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 100,
         "speed": 61
-      }
+      },
+      "id": 299
     },
     {
       "no": 248,
@@ -5398,7 +5697,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 120,
         "speed": 71
-      }
+      },
+      "id": 300
     },
     {
       "no": 249,
@@ -5416,7 +5716,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 90,
         "spDefence": 154,
         "speed": 110
-      }
+      },
+      "id": 301
     },
     {
       "no": 250,
@@ -5434,7 +5735,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 110,
         "spDefence": 154,
         "speed": 90
-      }
+      },
+      "id": 302
     },
     {
       "no": 251,
@@ -5452,7 +5754,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 100,
         "speed": 100
-      }
+      },
+      "id": 303
     },
     {
       "no": 252,
@@ -5470,7 +5773,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 55,
         "speed": 70
-      }
+      },
+      "id": 304
     },
     {
       "no": 253,
@@ -5488,7 +5792,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 85,
         "spDefence": 65,
         "speed": 95
-      }
+      },
+      "id": 305
     },
     {
       "no": 254,
@@ -5506,7 +5811,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 105,
         "spDefence": 85,
         "speed": 120
-      }
+      },
+      "id": 306
     },
     {
       "no": 254,
@@ -5524,7 +5830,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 145,
         "spDefence": 85,
         "speed": 145
-      }
+      },
+      "id": 307
     },
     {
       "no": 255,
@@ -5542,7 +5849,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 50,
         "speed": 45
-      }
+      },
+      "id": 308
     },
     {
       "no": 256,
@@ -5560,7 +5868,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 85,
         "spDefence": 60,
         "speed": 55
-      }
+      },
+      "id": 309
     },
     {
       "no": 257,
@@ -5578,7 +5887,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 110,
         "spDefence": 70,
         "speed": 80
-      }
+      },
+      "id": 310
     },
     {
       "no": 257,
@@ -5596,7 +5906,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 130,
         "spDefence": 80,
         "speed": 100
-      }
+      },
+      "id": 311
     },
     {
       "no": 258,
@@ -5614,7 +5925,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 50,
         "speed": 40
-      }
+      },
+      "id": 312
     },
     {
       "no": 259,
@@ -5632,7 +5944,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 70,
         "speed": 50
-      }
+      },
+      "id": 313
     },
     {
       "no": 260,
@@ -5650,7 +5963,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 110,
         "speed": 70
-      }
+      },
+      "id": 314
     },
     {
       "no": 260,
@@ -5668,7 +5982,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 85,
         "spDefence": 90,
         "speed": 60
-      }
+      },
+      "id": 315
     },
     {
       "no": 261,
@@ -5686,7 +6001,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 30,
         "spDefence": 30,
         "speed": 35
-      }
+      },
+      "id": 316
     },
     {
       "no": 262,
@@ -5704,7 +6020,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 60,
         "speed": 70
-      }
+      },
+      "id": 317
     },
     {
       "no": 263,
@@ -5722,7 +6039,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 30,
         "spDefence": 41,
         "speed": 60
-      }
+      },
+      "id": 318
     },
     {
       "no": 263,
@@ -5740,7 +6058,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 30,
         "spDefence": 41,
         "speed": 60
-      }
+      },
+      "id": 319
     },
     {
       "no": 264,
@@ -5758,7 +6077,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 61,
         "speed": 100
-      }
+      },
+      "id": 320
     },
     {
       "no": 264,
@@ -5776,7 +6096,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 61,
         "speed": 100
-      }
+      },
+      "id": 321
     },
     {
       "no": 265,
@@ -5794,7 +6115,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 20,
         "spDefence": 30,
         "speed": 20
-      }
+      },
+      "id": 322
     },
     {
       "no": 266,
@@ -5812,7 +6134,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 25,
         "spDefence": 25,
         "speed": 15
-      }
+      },
+      "id": 323
     },
     {
       "no": 267,
@@ -5830,7 +6153,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 50,
         "speed": 65
-      }
+      },
+      "id": 324
     },
     {
       "no": 268,
@@ -5848,7 +6172,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 25,
         "spDefence": 25,
         "speed": 15
-      }
+      },
+      "id": 325
     },
     {
       "no": 269,
@@ -5866,7 +6191,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 90,
         "speed": 65
-      }
+      },
+      "id": 326
     },
     {
       "no": 270,
@@ -5884,7 +6210,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 50,
         "speed": 30
-      }
+      },
+      "id": 327
     },
     {
       "no": 271,
@@ -5902,7 +6229,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 70,
         "speed": 50
-      }
+      },
+      "id": 328
     },
     {
       "no": 272,
@@ -5920,7 +6248,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 90,
         "spDefence": 100,
         "speed": 70
-      }
+      },
+      "id": 329
     },
     {
       "no": 273,
@@ -5938,7 +6267,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 30,
         "spDefence": 30,
         "speed": 30
-      }
+      },
+      "id": 330
     },
     {
       "no": 274,
@@ -5956,7 +6286,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 40,
         "speed": 60
-      }
+      },
+      "id": 331
     },
     {
       "no": 275,
@@ -5974,7 +6305,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 90,
         "spDefence": 60,
         "speed": 80
-      }
+      },
+      "id": 332
     },
     {
       "no": 276,
@@ -5992,7 +6324,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 30,
         "spDefence": 30,
         "speed": 85
-      }
+      },
+      "id": 333
     },
     {
       "no": 277,
@@ -6010,7 +6343,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 75,
         "spDefence": 50,
         "speed": 125
-      }
+      },
+      "id": 334
     },
     {
       "no": 278,
@@ -6028,7 +6362,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 30,
         "speed": 85
-      }
+      },
+      "id": 335
     },
     {
       "no": 279,
@@ -6046,7 +6381,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 70,
         "speed": 65
-      }
+      },
+      "id": 336
     },
     {
       "no": 280,
@@ -6064,7 +6400,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 35,
         "speed": 40
-      }
+      },
+      "id": 337
     },
     {
       "no": 281,
@@ -6082,7 +6419,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 55,
         "speed": 50
-      }
+      },
+      "id": 338
     },
     {
       "no": 282,
@@ -6100,7 +6438,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 125,
         "spDefence": 115,
         "speed": 80
-      }
+      },
+      "id": 339
     },
     {
       "no": 282,
@@ -6118,7 +6457,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 165,
         "spDefence": 135,
         "speed": 100
-      }
+      },
+      "id": 340
     },
     {
       "no": 283,
@@ -6136,7 +6476,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 52,
         "speed": 65
-      }
+      },
+      "id": 341
     },
     {
       "no": 284,
@@ -6154,7 +6495,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 82,
         "speed": 80
-      }
+      },
+      "id": 342
     },
     {
       "no": 285,
@@ -6172,7 +6514,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 60,
         "speed": 35
-      }
+      },
+      "id": 343
     },
     {
       "no": 286,
@@ -6190,7 +6533,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 60,
         "speed": 70
-      }
+      },
+      "id": 344
     },
     {
       "no": 287,
@@ -6208,7 +6552,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 35,
         "spDefence": 35,
         "speed": 30
-      }
+      },
+      "id": 345
     },
     {
       "no": 288,
@@ -6226,7 +6571,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 55,
         "speed": 90
-      }
+      },
+      "id": 346
     },
     {
       "no": 289,
@@ -6244,7 +6590,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 65,
         "speed": 100
-      }
+      },
+      "id": 347
     },
     {
       "no": 290,
@@ -6262,7 +6609,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 30,
         "spDefence": 30,
         "speed": 40
-      }
+      },
+      "id": 348
     },
     {
       "no": 291,
@@ -6280,7 +6628,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 50,
         "speed": 160
-      }
+      },
+      "id": 349
     },
     {
       "no": 292,
@@ -6298,7 +6647,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 30,
         "spDefence": 30,
         "speed": 40
-      }
+      },
+      "id": 350
     },
     {
       "no": 293,
@@ -6316,7 +6666,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 51,
         "spDefence": 23,
         "speed": 28
-      }
+      },
+      "id": 351
     },
     {
       "no": 294,
@@ -6334,7 +6685,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 71,
         "spDefence": 43,
         "speed": 48
-      }
+      },
+      "id": 352
     },
     {
       "no": 295,
@@ -6352,7 +6704,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 91,
         "spDefence": 73,
         "speed": 68
-      }
+      },
+      "id": 353
     },
     {
       "no": 296,
@@ -6370,7 +6723,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 20,
         "spDefence": 30,
         "speed": 25
-      }
+      },
+      "id": 354
     },
     {
       "no": 297,
@@ -6388,7 +6742,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 60,
         "speed": 50
-      }
+      },
+      "id": 355
     },
     {
       "no": 298,
@@ -6406,7 +6761,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 20,
         "spDefence": 40,
         "speed": 20
-      }
+      },
+      "id": 356
     },
     {
       "no": 299,
@@ -6424,7 +6780,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 90,
         "speed": 30
-      }
+      },
+      "id": 357
     },
     {
       "no": 300,
@@ -6442,7 +6799,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 35,
         "spDefence": 35,
         "speed": 50
-      }
+      },
+      "id": 358
     },
     {
       "no": 301,
@@ -6460,7 +6818,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 55,
         "speed": 90
-      }
+      },
+      "id": 359
     },
     {
       "no": 302,
@@ -6478,7 +6837,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 65,
         "speed": 50
-      }
+      },
+      "id": 360
     },
     {
       "no": 302,
@@ -6496,7 +6856,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 85,
         "spDefence": 115,
         "speed": 20
-      }
+      },
+      "id": 361
     },
     {
       "no": 303,
@@ -6514,7 +6875,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 55,
         "speed": 50
-      }
+      },
+      "id": 362
     },
     {
       "no": 303,
@@ -6532,7 +6894,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 95,
         "speed": 50
-      }
+      },
+      "id": 363
     },
     {
       "no": 304,
@@ -6550,7 +6913,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 40,
         "speed": 30
-      }
+      },
+      "id": 364
     },
     {
       "no": 305,
@@ -6568,7 +6932,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 50,
         "speed": 40
-      }
+      },
+      "id": 365
     },
     {
       "no": 306,
@@ -6586,7 +6951,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 60,
         "speed": 50
-      }
+      },
+      "id": 366
     },
     {
       "no": 306,
@@ -6604,7 +6970,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 80,
         "speed": 50
-      }
+      },
+      "id": 367
     },
     {
       "no": 307,
@@ -6622,7 +6989,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 55,
         "speed": 60
-      }
+      },
+      "id": 368
     },
     {
       "no": 308,
@@ -6640,7 +7008,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 75,
         "speed": 80
-      }
+      },
+      "id": 369
     },
     {
       "no": 308,
@@ -6658,7 +7027,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 85,
         "speed": 100
-      }
+      },
+      "id": 370
     },
     {
       "no": 309,
@@ -6676,7 +7046,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 40,
         "speed": 65
-      }
+      },
+      "id": 371
     },
     {
       "no": 310,
@@ -6694,7 +7065,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 105,
         "spDefence": 60,
         "speed": 105
-      }
+      },
+      "id": 372
     },
     {
       "no": 310,
@@ -6712,7 +7084,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 135,
         "spDefence": 80,
         "speed": 135
-      }
+      },
+      "id": 373
     },
     {
       "no": 311,
@@ -6730,7 +7103,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 85,
         "spDefence": 75,
         "speed": 95
-      }
+      },
+      "id": 374
     },
     {
       "no": 312,
@@ -6748,7 +7122,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 75,
         "spDefence": 85,
         "speed": 95
-      }
+      },
+      "id": 375
     },
     {
       "no": 313,
@@ -6766,7 +7141,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 47,
         "spDefence": 85,
         "speed": 85
-      }
+      },
+      "id": 376
     },
     {
       "no": 314,
@@ -6784,7 +7160,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 73,
         "spDefence": 85,
         "speed": 85
-      }
+      },
+      "id": 377
     },
     {
       "no": 315,
@@ -6802,7 +7179,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 80,
         "speed": 65
-      }
+      },
+      "id": 378
     },
     {
       "no": 316,
@@ -6820,7 +7198,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 43,
         "spDefence": 53,
         "speed": 40
-      }
+      },
+      "id": 379
     },
     {
       "no": 317,
@@ -6838,7 +7217,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 73,
         "spDefence": 83,
         "speed": 55
-      }
+      },
+      "id": 380
     },
     {
       "no": 318,
@@ -6856,7 +7236,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 20,
         "speed": 65
-      }
+      },
+      "id": 381
     },
     {
       "no": 319,
@@ -6874,7 +7255,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 40,
         "speed": 95
-      }
+      },
+      "id": 382
     },
     {
       "no": 319,
@@ -6892,7 +7274,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 110,
         "spDefence": 65,
         "speed": 105
-      }
+      },
+      "id": 383
     },
     {
       "no": 320,
@@ -6910,7 +7293,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 35,
         "speed": 60
-      }
+      },
+      "id": 384
     },
     {
       "no": 321,
@@ -6928,7 +7312,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 90,
         "spDefence": 45,
         "speed": 60
-      }
+      },
+      "id": 385
     },
     {
       "no": 322,
@@ -6946,7 +7331,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 45,
         "speed": 35
-      }
+      },
+      "id": 386
     },
     {
       "no": 323,
@@ -6964,7 +7350,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 105,
         "spDefence": 75,
         "speed": 40
-      }
+      },
+      "id": 387
     },
     {
       "no": 323,
@@ -6982,7 +7369,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 145,
         "spDefence": 105,
         "speed": 20
-      }
+      },
+      "id": 388
     },
     {
       "no": 324,
@@ -7000,7 +7388,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 85,
         "spDefence": 70,
         "speed": 20
-      }
+      },
+      "id": 389
     },
     {
       "no": 325,
@@ -7018,7 +7407,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 80,
         "speed": 60
-      }
+      },
+      "id": 390
     },
     {
       "no": 326,
@@ -7036,7 +7426,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 90,
         "spDefence": 110,
         "speed": 80
-      }
+      },
+      "id": 391
     },
     {
       "no": 327,
@@ -7054,7 +7445,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 60,
         "speed": 60
-      }
+      },
+      "id": 392
     },
     {
       "no": 328,
@@ -7072,7 +7464,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 45,
         "speed": 10
-      }
+      },
+      "id": 393
     },
     {
       "no": 329,
@@ -7090,7 +7483,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 50,
         "speed": 70
-      }
+      },
+      "id": 394
     },
     {
       "no": 330,
@@ -7108,7 +7502,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 80,
         "speed": 100
-      }
+      },
+      "id": 395
     },
     {
       "no": 331,
@@ -7126,7 +7521,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 85,
         "spDefence": 40,
         "speed": 35
-      }
+      },
+      "id": 396
     },
     {
       "no": 332,
@@ -7144,7 +7540,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 115,
         "spDefence": 60,
         "speed": 55
-      }
+      },
+      "id": 397
     },
     {
       "no": 333,
@@ -7162,7 +7559,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 75,
         "speed": 50
-      }
+      },
+      "id": 398
     },
     {
       "no": 334,
@@ -7180,7 +7578,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 105,
         "speed": 80
-      }
+      },
+      "id": 399
     },
     {
       "no": 334,
@@ -7198,7 +7597,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 110,
         "spDefence": 105,
         "speed": 80
-      }
+      },
+      "id": 400
     },
     {
       "no": 335,
@@ -7216,7 +7616,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 60,
         "speed": 90
-      }
+      },
+      "id": 401
     },
     {
       "no": 336,
@@ -7234,7 +7635,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 60,
         "speed": 65
-      }
+      },
+      "id": 402
     },
     {
       "no": 337,
@@ -7252,7 +7654,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 85,
         "speed": 70
-      }
+      },
+      "id": 403
     },
     {
       "no": 338,
@@ -7270,7 +7673,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 65,
         "speed": 70
-      }
+      },
+      "id": 404
     },
     {
       "no": 339,
@@ -7288,7 +7692,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 46,
         "spDefence": 41,
         "speed": 60
-      }
+      },
+      "id": 405
     },
     {
       "no": 340,
@@ -7306,7 +7711,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 76,
         "spDefence": 71,
         "speed": 60
-      }
+      },
+      "id": 406
     },
     {
       "no": 341,
@@ -7324,7 +7730,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 35,
         "speed": 35
-      }
+      },
+      "id": 407
     },
     {
       "no": 342,
@@ -7342,7 +7749,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 90,
         "spDefence": 55,
         "speed": 55
-      }
+      },
+      "id": 408
     },
     {
       "no": 343,
@@ -7360,7 +7768,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 70,
         "speed": 55
-      }
+      },
+      "id": 409
     },
     {
       "no": 344,
@@ -7378,7 +7787,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 120,
         "speed": 75
-      }
+      },
+      "id": 410
     },
     {
       "no": 345,
@@ -7396,7 +7806,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 61,
         "spDefence": 87,
         "speed": 23
-      }
+      },
+      "id": 411
     },
     {
       "no": 346,
@@ -7414,7 +7825,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 81,
         "spDefence": 107,
         "speed": 43
-      }
+      },
+      "id": 412
     },
     {
       "no": 347,
@@ -7432,7 +7844,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 50,
         "speed": 75
-      }
+      },
+      "id": 413
     },
     {
       "no": 348,
@@ -7450,7 +7863,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 80,
         "speed": 45
-      }
+      },
+      "id": 414
     },
     {
       "no": 349,
@@ -7468,7 +7882,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 10,
         "spDefence": 55,
         "speed": 80
-      }
+      },
+      "id": 415
     },
     {
       "no": 350,
@@ -7486,7 +7901,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 125,
         "speed": 81
-      }
+      },
+      "id": 416
     },
     {
       "no": 351,
@@ -7504,7 +7920,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 70,
         "speed": 70
-      }
+      },
+      "id": 417
     },
     {
       "no": 352,
@@ -7522,7 +7939,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 120,
         "speed": 40
-      }
+      },
+      "id": 418
     },
     {
       "no": 353,
@@ -7540,7 +7958,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 63,
         "spDefence": 33,
         "speed": 45
-      }
+      },
+      "id": 419
     },
     {
       "no": 354,
@@ -7558,7 +7977,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 83,
         "spDefence": 63,
         "speed": 65
-      }
+      },
+      "id": 420
     },
     {
       "no": 354,
@@ -7576,7 +7996,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 93,
         "spDefence": 83,
         "speed": 75
-      }
+      },
+      "id": 421
     },
     {
       "no": 355,
@@ -7594,7 +8015,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 30,
         "spDefence": 90,
         "speed": 25
-      }
+      },
+      "id": 422
     },
     {
       "no": 356,
@@ -7612,7 +8034,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 130,
         "speed": 25
-      }
+      },
+      "id": 423
     },
     {
       "no": 357,
@@ -7630,7 +8053,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 72,
         "spDefence": 87,
         "speed": 51
-      }
+      },
+      "id": 424
     },
     {
       "no": 358,
@@ -7648,7 +8072,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 90,
         "speed": 65
-      }
+      },
+      "id": 425
     },
     {
       "no": 359,
@@ -7666,7 +8091,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 75,
         "spDefence": 60,
         "speed": 75
-      }
+      },
+      "id": 426
     },
     {
       "no": 359,
@@ -7684,7 +8110,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 115,
         "spDefence": 60,
         "speed": 115
-      }
+      },
+      "id": 427
     },
     {
       "no": 360,
@@ -7702,7 +8129,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 23,
         "spDefence": 48,
         "speed": 23
-      }
+      },
+      "id": 428
     },
     {
       "no": 361,
@@ -7720,7 +8148,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 50,
         "speed": 50
-      }
+      },
+      "id": 429
     },
     {
       "no": 362,
@@ -7738,7 +8167,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 80,
         "speed": 80
-      }
+      },
+      "id": 430
     },
     {
       "no": 362,
@@ -7756,7 +8186,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 120,
         "spDefence": 80,
         "speed": 100
-      }
+      },
+      "id": 431
     },
     {
       "no": 363,
@@ -7774,7 +8205,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 50,
         "speed": 25
-      }
+      },
+      "id": 432
     },
     {
       "no": 364,
@@ -7792,7 +8224,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 75,
         "spDefence": 70,
         "speed": 45
-      }
+      },
+      "id": 433
     },
     {
       "no": 365,
@@ -7810,7 +8243,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 90,
         "speed": 65
-      }
+      },
+      "id": 434
     },
     {
       "no": 366,
@@ -7828,7 +8262,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 74,
         "spDefence": 55,
         "speed": 32
-      }
+      },
+      "id": 435
     },
     {
       "no": 367,
@@ -7846,7 +8281,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 94,
         "spDefence": 75,
         "speed": 52
-      }
+      },
+      "id": 436
     },
     {
       "no": 368,
@@ -7864,7 +8300,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 114,
         "spDefence": 75,
         "speed": 52
-      }
+      },
+      "id": 437
     },
     {
       "no": 369,
@@ -7882,7 +8319,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 65,
         "speed": 55
-      }
+      },
+      "id": 438
     },
     {
       "no": 370,
@@ -7900,7 +8338,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 65,
         "speed": 97
-      }
+      },
+      "id": 439
     },
     {
       "no": 371,
@@ -7918,7 +8357,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 30,
         "speed": 50
-      }
+      },
+      "id": 440
     },
     {
       "no": 372,
@@ -7936,7 +8376,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 50,
         "speed": 50
-      }
+      },
+      "id": 441
     },
     {
       "no": 373,
@@ -7954,7 +8395,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 110,
         "spDefence": 80,
         "speed": 100
-      }
+      },
+      "id": 442
     },
     {
       "no": 373,
@@ -7972,7 +8414,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 120,
         "spDefence": 90,
         "speed": 120
-      }
+      },
+      "id": 443
     },
     {
       "no": 374,
@@ -7990,7 +8433,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 35,
         "spDefence": 60,
         "speed": 30
-      }
+      },
+      "id": 444
     },
     {
       "no": 375,
@@ -8008,7 +8452,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 80,
         "speed": 50
-      }
+      },
+      "id": 445
     },
     {
       "no": 376,
@@ -8026,7 +8471,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 90,
         "speed": 70
-      }
+      },
+      "id": 446
     },
     {
       "no": 376,
@@ -8044,7 +8490,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 105,
         "spDefence": 110,
         "speed": 110
-      }
+      },
+      "id": 447
     },
     {
       "no": 377,
@@ -8062,7 +8509,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 100,
         "speed": 50
-      }
+      },
+      "id": 448
     },
     {
       "no": 378,
@@ -8080,7 +8528,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 200,
         "speed": 50
-      }
+      },
+      "id": 449
     },
     {
       "no": 379,
@@ -8098,7 +8547,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 75,
         "spDefence": 150,
         "speed": 50
-      }
+      },
+      "id": 450
     },
     {
       "no": 380,
@@ -8116,7 +8566,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 110,
         "spDefence": 130,
         "speed": 110
-      }
+      },
+      "id": 451
     },
     {
       "no": 380,
@@ -8134,7 +8585,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 140,
         "spDefence": 150,
         "speed": 110
-      }
+      },
+      "id": 452
     },
     {
       "no": 381,
@@ -8152,7 +8604,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 130,
         "spDefence": 110,
         "speed": 110
-      }
+      },
+      "id": 453
     },
     {
       "no": 381,
@@ -8170,7 +8623,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 160,
         "spDefence": 120,
         "speed": 110
-      }
+      },
+      "id": 454
     },
     {
       "no": 382,
@@ -8188,7 +8642,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 150,
         "spDefence": 140,
         "speed": 90
-      }
+      },
+      "id": 455
     },
     {
       "no": 382,
@@ -8206,7 +8661,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 180,
         "spDefence": 160,
         "speed": 90
-      }
+      },
+      "id": 456
     },
     {
       "no": 383,
@@ -8224,7 +8680,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 90,
         "speed": 90
-      }
+      },
+      "id": 457
     },
     {
       "no": 383,
@@ -8242,7 +8699,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 150,
         "spDefence": 90,
         "speed": 90
-      }
+      },
+      "id": 458
     },
     {
       "no": 384,
@@ -8260,7 +8718,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 150,
         "spDefence": 90,
         "speed": 95
-      }
+      },
+      "id": 459
     },
     {
       "no": 384,
@@ -8278,7 +8737,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 180,
         "spDefence": 100,
         "speed": 115
-      }
+      },
+      "id": 460
     },
     {
       "no": 385,
@@ -8296,7 +8756,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 100,
         "speed": 100
-      }
+      },
+      "id": 461
     },
     {
       "no": 386,
@@ -8314,7 +8775,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 150,
         "spDefence": 50,
         "speed": 150
-      }
+      },
+      "id": 462
     },
     {
       "no": 386,
@@ -8332,7 +8794,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 180,
         "spDefence": 20,
         "speed": 150
-      }
+      },
+      "id": 463
     },
     {
       "no": 386,
@@ -8350,7 +8813,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 160,
         "speed": 90
-      }
+      },
+      "id": 464
     },
     {
       "no": 386,
@@ -8368,7 +8832,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 90,
         "speed": 180
-      }
+      },
+      "id": 465
     },
     {
       "no": 387,
@@ -8386,7 +8851,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 55,
         "speed": 31
-      }
+      },
+      "id": 466
     },
     {
       "no": 388,
@@ -8404,7 +8870,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 65,
         "speed": 36
-      }
+      },
+      "id": 467
     },
     {
       "no": 389,
@@ -8422,7 +8889,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 75,
         "spDefence": 85,
         "speed": 56
-      }
+      },
+      "id": 468
     },
     {
       "no": 390,
@@ -8440,7 +8908,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 58,
         "spDefence": 44,
         "speed": 61
-      }
+      },
+      "id": 469
     },
     {
       "no": 391,
@@ -8458,7 +8927,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 78,
         "spDefence": 52,
         "speed": 81
-      }
+      },
+      "id": 470
     },
     {
       "no": 392,
@@ -8476,7 +8946,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 104,
         "spDefence": 71,
         "speed": 108
-      }
+      },
+      "id": 471
     },
     {
       "no": 393,
@@ -8494,7 +8965,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 61,
         "spDefence": 56,
         "speed": 40
-      }
+      },
+      "id": 472
     },
     {
       "no": 394,
@@ -8512,7 +8984,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 81,
         "spDefence": 76,
         "speed": 50
-      }
+      },
+      "id": 473
     },
     {
       "no": 395,
@@ -8530,7 +9003,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 111,
         "spDefence": 101,
         "speed": 60
-      }
+      },
+      "id": 474
     },
     {
       "no": 396,
@@ -8548,7 +9022,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 30,
         "spDefence": 30,
         "speed": 60
-      }
+      },
+      "id": 475
     },
     {
       "no": 397,
@@ -8566,7 +9041,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 40,
         "speed": 80
-      }
+      },
+      "id": 476
     },
     {
       "no": 398,
@@ -8584,7 +9060,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 60,
         "speed": 100
-      }
+      },
+      "id": 477
     },
     {
       "no": 399,
@@ -8602,7 +9079,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 35,
         "spDefence": 40,
         "speed": 31
-      }
+      },
+      "id": 478
     },
     {
       "no": 400,
@@ -8620,7 +9098,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 60,
         "speed": 71
-      }
+      },
+      "id": 479
     },
     {
       "no": 401,
@@ -8638,7 +9117,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 25,
         "spDefence": 41,
         "speed": 25
-      }
+      },
+      "id": 480
     },
     {
       "no": 402,
@@ -8656,7 +9136,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 51,
         "speed": 65
-      }
+      },
+      "id": 481
     },
     {
       "no": 403,
@@ -8674,7 +9155,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 34,
         "speed": 45
-      }
+      },
+      "id": 482
     },
     {
       "no": 404,
@@ -8692,7 +9174,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 49,
         "speed": 60
-      }
+      },
+      "id": 483
     },
     {
       "no": 405,
@@ -8710,7 +9193,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 79,
         "speed": 70
-      }
+      },
+      "id": 484
     },
     {
       "no": 406,
@@ -8728,7 +9212,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 70,
         "speed": 55
-      }
+      },
+      "id": 485
     },
     {
       "no": 407,
@@ -8746,7 +9231,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 125,
         "spDefence": 105,
         "speed": 90
-      }
+      },
+      "id": 486
     },
     {
       "no": 408,
@@ -8764,7 +9250,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 30,
         "spDefence": 30,
         "speed": 58
-      }
+      },
+      "id": 487
     },
     {
       "no": 409,
@@ -8782,7 +9269,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 50,
         "speed": 58
-      }
+      },
+      "id": 488
     },
     {
       "no": 410,
@@ -8800,7 +9288,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 42,
         "spDefence": 88,
         "speed": 30
-      }
+      },
+      "id": 489
     },
     {
       "no": 411,
@@ -8818,7 +9307,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 47,
         "spDefence": 138,
         "speed": 30
-      }
+      },
+      "id": 490
     },
     {
       "no": 412,
@@ -8836,7 +9326,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 29,
         "spDefence": 45,
         "speed": 36
-      }
+      },
+      "id": 491
     },
     {
       "no": 413,
@@ -8854,7 +9345,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 79,
         "spDefence": 105,
         "speed": 36
-      }
+      },
+      "id": 492
     },
     {
       "no": 413,
@@ -8872,7 +9364,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 59,
         "spDefence": 85,
         "speed": 36
-      }
+      },
+      "id": 493
     },
     {
       "no": 413,
@@ -8890,7 +9383,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 69,
         "spDefence": 95,
         "speed": 36
-      }
+      },
+      "id": 494
     },
     {
       "no": 414,
@@ -8908,7 +9402,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 94,
         "spDefence": 50,
         "speed": 66
-      }
+      },
+      "id": 495
     },
     {
       "no": 415,
@@ -8926,7 +9421,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 30,
         "spDefence": 42,
         "speed": 70
-      }
+      },
+      "id": 496
     },
     {
       "no": 416,
@@ -8944,7 +9440,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 102,
         "speed": 40
-      }
+      },
+      "id": 497
     },
     {
       "no": 417,
@@ -8962,7 +9459,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 90,
         "speed": 95
-      }
+      },
+      "id": 498
     },
     {
       "no": 418,
@@ -8980,7 +9478,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 30,
         "speed": 85
-      }
+      },
+      "id": 499
     },
     {
       "no": 419,
@@ -8998,7 +9497,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 85,
         "spDefence": 50,
         "speed": 115
-      }
+      },
+      "id": 500
     },
     {
       "no": 420,
@@ -9016,7 +9516,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 62,
         "spDefence": 53,
         "speed": 35
-      }
+      },
+      "id": 501
     },
     {
       "no": 421,
@@ -9034,7 +9535,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 87,
         "spDefence": 78,
         "speed": 85
-      }
+      },
+      "id": 502
     },
     {
       "no": 422,
@@ -9052,7 +9554,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 57,
         "spDefence": 62,
         "speed": 34
-      }
+      },
+      "id": 503
     },
     {
       "no": 423,
@@ -9070,7 +9573,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 92,
         "spDefence": 82,
         "speed": 39
-      }
+      },
+      "id": 504
     },
     {
       "no": 424,
@@ -9088,7 +9592,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 66,
         "speed": 115
-      }
+      },
+      "id": 505
     },
     {
       "no": 425,
@@ -9106,7 +9611,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 44,
         "speed": 70
-      }
+      },
+      "id": 506
     },
     {
       "no": 426,
@@ -9124,7 +9630,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 90,
         "spDefence": 54,
         "speed": 80
-      }
+      },
+      "id": 507
     },
     {
       "no": 427,
@@ -9142,7 +9649,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 44,
         "spDefence": 56,
         "speed": 85
-      }
+      },
+      "id": 508
     },
     {
       "no": 428,
@@ -9160,7 +9668,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 54,
         "spDefence": 96,
         "speed": 105
-      }
+      },
+      "id": 509
     },
     {
       "no": 428,
@@ -9178,7 +9687,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 54,
         "spDefence": 96,
         "speed": 135
-      }
+      },
+      "id": 510
     },
     {
       "no": 429,
@@ -9196,7 +9706,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 105,
         "spDefence": 105,
         "speed": 105
-      }
+      },
+      "id": 511
     },
     {
       "no": 430,
@@ -9214,7 +9725,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 105,
         "spDefence": 52,
         "speed": 71
-      }
+      },
+      "id": 512
     },
     {
       "no": 431,
@@ -9232,7 +9744,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 42,
         "spDefence": 37,
         "speed": 85
-      }
+      },
+      "id": 513
     },
     {
       "no": 432,
@@ -9250,7 +9763,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 64,
         "spDefence": 59,
         "speed": 112
-      }
+      },
+      "id": 514
     },
     {
       "no": 433,
@@ -9268,7 +9782,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 50,
         "speed": 45
-      }
+      },
+      "id": 515
     },
     {
       "no": 434,
@@ -9286,7 +9801,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 41,
         "spDefence": 41,
         "speed": 74
-      }
+      },
+      "id": 516
     },
     {
       "no": 435,
@@ -9304,7 +9820,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 71,
         "spDefence": 61,
         "speed": 84
-      }
+      },
+      "id": 517
     },
     {
       "no": 436,
@@ -9322,7 +9839,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 24,
         "spDefence": 86,
         "speed": 23
-      }
+      },
+      "id": 518
     },
     {
       "no": 437,
@@ -9340,7 +9858,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 79,
         "spDefence": 116,
         "speed": 33
-      }
+      },
+      "id": 519
     },
     {
       "no": 438,
@@ -9358,7 +9877,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 10,
         "spDefence": 45,
         "speed": 10
-      }
+      },
+      "id": 520
     },
     {
       "no": 439,
@@ -9376,7 +9896,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 90,
         "speed": 60
-      }
+      },
+      "id": 521
     },
     {
       "no": 440,
@@ -9394,7 +9915,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 15,
         "spDefence": 65,
         "speed": 30
-      }
+      },
+      "id": 522
     },
     {
       "no": 441,
@@ -9412,7 +9934,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 92,
         "spDefence": 42,
         "speed": 91
-      }
+      },
+      "id": 523
     },
     {
       "no": 442,
@@ -9430,7 +9953,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 92,
         "spDefence": 108,
         "speed": 35
-      }
+      },
+      "id": 524
     },
     {
       "no": 443,
@@ -9448,7 +9972,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 45,
         "speed": 42
-      }
+      },
+      "id": 525
     },
     {
       "no": 444,
@@ -9466,7 +9991,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 55,
         "speed": 82
-      }
+      },
+      "id": 526
     },
     {
       "no": 445,
@@ -9484,7 +10010,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 85,
         "speed": 102
-      }
+      },
+      "id": 527
     },
     {
       "no": 445,
@@ -9502,7 +10029,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 120,
         "spDefence": 95,
         "speed": 92
-      }
+      },
+      "id": 528
     },
     {
       "no": 446,
@@ -9520,7 +10048,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 85,
         "speed": 5
-      }
+      },
+      "id": 529
     },
     {
       "no": 447,
@@ -9538,7 +10067,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 35,
         "spDefence": 40,
         "speed": 60
-      }
+      },
+      "id": 530
     },
     {
       "no": 448,
@@ -9556,7 +10086,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 115,
         "spDefence": 70,
         "speed": 90
-      }
+      },
+      "id": 531
     },
     {
       "no": 448,
@@ -9574,7 +10105,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 140,
         "spDefence": 70,
         "speed": 112
-      }
+      },
+      "id": 532
     },
     {
       "no": 449,
@@ -9592,7 +10124,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 38,
         "spDefence": 42,
         "speed": 32
-      }
+      },
+      "id": 533
     },
     {
       "no": 450,
@@ -9610,7 +10143,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 68,
         "spDefence": 72,
         "speed": 47
-      }
+      },
+      "id": 534
     },
     {
       "no": 451,
@@ -9628,7 +10162,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 30,
         "spDefence": 55,
         "speed": 65
-      }
+      },
+      "id": 535
     },
     {
       "no": 452,
@@ -9646,7 +10181,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 75,
         "speed": 95
-      }
+      },
+      "id": 536
     },
     {
       "no": 453,
@@ -9664,7 +10200,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 61,
         "spDefence": 40,
         "speed": 50
-      }
+      },
+      "id": 537
     },
     {
       "no": 454,
@@ -9682,7 +10219,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 86,
         "spDefence": 65,
         "speed": 85
-      }
+      },
+      "id": 538
     },
     {
       "no": 455,
@@ -9700,7 +10238,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 90,
         "spDefence": 72,
         "speed": 46
-      }
+      },
+      "id": 539
     },
     {
       "no": 456,
@@ -9718,7 +10257,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 49,
         "spDefence": 61,
         "speed": 66
-      }
+      },
+      "id": 540
     },
     {
       "no": 457,
@@ -9736,7 +10276,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 69,
         "spDefence": 86,
         "speed": 91
-      }
+      },
+      "id": 541
     },
     {
       "no": 458,
@@ -9754,7 +10295,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 120,
         "speed": 50
-      }
+      },
+      "id": 542
     },
     {
       "no": 459,
@@ -9772,7 +10314,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 62,
         "spDefence": 60,
         "speed": 40
-      }
+      },
+      "id": 543
     },
     {
       "no": 460,
@@ -9790,7 +10333,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 92,
         "spDefence": 85,
         "speed": 60
-      }
+      },
+      "id": 544
     },
     {
       "no": 460,
@@ -9808,7 +10352,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 132,
         "spDefence": 105,
         "speed": 30
-      }
+      },
+      "id": 545
     },
     {
       "no": 461,
@@ -9826,7 +10371,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 85,
         "speed": 125
-      }
+      },
+      "id": 546
     },
     {
       "no": 462,
@@ -9844,7 +10390,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 130,
         "spDefence": 90,
         "speed": 60
-      }
+      },
+      "id": 547
     },
     {
       "no": 463,
@@ -9862,7 +10409,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 95,
         "speed": 50
-      }
+      },
+      "id": 548
     },
     {
       "no": 464,
@@ -9880,7 +10428,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 55,
         "speed": 40
-      }
+      },
+      "id": 549
     },
     {
       "no": 465,
@@ -9898,7 +10447,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 110,
         "spDefence": 50,
         "speed": 50
-      }
+      },
+      "id": 550
     },
     {
       "no": 466,
@@ -9916,7 +10466,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 85,
         "speed": 95
-      }
+      },
+      "id": 551
     },
     {
       "no": 467,
@@ -9934,7 +10485,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 125,
         "spDefence": 95,
         "speed": 83
-      }
+      },
+      "id": 552
     },
     {
       "no": 468,
@@ -9952,7 +10504,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 120,
         "spDefence": 115,
         "speed": 80
-      }
+      },
+      "id": 553
     },
     {
       "no": 469,
@@ -9970,7 +10523,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 116,
         "spDefence": 56,
         "speed": 95
-      }
+      },
+      "id": 554
     },
     {
       "no": 470,
@@ -9988,7 +10542,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 65,
         "speed": 95
-      }
+      },
+      "id": 555
     },
     {
       "no": 471,
@@ -10006,7 +10561,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 130,
         "spDefence": 95,
         "speed": 65
-      }
+      },
+      "id": 556
     },
     {
       "no": 472,
@@ -10024,7 +10580,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 75,
         "speed": 95
-      }
+      },
+      "id": 557
     },
     {
       "no": 473,
@@ -10042,7 +10599,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 60,
         "speed": 80
-      }
+      },
+      "id": 558
     },
     {
       "no": 474,
@@ -10060,7 +10618,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 135,
         "spDefence": 75,
         "speed": 90
-      }
+      },
+      "id": 559
     },
     {
       "no": 475,
@@ -10078,7 +10637,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 115,
         "speed": 80
-      }
+      },
+      "id": 560
     },
     {
       "no": 475,
@@ -10096,7 +10656,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 115,
         "speed": 110
-      }
+      },
+      "id": 561
     },
     {
       "no": 476,
@@ -10114,7 +10675,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 75,
         "spDefence": 150,
         "speed": 40
-      }
+      },
+      "id": 562
     },
     {
       "no": 477,
@@ -10132,7 +10694,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 135,
         "speed": 45
-      }
+      },
+      "id": 563
     },
     {
       "no": 478,
@@ -10150,7 +10713,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 70,
         "speed": 110
-      }
+      },
+      "id": 564
     },
     {
       "no": 479,
@@ -10168,7 +10732,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 77,
         "speed": 91
-      }
+      },
+      "id": 565
     },
     {
       "no": 479,
@@ -10186,7 +10751,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 105,
         "spDefence": 107,
         "speed": 86
-      }
+      },
+      "id": 566
     },
     {
       "no": 479,
@@ -10204,7 +10770,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 105,
         "spDefence": 107,
         "speed": 86
-      }
+      },
+      "id": 567
     },
     {
       "no": 479,
@@ -10222,7 +10789,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 105,
         "spDefence": 107,
         "speed": 86
-      }
+      },
+      "id": 568
     },
     {
       "no": 479,
@@ -10240,7 +10808,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 105,
         "spDefence": 107,
         "speed": 86
-      }
+      },
+      "id": 569
     },
     {
       "no": 479,
@@ -10258,7 +10827,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 105,
         "spDefence": 107,
         "speed": 86
-      }
+      },
+      "id": 570
     },
     {
       "no": 480,
@@ -10276,7 +10846,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 75,
         "spDefence": 130,
         "speed": 95
-      }
+      },
+      "id": 571
     },
     {
       "no": 481,
@@ -10294,7 +10865,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 105,
         "spDefence": 105,
         "speed": 80
-      }
+      },
+      "id": 572
     },
     {
       "no": 482,
@@ -10312,7 +10884,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 125,
         "spDefence": 70,
         "speed": 115
-      }
+      },
+      "id": 573
     },
     {
       "no": 483,
@@ -10330,7 +10903,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 150,
         "spDefence": 100,
         "speed": 90
-      }
+      },
+      "id": 574
     },
     {
       "no": 484,
@@ -10348,7 +10922,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 150,
         "spDefence": 120,
         "speed": 100
-      }
+      },
+      "id": 575
     },
     {
       "no": 485,
@@ -10366,7 +10941,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 130,
         "spDefence": 106,
         "speed": 77
-      }
+      },
+      "id": 576
     },
     {
       "no": 486,
@@ -10384,7 +10960,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 110,
         "speed": 100
-      }
+      },
+      "id": 577
     },
     {
       "no": 487,
@@ -10402,7 +10979,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 120,
         "speed": 90
-      }
+      },
+      "id": 578
     },
     {
       "no": 487,
@@ -10420,7 +10998,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 120,
         "spDefence": 100,
         "speed": 90
-      }
+      },
+      "id": 579
     },
     {
       "no": 488,
@@ -10438,7 +11017,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 75,
         "spDefence": 130,
         "speed": 85
-      }
+      },
+      "id": 580
     },
     {
       "no": 489,
@@ -10456,7 +11036,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 80,
         "speed": 80
-      }
+      },
+      "id": 581
     },
     {
       "no": 490,
@@ -10474,7 +11055,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 100,
         "speed": 100
-      }
+      },
+      "id": 582
     },
     {
       "no": 491,
@@ -10492,7 +11074,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 135,
         "spDefence": 90,
         "speed": 125
-      }
+      },
+      "id": 583
     },
     {
       "no": 492,
@@ -10510,7 +11093,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 100,
         "speed": 100
-      }
+      },
+      "id": 584
     },
     {
       "no": 492,
@@ -10528,7 +11112,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 120,
         "spDefence": 75,
         "speed": 127
-      }
+      },
+      "id": 585
     },
     {
       "no": 493,
@@ -10546,7 +11131,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 120,
         "spDefence": 120,
         "speed": 120
-      }
+      },
+      "id": 586
     },
     {
       "no": 494,
@@ -10564,7 +11150,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 100,
         "speed": 100
-      }
+      },
+      "id": 587
     },
     {
       "no": 495,
@@ -10582,7 +11169,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 55,
         "speed": 63
-      }
+      },
+      "id": 588
     },
     {
       "no": 496,
@@ -10600,7 +11188,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 75,
         "speed": 83
-      }
+      },
+      "id": 589
     },
     {
       "no": 497,
@@ -10618,7 +11207,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 75,
         "spDefence": 95,
         "speed": 113
-      }
+      },
+      "id": 590
     },
     {
       "no": 498,
@@ -10636,7 +11226,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 45,
         "speed": 45
-      }
+      },
+      "id": 591
     },
     {
       "no": 499,
@@ -10654,7 +11245,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 55,
         "speed": 55
-      }
+      },
+      "id": 592
     },
     {
       "no": 500,
@@ -10672,7 +11264,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 65,
         "speed": 65
-      }
+      },
+      "id": 593
     },
     {
       "no": 501,
@@ -10690,7 +11283,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 63,
         "spDefence": 45,
         "speed": 45
-      }
+      },
+      "id": 594
     },
     {
       "no": 502,
@@ -10708,7 +11302,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 83,
         "spDefence": 60,
         "speed": 60
-      }
+      },
+      "id": 595
     },
     {
       "no": 503,
@@ -10726,7 +11321,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 108,
         "spDefence": 70,
         "speed": 70
-      }
+      },
+      "id": 596
     },
     {
       "no": 504,
@@ -10744,7 +11340,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 35,
         "spDefence": 39,
         "speed": 42
-      }
+      },
+      "id": 597
     },
     {
       "no": 505,
@@ -10762,7 +11359,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 69,
         "speed": 77
-      }
+      },
+      "id": 598
     },
     {
       "no": 506,
@@ -10780,7 +11378,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 25,
         "spDefence": 45,
         "speed": 55
-      }
+      },
+      "id": 599
     },
     {
       "no": 507,
@@ -10798,7 +11397,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 35,
         "spDefence": 65,
         "speed": 60
-      }
+      },
+      "id": 600
     },
     {
       "no": 508,
@@ -10816,7 +11416,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 90,
         "speed": 80
-      }
+      },
+      "id": 601
     },
     {
       "no": 509,
@@ -10834,7 +11435,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 37,
         "speed": 66
-      }
+      },
+      "id": 602
     },
     {
       "no": 510,
@@ -10852,7 +11454,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 88,
         "spDefence": 50,
         "speed": 106
-      }
+      },
+      "id": 603
     },
     {
       "no": 511,
@@ -10870,7 +11473,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 53,
         "spDefence": 48,
         "speed": 64
-      }
+      },
+      "id": 604
     },
     {
       "no": 512,
@@ -10888,7 +11492,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 98,
         "spDefence": 63,
         "speed": 101
-      }
+      },
+      "id": 605
     },
     {
       "no": 513,
@@ -10906,7 +11511,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 53,
         "spDefence": 48,
         "speed": 64
-      }
+      },
+      "id": 606
     },
     {
       "no": 514,
@@ -10924,7 +11530,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 98,
         "spDefence": 63,
         "speed": 101
-      }
+      },
+      "id": 607
     },
     {
       "no": 515,
@@ -10942,7 +11549,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 53,
         "spDefence": 48,
         "speed": 64
-      }
+      },
+      "id": 608
     },
     {
       "no": 516,
@@ -10960,7 +11568,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 98,
         "spDefence": 63,
         "speed": 101
-      }
+      },
+      "id": 609
     },
     {
       "no": 517,
@@ -10978,7 +11587,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 67,
         "spDefence": 55,
         "speed": 24
-      }
+      },
+      "id": 610
     },
     {
       "no": 518,
@@ -10996,7 +11606,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 107,
         "spDefence": 95,
         "speed": 29
-      }
+      },
+      "id": 611
     },
     {
       "no": 519,
@@ -11014,7 +11625,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 36,
         "spDefence": 30,
         "speed": 43
-      }
+      },
+      "id": 612
     },
     {
       "no": 520,
@@ -11032,7 +11644,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 42,
         "speed": 65
-      }
+      },
+      "id": 613
     },
     {
       "no": 521,
@@ -11050,7 +11663,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 55,
         "speed": 93
-      }
+      },
+      "id": 614
     },
     {
       "no": 522,
@@ -11068,7 +11682,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 32,
         "speed": 76
-      }
+      },
+      "id": 615
     },
     {
       "no": 523,
@@ -11086,7 +11701,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 63,
         "speed": 116
-      }
+      },
+      "id": 616
     },
     {
       "no": 524,
@@ -11104,7 +11720,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 25,
         "spDefence": 25,
         "speed": 15
-      }
+      },
+      "id": 617
     },
     {
       "no": 525,
@@ -11122,7 +11739,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 40,
         "speed": 20
-      }
+      },
+      "id": 618
     },
     {
       "no": 526,
@@ -11140,7 +11758,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 80,
         "speed": 25
-      }
+      },
+      "id": 619
     },
     {
       "no": 527,
@@ -11158,7 +11777,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 43,
         "speed": 72
-      }
+      },
+      "id": 620
     },
     {
       "no": 528,
@@ -11176,7 +11796,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 77,
         "spDefence": 55,
         "speed": 114
-      }
+      },
+      "id": 621
     },
     {
       "no": 529,
@@ -11194,7 +11815,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 30,
         "spDefence": 45,
         "speed": 68
-      }
+      },
+      "id": 622
     },
     {
       "no": 530,
@@ -11212,7 +11834,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 65,
         "speed": 88
-      }
+      },
+      "id": 623
     },
     {
       "no": 531,
@@ -11230,7 +11853,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 86,
         "speed": 50
-      }
+      },
+      "id": 624
     },
     {
       "no": 531,
@@ -11248,7 +11872,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 126,
         "speed": 50
-      }
+      },
+      "id": 625
     },
     {
       "no": 532,
@@ -11266,7 +11891,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 25,
         "spDefence": 35,
         "speed": 35
-      }
+      },
+      "id": 626
     },
     {
       "no": 533,
@@ -11284,7 +11910,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 50,
         "speed": 40
-      }
+      },
+      "id": 627
     },
     {
       "no": 534,
@@ -11302,7 +11929,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 65,
         "speed": 45
-      }
+      },
+      "id": 628
     },
     {
       "no": 535,
@@ -11320,7 +11948,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 40,
         "speed": 64
-      }
+      },
+      "id": 629
     },
     {
       "no": 536,
@@ -11338,7 +11967,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 55,
         "speed": 69
-      }
+      },
+      "id": 630
     },
     {
       "no": 537,
@@ -11356,7 +11986,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 85,
         "spDefence": 75,
         "speed": 74
-      }
+      },
+      "id": 631
     },
     {
       "no": 538,
@@ -11374,7 +12005,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 30,
         "spDefence": 85,
         "speed": 45
-      }
+      },
+      "id": 632
     },
     {
       "no": 539,
@@ -11392,7 +12024,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 30,
         "spDefence": 75,
         "speed": 85
-      }
+      },
+      "id": 633
     },
     {
       "no": 540,
@@ -11410,7 +12043,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 60,
         "speed": 42
-      }
+      },
+      "id": 634
     },
     {
       "no": 541,
@@ -11428,7 +12062,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 80,
         "speed": 42
-      }
+      },
+      "id": 635
     },
     {
       "no": 542,
@@ -11446,7 +12081,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 80,
         "speed": 92
-      }
+      },
+      "id": 636
     },
     {
       "no": 543,
@@ -11464,7 +12100,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 30,
         "spDefence": 39,
         "speed": 57
-      }
+      },
+      "id": 637
     },
     {
       "no": 544,
@@ -11482,7 +12119,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 79,
         "speed": 47
-      }
+      },
+      "id": 638
     },
     {
       "no": 545,
@@ -11500,7 +12138,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 69,
         "speed": 112
-      }
+      },
+      "id": 639
     },
     {
       "no": 546,
@@ -11518,7 +12157,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 37,
         "spDefence": 50,
         "speed": 66
-      }
+      },
+      "id": 640
     },
     {
       "no": 547,
@@ -11536,7 +12176,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 77,
         "spDefence": 75,
         "speed": 116
-      }
+      },
+      "id": 641
     },
     {
       "no": 548,
@@ -11554,7 +12195,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 50,
         "speed": 30
-      }
+      },
+      "id": 642
     },
     {
       "no": 549,
@@ -11572,7 +12214,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 110,
         "spDefence": 75,
         "speed": 90
-      }
+      },
+      "id": 643
     },
     {
       "no": 550,
@@ -11590,7 +12233,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 55,
         "speed": 98
-      }
+      },
+      "id": 644
     },
     {
       "no": 550,
@@ -11608,7 +12252,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 55,
         "speed": 98
-      }
+      },
+      "id": 645
     },
     {
       "no": 551,
@@ -11626,7 +12271,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 35,
         "spDefence": 35,
         "speed": 65
-      }
+      },
+      "id": 646
     },
     {
       "no": 552,
@@ -11644,7 +12290,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 45,
         "speed": 74
-      }
+      },
+      "id": 647
     },
     {
       "no": 553,
@@ -11662,7 +12309,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 70,
         "speed": 92
-      }
+      },
+      "id": 648
     },
     {
       "no": 554,
@@ -11680,7 +12328,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 15,
         "spDefence": 45,
         "speed": 50
-      }
+      },
+      "id": 649
     },
     {
       "no": 554,
@@ -11698,7 +12347,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 15,
         "spDefence": 45,
         "speed": 50
-      }
+      },
+      "id": 650
     },
     {
       "no": 555,
@@ -11716,7 +12366,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 30,
         "spDefence": 55,
         "speed": 95
-      }
+      },
+      "id": 651
     },
     {
       "no": 555,
@@ -11734,7 +12385,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 140,
         "spDefence": 105,
         "speed": 55
-      }
+      },
+      "id": 652
     },
     {
       "no": 555,
@@ -11752,7 +12404,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 30,
         "spDefence": 55,
         "speed": 95
-      }
+      },
+      "id": 653
     },
     {
       "no": 555,
@@ -11770,7 +12423,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 30,
         "spDefence": 55,
         "speed": 135
-      }
+      },
+      "id": 654
     },
     {
       "no": 556,
@@ -11788,7 +12442,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 106,
         "spDefence": 67,
         "speed": 60
-      }
+      },
+      "id": 655
     },
     {
       "no": 557,
@@ -11806,7 +12461,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 35,
         "spDefence": 35,
         "speed": 55
-      }
+      },
+      "id": 656
     },
     {
       "no": 558,
@@ -11824,7 +12480,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 75,
         "speed": 45
-      }
+      },
+      "id": 657
     },
     {
       "no": 559,
@@ -11842,7 +12499,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 35,
         "spDefence": 70,
         "speed": 48
-      }
+      },
+      "id": 658
     },
     {
       "no": 560,
@@ -11860,7 +12518,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 115,
         "speed": 58
-      }
+      },
+      "id": 659
     },
     {
       "no": 561,
@@ -11878,7 +12537,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 103,
         "spDefence": 80,
         "speed": 97
-      }
+      },
+      "id": 660
     },
     {
       "no": 562,
@@ -11896,7 +12556,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 65,
         "speed": 30
-      }
+      },
+      "id": 661
     },
     {
       "no": 562,
@@ -11914,7 +12575,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 30,
         "spDefence": 65,
         "speed": 30
-      }
+      },
+      "id": 662
     },
     {
       "no": 563,
@@ -11932,7 +12594,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 105,
         "speed": 30
-      }
+      },
+      "id": 663
     },
     {
       "no": 564,
@@ -11950,7 +12613,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 53,
         "spDefence": 45,
         "speed": 22
-      }
+      },
+      "id": 664
     },
     {
       "no": 565,
@@ -11968,7 +12632,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 83,
         "spDefence": 65,
         "speed": 32
-      }
+      },
+      "id": 665
     },
     {
       "no": 566,
@@ -11986,7 +12651,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 74,
         "spDefence": 45,
         "speed": 70
-      }
+      },
+      "id": 666
     },
     {
       "no": 567,
@@ -12004,7 +12670,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 112,
         "spDefence": 65,
         "speed": 110
-      }
+      },
+      "id": 667
     },
     {
       "no": 568,
@@ -12022,7 +12689,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 62,
         "speed": 65
-      }
+      },
+      "id": 668
     },
     {
       "no": 569,
@@ -12040,7 +12708,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 82,
         "speed": 75
-      }
+      },
+      "id": 669
     },
     {
       "no": 570,
@@ -12058,7 +12727,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 40,
         "speed": 65
-      }
+      },
+      "id": 670
     },
     {
       "no": 571,
@@ -12076,7 +12746,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 120,
         "spDefence": 60,
         "speed": 105
-      }
+      },
+      "id": 671
     },
     {
       "no": 572,
@@ -12094,7 +12765,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 40,
         "speed": 75
-      }
+      },
+      "id": 672
     },
     {
       "no": 573,
@@ -12112,7 +12784,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 60,
         "speed": 115
-      }
+      },
+      "id": 673
     },
     {
       "no": 574,
@@ -12130,7 +12803,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 65,
         "speed": 45
-      }
+      },
+      "id": 674
     },
     {
       "no": 575,
@@ -12148,7 +12822,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 75,
         "spDefence": 85,
         "speed": 55
-      }
+      },
+      "id": 675
     },
     {
       "no": 576,
@@ -12166,7 +12841,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 110,
         "speed": 65
-      }
+      },
+      "id": 676
     },
     {
       "no": 577,
@@ -12184,7 +12860,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 105,
         "spDefence": 50,
         "speed": 20
-      }
+      },
+      "id": 677
     },
     {
       "no": 578,
@@ -12202,7 +12879,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 125,
         "spDefence": 60,
         "speed": 30
-      }
+      },
+      "id": 678
     },
     {
       "no": 579,
@@ -12220,7 +12898,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 125,
         "spDefence": 85,
         "speed": 30
-      }
+      },
+      "id": 679
     },
     {
       "no": 580,
@@ -12238,7 +12917,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 44,
         "spDefence": 50,
         "speed": 55
-      }
+      },
+      "id": 680
     },
     {
       "no": 581,
@@ -12256,7 +12936,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 87,
         "spDefence": 63,
         "speed": 98
-      }
+      },
+      "id": 681
     },
     {
       "no": 582,
@@ -12274,7 +12955,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 60,
         "speed": 44
-      }
+      },
+      "id": 682
     },
     {
       "no": 583,
@@ -12292,7 +12974,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 75,
         "speed": 59
-      }
+      },
+      "id": 683
     },
     {
       "no": 584,
@@ -12310,7 +12993,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 110,
         "spDefence": 95,
         "speed": 79
-      }
+      },
+      "id": 684
     },
     {
       "no": 585,
@@ -12328,7 +13012,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 50,
         "speed": 75
-      }
+      },
+      "id": 685
     },
     {
       "no": 586,
@@ -12346,7 +13031,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 70,
         "speed": 95
-      }
+      },
+      "id": 686
     },
     {
       "no": 587,
@@ -12364,7 +13050,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 75,
         "spDefence": 60,
         "speed": 103
-      }
+      },
+      "id": 687
     },
     {
       "no": 588,
@@ -12382,7 +13069,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 45,
         "speed": 60
-      }
+      },
+      "id": 688
     },
     {
       "no": 589,
@@ -12400,7 +13088,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 105,
         "speed": 20
-      }
+      },
+      "id": 689
     },
     {
       "no": 590,
@@ -12418,7 +13107,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 55,
         "speed": 15
-      }
+      },
+      "id": 690
     },
     {
       "no": 591,
@@ -12436,7 +13126,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 85,
         "spDefence": 80,
         "speed": 30
-      }
+      },
+      "id": 691
     },
     {
       "no": 592,
@@ -12454,7 +13145,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 85,
         "speed": 40
-      }
+      },
+      "id": 692
     },
     {
       "no": 593,
@@ -12472,7 +13164,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 85,
         "spDefence": 105,
         "speed": 60
-      }
+      },
+      "id": 693
     },
     {
       "no": 594,
@@ -12490,7 +13183,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 45,
         "speed": 65
-      }
+      },
+      "id": 694
     },
     {
       "no": 595,
@@ -12508,7 +13202,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 57,
         "spDefence": 50,
         "speed": 65
-      }
+      },
+      "id": 695
     },
     {
       "no": 596,
@@ -12526,7 +13221,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 97,
         "spDefence": 60,
         "speed": 108
-      }
+      },
+      "id": 696
     },
     {
       "no": 597,
@@ -12544,7 +13240,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 24,
         "spDefence": 86,
         "speed": 10
-      }
+      },
+      "id": 697
     },
     {
       "no": 598,
@@ -12562,7 +13259,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 54,
         "spDefence": 116,
         "speed": 20
-      }
+      },
+      "id": 698
     },
     {
       "no": 599,
@@ -12580,7 +13278,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 60,
         "speed": 30
-      }
+      },
+      "id": 699
     },
     {
       "no": 600,
@@ -12598,7 +13297,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 85,
         "speed": 50
-      }
+      },
+      "id": 700
     },
     {
       "no": 601,
@@ -12616,7 +13316,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 85,
         "speed": 90
-      }
+      },
+      "id": 701
     },
     {
       "no": 602,
@@ -12634,7 +13335,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 40,
         "speed": 60
-      }
+      },
+      "id": 702
     },
     {
       "no": 603,
@@ -12652,7 +13354,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 75,
         "spDefence": 70,
         "speed": 40
-      }
+      },
+      "id": 703
     },
     {
       "no": 604,
@@ -12670,7 +13373,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 105,
         "spDefence": 80,
         "speed": 50
-      }
+      },
+      "id": 704
     },
     {
       "no": 605,
@@ -12688,7 +13392,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 85,
         "spDefence": 55,
         "speed": 30
-      }
+      },
+      "id": 705
     },
     {
       "no": 606,
@@ -12706,7 +13411,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 125,
         "spDefence": 95,
         "speed": 40
-      }
+      },
+      "id": 706
     },
     {
       "no": 607,
@@ -12724,7 +13430,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 55,
         "speed": 20
-      }
+      },
+      "id": 707
     },
     {
       "no": 608,
@@ -12742,7 +13449,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 60,
         "speed": 55
-      }
+      },
+      "id": 708
     },
     {
       "no": 609,
@@ -12760,7 +13468,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 145,
         "spDefence": 90,
         "speed": 80
-      }
+      },
+      "id": 709
     },
     {
       "no": 610,
@@ -12778,7 +13487,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 30,
         "spDefence": 40,
         "speed": 57
-      }
+      },
+      "id": 710
     },
     {
       "no": 611,
@@ -12796,7 +13506,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 50,
         "speed": 67
-      }
+      },
+      "id": 711
     },
     {
       "no": 612,
@@ -12814,7 +13525,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 70,
         "speed": 97
-      }
+      },
+      "id": 712
     },
     {
       "no": 613,
@@ -12832,7 +13544,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 40,
         "speed": 40
-      }
+      },
+      "id": 713
     },
     {
       "no": 614,
@@ -12850,7 +13563,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 80,
         "speed": 50
-      }
+      },
+      "id": 714
     },
     {
       "no": 615,
@@ -12868,7 +13582,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 135,
         "speed": 105
-      }
+      },
+      "id": 715
     },
     {
       "no": 616,
@@ -12886,7 +13601,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 65,
         "speed": 25
-      }
+      },
+      "id": 716
     },
     {
       "no": 617,
@@ -12904,7 +13620,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 60,
         "speed": 145
-      }
+      },
+      "id": 717
     },
     {
       "no": 618,
@@ -12922,7 +13639,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 81,
         "spDefence": 99,
         "speed": 32
-      }
+      },
+      "id": 718
     },
     {
       "no": 618,
@@ -12940,7 +13658,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 66,
         "spDefence": 84,
         "speed": 32
-      }
+      },
+      "id": 719
     },
     {
       "no": 619,
@@ -12958,7 +13677,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 50,
         "speed": 65
-      }
+      },
+      "id": 720
     },
     {
       "no": 620,
@@ -12976,7 +13696,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 60,
         "speed": 105
-      }
+      },
+      "id": 721
     },
     {
       "no": 621,
@@ -12994,7 +13715,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 90,
         "speed": 48
-      }
+      },
+      "id": 722
     },
     {
       "no": 622,
@@ -13012,7 +13734,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 35,
         "spDefence": 50,
         "speed": 35
-      }
+      },
+      "id": 723
     },
     {
       "no": 623,
@@ -13030,7 +13753,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 80,
         "speed": 55
-      }
+      },
+      "id": 724
     },
     {
       "no": 624,
@@ -13048,7 +13772,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 40,
         "speed": 60
-      }
+      },
+      "id": 725
     },
     {
       "no": 625,
@@ -13066,7 +13791,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 70,
         "speed": 70
-      }
+      },
+      "id": 726
     },
     {
       "no": 626,
@@ -13084,7 +13810,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 95,
         "speed": 55
-      }
+      },
+      "id": 727
     },
     {
       "no": 627,
@@ -13102,7 +13829,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 37,
         "spDefence": 50,
         "speed": 60
-      }
+      },
+      "id": 728
     },
     {
       "no": 628,
@@ -13120,7 +13848,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 57,
         "spDefence": 75,
         "speed": 80
-      }
+      },
+      "id": 729
     },
     {
       "no": 629,
@@ -13138,7 +13867,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 65,
         "speed": 60
-      }
+      },
+      "id": 730
     },
     {
       "no": 630,
@@ -13156,7 +13886,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 95,
         "speed": 80
-      }
+      },
+      "id": 731
     },
     {
       "no": 631,
@@ -13174,7 +13905,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 105,
         "spDefence": 66,
         "speed": 65
-      }
+      },
+      "id": 732
     },
     {
       "no": 632,
@@ -13192,7 +13924,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 48,
         "spDefence": 48,
         "speed": 109
-      }
+      },
+      "id": 733
     },
     {
       "no": 633,
@@ -13210,7 +13943,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 50,
         "speed": 38
-      }
+      },
+      "id": 734
     },
     {
       "no": 634,
@@ -13228,7 +13962,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 70,
         "speed": 58
-      }
+      },
+      "id": 735
     },
     {
       "no": 635,
@@ -13246,7 +13981,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 125,
         "spDefence": 90,
         "speed": 98
-      }
+      },
+      "id": 736
     },
     {
       "no": 636,
@@ -13264,7 +14000,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 55,
         "speed": 60
-      }
+      },
+      "id": 737
     },
     {
       "no": 637,
@@ -13282,7 +14019,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 135,
         "spDefence": 105,
         "speed": 100
-      }
+      },
+      "id": 738
     },
     {
       "no": 638,
@@ -13300,7 +14038,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 90,
         "spDefence": 72,
         "speed": 108
-      }
+      },
+      "id": 739
     },
     {
       "no": 639,
@@ -13318,7 +14057,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 72,
         "spDefence": 90,
         "speed": 108
-      }
+      },
+      "id": 740
     },
     {
       "no": 640,
@@ -13336,7 +14076,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 90,
         "spDefence": 129,
         "speed": 108
-      }
+      },
+      "id": 741
     },
     {
       "no": 641,
@@ -13354,7 +14095,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 125,
         "spDefence": 80,
         "speed": 111
-      }
+      },
+      "id": 742
     },
     {
       "no": 641,
@@ -13372,7 +14114,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 110,
         "spDefence": 90,
         "speed": 121
-      }
+      },
+      "id": 743
     },
     {
       "no": 642,
@@ -13390,7 +14133,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 125,
         "spDefence": 80,
         "speed": 111
-      }
+      },
+      "id": 744
     },
     {
       "no": 642,
@@ -13408,7 +14152,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 145,
         "spDefence": 80,
         "speed": 101
-      }
+      },
+      "id": 745
     },
     {
       "no": 643,
@@ -13426,7 +14171,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 150,
         "spDefence": 120,
         "speed": 90
-      }
+      },
+      "id": 746
     },
     {
       "no": 644,
@@ -13444,7 +14190,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 120,
         "spDefence": 100,
         "speed": 90
-      }
+      },
+      "id": 747
     },
     {
       "no": 645,
@@ -13462,7 +14209,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 115,
         "spDefence": 80,
         "speed": 101
-      }
+      },
+      "id": 748
     },
     {
       "no": 645,
@@ -13480,7 +14228,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 105,
         "spDefence": 80,
         "speed": 91
-      }
+      },
+      "id": 749
     },
     {
       "no": 646,
@@ -13498,7 +14247,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 130,
         "spDefence": 90,
         "speed": 95
-      }
+      },
+      "id": 750
     },
     {
       "no": 646,
@@ -13516,7 +14266,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 120,
         "spDefence": 90,
         "speed": 95
-      }
+      },
+      "id": 751
     },
     {
       "no": 646,
@@ -13534,7 +14285,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 170,
         "spDefence": 100,
         "speed": 95
-      }
+      },
+      "id": 752
     },
     {
       "no": 647,
@@ -13552,7 +14304,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 129,
         "spDefence": 90,
         "speed": 108
-      }
+      },
+      "id": 753
     },
     {
       "no": 647,
@@ -13570,7 +14323,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 129,
         "spDefence": 90,
         "speed": 108
-      }
+      },
+      "id": 754
     },
     {
       "no": 648,
@@ -13588,7 +14342,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 128,
         "spDefence": 128,
         "speed": 90
-      }
+      },
+      "id": 755
     },
     {
       "no": 648,
@@ -13606,7 +14361,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 77,
         "spDefence": 77,
         "speed": 128
-      }
+      },
+      "id": 756
     },
     {
       "no": 649,
@@ -13624,7 +14380,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 120,
         "spDefence": 95,
         "speed": 99
-      }
+      },
+      "id": 757
     },
     {
       "no": 650,
@@ -13642,7 +14399,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 48,
         "spDefence": 45,
         "speed": 38
-      }
+      },
+      "id": 758
     },
     {
       "no": 651,
@@ -13660,7 +14418,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 56,
         "spDefence": 58,
         "speed": 57
-      }
+      },
+      "id": 759
     },
     {
       "no": 652,
@@ -13678,7 +14437,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 74,
         "spDefence": 75,
         "speed": 64
-      }
+      },
+      "id": 760
     },
     {
       "no": 653,
@@ -13696,7 +14456,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 62,
         "spDefence": 60,
         "speed": 60
-      }
+      },
+      "id": 761
     },
     {
       "no": 654,
@@ -13714,7 +14475,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 90,
         "spDefence": 70,
         "speed": 73
-      }
+      },
+      "id": 762
     },
     {
       "no": 655,
@@ -13732,7 +14494,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 114,
         "spDefence": 100,
         "speed": 104
-      }
+      },
+      "id": 763
     },
     {
       "no": 656,
@@ -13750,7 +14513,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 62,
         "spDefence": 44,
         "speed": 71
-      }
+      },
+      "id": 764
     },
     {
       "no": 657,
@@ -13768,7 +14532,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 83,
         "spDefence": 56,
         "speed": 97
-      }
+      },
+      "id": 765
     },
     {
       "no": 658,
@@ -13786,7 +14551,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 103,
         "spDefence": 71,
         "speed": 122
-      }
+      },
+      "id": 766
     },
     {
       "no": 658,
@@ -13804,7 +14570,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 153,
         "spDefence": 71,
         "speed": 132
-      }
+      },
+      "id": 767
     },
     {
       "no": 659,
@@ -13822,7 +14589,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 32,
         "spDefence": 36,
         "speed": 57
-      }
+      },
+      "id": 768
     },
     {
       "no": 660,
@@ -13840,7 +14608,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 77,
         "speed": 78
-      }
+      },
+      "id": 769
     },
     {
       "no": 661,
@@ -13858,7 +14627,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 38,
         "speed": 62
-      }
+      },
+      "id": 770
     },
     {
       "no": 662,
@@ -13876,7 +14646,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 56,
         "spDefence": 52,
         "speed": 84
-      }
+      },
+      "id": 771
     },
     {
       "no": 663,
@@ -13894,7 +14665,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 74,
         "spDefence": 69,
         "speed": 126
-      }
+      },
+      "id": 772
     },
     {
       "no": 664,
@@ -13912,7 +14684,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 27,
         "spDefence": 25,
         "speed": 35
-      }
+      },
+      "id": 773
     },
     {
       "no": 665,
@@ -13930,7 +14703,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 27,
         "spDefence": 30,
         "speed": 29
-      }
+      },
+      "id": 774
     },
     {
       "no": 666,
@@ -13948,7 +14722,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 90,
         "spDefence": 50,
         "speed": 89
-      }
+      },
+      "id": 775
     },
     {
       "no": 667,
@@ -13966,7 +14741,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 73,
         "spDefence": 54,
         "speed": 72
-      }
+      },
+      "id": 776
     },
     {
       "no": 668,
@@ -13984,7 +14760,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 109,
         "spDefence": 66,
         "speed": 106
-      }
+      },
+      "id": 777
     },
     {
       "no": 669,
@@ -14002,7 +14779,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 61,
         "spDefence": 79,
         "speed": 42
-      }
+      },
+      "id": 778
     },
     {
       "no": 670,
@@ -14020,7 +14798,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 75,
         "spDefence": 98,
         "speed": 52
-      }
+      },
+      "id": 779
     },
     {
       "no": 671,
@@ -14038,7 +14817,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 112,
         "spDefence": 154,
         "speed": 75
-      }
+      },
+      "id": 780
     },
     {
       "no": 672,
@@ -14056,7 +14836,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 62,
         "spDefence": 57,
         "speed": 52
-      }
+      },
+      "id": 781
     },
     {
       "no": 673,
@@ -14074,7 +14855,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 97,
         "spDefence": 81,
         "speed": 68
-      }
+      },
+      "id": 782
     },
     {
       "no": 674,
@@ -14092,7 +14874,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 46,
         "spDefence": 48,
         "speed": 43
-      }
+      },
+      "id": 783
     },
     {
       "no": 675,
@@ -14110,7 +14893,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 69,
         "spDefence": 71,
         "speed": 58
-      }
+      },
+      "id": 784
     },
     {
       "no": 676,
@@ -14128,7 +14912,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 90,
         "speed": 102
-      }
+      },
+      "id": 785
     },
     {
       "no": 677,
@@ -14146,7 +14931,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 63,
         "spDefence": 60,
         "speed": 68
-      }
+      },
+      "id": 786
     },
     {
       "no": 678,
@@ -14164,7 +14950,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 83,
         "spDefence": 81,
         "speed": 104
-      }
+      },
+      "id": 787
     },
     {
       "no": 678,
@@ -14182,7 +14969,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 83,
         "spDefence": 81,
         "speed": 104
-      }
+      },
+      "id": 788
     },
     {
       "no": 679,
@@ -14200,7 +14988,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 35,
         "spDefence": 37,
         "speed": 28
-      }
+      },
+      "id": 789
     },
     {
       "no": 680,
@@ -14218,7 +15007,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 49,
         "speed": 35
-      }
+      },
+      "id": 790
     },
     {
       "no": 681,
@@ -14236,7 +15026,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 140,
         "speed": 60
-      }
+      },
+      "id": 791
     },
     {
       "no": 681,
@@ -14254,7 +15045,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 140,
         "spDefence": 50,
         "speed": 60
-      }
+      },
+      "id": 792
     },
     {
       "no": 682,
@@ -14272,7 +15064,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 63,
         "spDefence": 65,
         "speed": 23
-      }
+      },
+      "id": 793
     },
     {
       "no": 683,
@@ -14290,7 +15083,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 99,
         "spDefence": 89,
         "speed": 29
-      }
+      },
+      "id": 794
     },
     {
       "no": 684,
@@ -14308,7 +15102,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 59,
         "spDefence": 57,
         "speed": 49
-      }
+      },
+      "id": 795
     },
     {
       "no": 685,
@@ -14326,7 +15121,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 85,
         "spDefence": 75,
         "speed": 72
-      }
+      },
+      "id": 796
     },
     {
       "no": 686,
@@ -14344,7 +15140,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 37,
         "spDefence": 46,
         "speed": 45
-      }
+      },
+      "id": 797
     },
     {
       "no": 687,
@@ -14362,7 +15159,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 68,
         "spDefence": 75,
         "speed": 73
-      }
+      },
+      "id": 798
     },
     {
       "no": 688,
@@ -14380,7 +15178,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 39,
         "spDefence": 56,
         "speed": 50
-      }
+      },
+      "id": 799
     },
     {
       "no": 689,
@@ -14398,7 +15197,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 54,
         "spDefence": 86,
         "speed": 68
-      }
+      },
+      "id": 800
     },
     {
       "no": 690,
@@ -14416,7 +15216,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 60,
         "speed": 30
-      }
+      },
+      "id": 801
     },
     {
       "no": 691,
@@ -14434,7 +15235,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 97,
         "spDefence": 123,
         "speed": 44
-      }
+      },
+      "id": 802
     },
     {
       "no": 692,
@@ -14452,7 +15254,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 58,
         "spDefence": 63,
         "speed": 44
-      }
+      },
+      "id": 803
     },
     {
       "no": 693,
@@ -14470,7 +15273,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 120,
         "spDefence": 89,
         "speed": 59
-      }
+      },
+      "id": 804
     },
     {
       "no": 694,
@@ -14488,7 +15292,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 61,
         "spDefence": 43,
         "speed": 70
-      }
+      },
+      "id": 805
     },
     {
       "no": 695,
@@ -14506,7 +15311,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 109,
         "spDefence": 94,
         "speed": 109
-      }
+      },
+      "id": 806
     },
     {
       "no": 696,
@@ -14524,7 +15330,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 45,
         "speed": 48
-      }
+      },
+      "id": 807
     },
     {
       "no": 697,
@@ -14542,7 +15349,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 69,
         "spDefence": 59,
         "speed": 71
-      }
+      },
+      "id": 808
     },
     {
       "no": 698,
@@ -14560,7 +15368,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 67,
         "spDefence": 63,
         "speed": 46
-      }
+      },
+      "id": 809
     },
     {
       "no": 699,
@@ -14578,7 +15387,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 99,
         "spDefence": 92,
         "speed": 58
-      }
+      },
+      "id": 810
     },
     {
       "no": 700,
@@ -14596,7 +15406,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 110,
         "spDefence": 130,
         "speed": 60
-      }
+      },
+      "id": 811
     },
     {
       "no": 701,
@@ -14614,7 +15425,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 74,
         "spDefence": 63,
         "speed": 118
-      }
+      },
+      "id": 812
     },
     {
       "no": 702,
@@ -14632,7 +15444,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 81,
         "spDefence": 67,
         "speed": 101
-      }
+      },
+      "id": 813
     },
     {
       "no": 703,
@@ -14650,7 +15463,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 150,
         "speed": 50
-      }
+      },
+      "id": 814
     },
     {
       "no": 704,
@@ -14668,7 +15482,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 75,
         "speed": 40
-      }
+      },
+      "id": 815
     },
     {
       "no": 705,
@@ -14686,7 +15501,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 83,
         "spDefence": 113,
         "speed": 60
-      }
+      },
+      "id": 816
     },
     {
       "no": 706,
@@ -14704,7 +15520,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 110,
         "spDefence": 150,
         "speed": 80
-      }
+      },
+      "id": 817
     },
     {
       "no": 707,
@@ -14722,7 +15539,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 87,
         "speed": 75
-      }
+      },
+      "id": 818
     },
     {
       "no": 708,
@@ -14740,7 +15558,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 60,
         "speed": 38
-      }
+      },
+      "id": 819
     },
     {
       "no": 709,
@@ -14758,7 +15577,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 82,
         "speed": 56
-      }
+      },
+      "id": 820
     },
     {
       "no": 710,
@@ -14776,7 +15596,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 44,
         "spDefence": 55,
         "speed": 56
-      }
+      },
+      "id": 821
     },
     {
       "no": 710,
@@ -14794,7 +15615,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 44,
         "spDefence": 55,
         "speed": 46
-      }
+      },
+      "id": 822
     },
     {
       "no": 710,
@@ -14812,7 +15634,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 44,
         "spDefence": 55,
         "speed": 41
-      }
+      },
+      "id": 823
     },
     {
       "no": 710,
@@ -14830,7 +15653,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 44,
         "spDefence": 55,
         "speed": 51
-      }
+      },
+      "id": 824
     },
     {
       "no": 711,
@@ -14848,7 +15672,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 58,
         "spDefence": 75,
         "speed": 99
-      }
+      },
+      "id": 825
     },
     {
       "no": 711,
@@ -14866,7 +15691,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 58,
         "spDefence": 75,
         "speed": 69
-      }
+      },
+      "id": 826
     },
     {
       "no": 711,
@@ -14884,7 +15710,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 58,
         "spDefence": 75,
         "speed": 54
-      }
+      },
+      "id": 827
     },
     {
       "no": 711,
@@ -14902,7 +15729,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 58,
         "spDefence": 75,
         "speed": 84
-      }
+      },
+      "id": 828
     },
     {
       "no": 712,
@@ -14920,7 +15748,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 32,
         "spDefence": 35,
         "speed": 28
-      }
+      },
+      "id": 829
     },
     {
       "no": 713,
@@ -14938,7 +15767,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 44,
         "spDefence": 46,
         "speed": 28
-      }
+      },
+      "id": 830
     },
     {
       "no": 714,
@@ -14956,7 +15786,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 40,
         "speed": 55
-      }
+      },
+      "id": 831
     },
     {
       "no": 715,
@@ -14974,7 +15805,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 97,
         "spDefence": 80,
         "speed": 123
-      }
+      },
+      "id": 832
     },
     {
       "no": 716,
@@ -14992,7 +15824,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 131,
         "spDefence": 98,
         "speed": 99
-      }
+      },
+      "id": 833
     },
     {
       "no": 717,
@@ -15010,7 +15843,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 131,
         "spDefence": 98,
         "speed": 99
-      }
+      },
+      "id": 834
     },
     {
       "no": 718,
@@ -15028,7 +15862,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 61,
         "spDefence": 85,
         "speed": 115
-      }
+      },
+      "id": 835
     },
     {
       "no": 718,
@@ -15046,7 +15881,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 81,
         "spDefence": 95,
         "speed": 95
-      }
+      },
+      "id": 836
     },
     {
       "no": 718,
@@ -15064,7 +15900,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 91,
         "spDefence": 95,
         "speed": 85
-      }
+      },
+      "id": 837
     },
     {
       "no": 719,
@@ -15082,7 +15919,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 150,
         "speed": 50
-      }
+      },
+      "id": 838
     },
     {
       "no": 719,
@@ -15100,7 +15938,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 160,
         "spDefence": 110,
         "speed": 110
-      }
+      },
+      "id": 839
     },
     {
       "no": 720,
@@ -15118,7 +15957,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 150,
         "spDefence": 130,
         "speed": 70
-      }
+      },
+      "id": 840
     },
     {
       "no": 720,
@@ -15136,7 +15976,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 170,
         "spDefence": 130,
         "speed": 80
-      }
+      },
+      "id": 841
     },
     {
       "no": 721,
@@ -15154,7 +15995,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 130,
         "spDefence": 90,
         "speed": 70
-      }
+      },
+      "id": 842
     },
     {
       "no": 722,
@@ -15172,7 +16014,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 50,
         "speed": 42
-      }
+      },
+      "id": 843
     },
     {
       "no": 723,
@@ -15190,7 +16033,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 70,
         "speed": 52
-      }
+      },
+      "id": 844
     },
     {
       "no": 724,
@@ -15208,7 +16052,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 100,
         "speed": 70
-      }
+      },
+      "id": 845
     },
     {
       "no": 725,
@@ -15226,7 +16071,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 40,
         "speed": 70
-      }
+      },
+      "id": 846
     },
     {
       "no": 726,
@@ -15244,7 +16090,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 50,
         "speed": 90
-      }
+      },
+      "id": 847
     },
     {
       "no": 727,
@@ -15262,7 +16109,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 90,
         "speed": 60
-      }
+      },
+      "id": 848
     },
     {
       "no": 728,
@@ -15280,7 +16128,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 66,
         "spDefence": 56,
         "speed": 40
-      }
+      },
+      "id": 849
     },
     {
       "no": 729,
@@ -15298,7 +16147,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 91,
         "spDefence": 81,
         "speed": 50
-      }
+      },
+      "id": 850
     },
     {
       "no": 730,
@@ -15316,7 +16166,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 126,
         "spDefence": 116,
         "speed": 60
-      }
+      },
+      "id": 851
     },
     {
       "no": 731,
@@ -15334,7 +16185,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 30,
         "spDefence": 30,
         "speed": 65
-      }
+      },
+      "id": 852
     },
     {
       "no": 732,
@@ -15352,7 +16204,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 50,
         "speed": 75
-      }
+      },
+      "id": 853
     },
     {
       "no": 733,
@@ -15370,7 +16223,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 75,
         "spDefence": 75,
         "speed": 60
-      }
+      },
+      "id": 854
     },
     {
       "no": 734,
@@ -15388,7 +16242,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 30,
         "spDefence": 30,
         "speed": 45
-      }
+      },
+      "id": 855
     },
     {
       "no": 735,
@@ -15406,7 +16261,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 60,
         "speed": 45
-      }
+      },
+      "id": 856
     },
     {
       "no": 736,
@@ -15424,7 +16280,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 45,
         "speed": 46
-      }
+      },
+      "id": 857
     },
     {
       "no": 737,
@@ -15442,7 +16299,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 75,
         "speed": 36
-      }
+      },
+      "id": 858
     },
     {
       "no": 738,
@@ -15460,7 +16318,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 145,
         "spDefence": 75,
         "speed": 43
-      }
+      },
+      "id": 859
     },
     {
       "no": 739,
@@ -15478,7 +16337,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 42,
         "spDefence": 47,
         "speed": 63
-      }
+      },
+      "id": 860
     },
     {
       "no": 740,
@@ -15496,7 +16356,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 62,
         "spDefence": 67,
         "speed": 43
-      }
+      },
+      "id": 861
     },
     {
       "no": 741,
@@ -15514,7 +16375,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 98,
         "spDefence": 70,
         "speed": 93
-      }
+      },
+      "id": 862
     },
     {
       "no": 741,
@@ -15532,7 +16394,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 98,
         "spDefence": 70,
         "speed": 93
-      }
+      },
+      "id": 863
     },
     {
       "no": 741,
@@ -15550,7 +16413,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 98,
         "spDefence": 70,
         "speed": 93
-      }
+      },
+      "id": 864
     },
     {
       "no": 741,
@@ -15568,7 +16432,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 98,
         "spDefence": 70,
         "speed": 93
-      }
+      },
+      "id": 865
     },
     {
       "no": 742,
@@ -15586,7 +16451,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 40,
         "speed": 84
-      }
+      },
+      "id": 866
     },
     {
       "no": 743,
@@ -15604,7 +16470,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 70,
         "speed": 124
-      }
+      },
+      "id": 867
     },
     {
       "no": 744,
@@ -15622,7 +16489,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 30,
         "spDefence": 40,
         "speed": 60
-      }
+      },
+      "id": 868
     },
     {
       "no": 745,
@@ -15640,7 +16508,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 65,
         "speed": 112
-      }
+      },
+      "id": 869
     },
     {
       "no": 745,
@@ -15658,7 +16527,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 75,
         "speed": 82
-      }
+      },
+      "id": 870
     },
     {
       "no": 745,
@@ -15676,7 +16546,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 65,
         "speed": 110
-      }
+      },
+      "id": 871
     },
     {
       "no": 746,
@@ -15694,7 +16565,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 25,
         "spDefence": 25,
         "speed": 40
-      }
+      },
+      "id": 872
     },
     {
       "no": 746,
@@ -15712,7 +16584,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 140,
         "spDefence": 135,
         "speed": 30
-      }
+      },
+      "id": 873
     },
     {
       "no": 747,
@@ -15730,7 +16603,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 43,
         "spDefence": 52,
         "speed": 45
-      }
+      },
+      "id": 874
     },
     {
       "no": 748,
@@ -15748,7 +16622,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 53,
         "spDefence": 142,
         "speed": 35
-      }
+      },
+      "id": 875
     },
     {
       "no": 749,
@@ -15766,7 +16641,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 55,
         "speed": 45
-      }
+      },
+      "id": 876
     },
     {
       "no": 750,
@@ -15784,7 +16660,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 85,
         "speed": 35
-      }
+      },
+      "id": 877
     },
     {
       "no": 751,
@@ -15802,7 +16679,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 72,
         "speed": 27
-      }
+      },
+      "id": 878
     },
     {
       "no": 752,
@@ -15820,7 +16698,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 132,
         "speed": 42
-      }
+      },
+      "id": 879
     },
     {
       "no": 753,
@@ -15838,7 +16717,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 35,
         "speed": 35
-      }
+      },
+      "id": 880
     },
     {
       "no": 754,
@@ -15856,7 +16736,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 90,
         "speed": 45
-      }
+      },
+      "id": 881
     },
     {
       "no": 755,
@@ -15874,7 +16755,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 75,
         "speed": 15
-      }
+      },
+      "id": 882
     },
     {
       "no": 756,
@@ -15892,7 +16774,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 90,
         "spDefence": 100,
         "speed": 30
-      }
+      },
+      "id": 883
     },
     {
       "no": 757,
@@ -15910,7 +16793,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 71,
         "spDefence": 40,
         "speed": 77
-      }
+      },
+      "id": 884
     },
     {
       "no": 758,
@@ -15928,7 +16812,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 111,
         "spDefence": 60,
         "speed": 117
-      }
+      },
+      "id": 885
     },
     {
       "no": 759,
@@ -15946,7 +16831,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 50,
         "speed": 50
-      }
+      },
+      "id": 886
     },
     {
       "no": 760,
@@ -15964,7 +16850,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 60,
         "speed": 60
-      }
+      },
+      "id": 887
     },
     {
       "no": 761,
@@ -15982,7 +16869,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 30,
         "spDefence": 38,
         "speed": 32
-      }
+      },
+      "id": 888
     },
     {
       "no": 762,
@@ -16000,7 +16888,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 48,
         "speed": 62
-      }
+      },
+      "id": 889
     },
     {
       "no": 763,
@@ -16018,7 +16907,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 98,
         "speed": 72
-      }
+      },
+      "id": 890
     },
     {
       "no": 764,
@@ -16036,7 +16926,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 82,
         "spDefence": 110,
         "speed": 100
-      }
+      },
+      "id": 891
     },
     {
       "no": 765,
@@ -16054,7 +16945,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 90,
         "spDefence": 110,
         "speed": 60
-      }
+      },
+      "id": 892
     },
     {
       "no": 766,
@@ -16072,7 +16964,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 60,
         "speed": 80
-      }
+      },
+      "id": 893
     },
     {
       "no": 767,
@@ -16090,7 +16983,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 20,
         "spDefence": 30,
         "speed": 80
-      }
+      },
+      "id": 894
     },
     {
       "no": 768,
@@ -16108,7 +17002,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 90,
         "speed": 40
-      }
+      },
+      "id": 895
     },
     {
       "no": 769,
@@ -16126,7 +17021,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 45,
         "speed": 15
-      }
+      },
+      "id": 896
     },
     {
       "no": 770,
@@ -16144,7 +17040,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 75,
         "speed": 35
-      }
+      },
+      "id": 897
     },
     {
       "no": 771,
@@ -16162,7 +17059,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 30,
         "spDefence": 130,
         "speed": 5
-      }
+      },
+      "id": 898
     },
     {
       "no": 772,
@@ -16180,7 +17078,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 95,
         "speed": 59
-      }
+      },
+      "id": 899
     },
     {
       "no": 773,
@@ -16198,7 +17097,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 95,
         "speed": 95
-      }
+      },
+      "id": 900
     },
     {
       "no": 774,
@@ -16216,7 +17116,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 60,
         "speed": 120
-      }
+      },
+      "id": 901
     },
     {
       "no": 774,
@@ -16234,7 +17135,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 100,
         "speed": 60
-      }
+      },
+      "id": 902
     },
     {
       "no": 775,
@@ -16252,7 +17154,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 75,
         "spDefence": 95,
         "speed": 65
-      }
+      },
+      "id": 903
     },
     {
       "no": 776,
@@ -16270,7 +17173,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 91,
         "spDefence": 85,
         "speed": 36
-      }
+      },
+      "id": 904
     },
     {
       "no": 777,
@@ -16288,7 +17192,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 73,
         "speed": 96
-      }
+      },
+      "id": 905
     },
     {
       "no": 778,
@@ -16306,7 +17211,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 105,
         "speed": 96
-      }
+      },
+      "id": 906
     },
     {
       "no": 779,
@@ -16324,7 +17230,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 70,
         "speed": 92
-      }
+      },
+      "id": 907
     },
     {
       "no": 780,
@@ -16342,7 +17249,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 135,
         "spDefence": 91,
         "speed": 36
-      }
+      },
+      "id": 908
     },
     {
       "no": 781,
@@ -16360,7 +17268,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 86,
         "spDefence": 90,
         "speed": 40
-      }
+      },
+      "id": 909
     },
     {
       "no": 782,
@@ -16378,7 +17287,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 45,
         "speed": 45
-      }
+      },
+      "id": 910
     },
     {
       "no": 783,
@@ -16396,7 +17306,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 70,
         "speed": 65
-      }
+      },
+      "id": 911
     },
     {
       "no": 784,
@@ -16414,7 +17325,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 105,
         "speed": 85
-      }
+      },
+      "id": 912
     },
     {
       "no": 785,
@@ -16432,7 +17344,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 75,
         "speed": 130
-      }
+      },
+      "id": 913
     },
     {
       "no": 786,
@@ -16450,7 +17363,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 130,
         "spDefence": 115,
         "speed": 95
-      }
+      },
+      "id": 914
     },
     {
       "no": 787,
@@ -16468,7 +17382,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 85,
         "spDefence": 95,
         "speed": 75
-      }
+      },
+      "id": 915
     },
     {
       "no": 788,
@@ -16486,7 +17401,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 130,
         "speed": 85
-      }
+      },
+      "id": 916
     },
     {
       "no": 789,
@@ -16504,7 +17420,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 29,
         "spDefence": 31,
         "speed": 37
-      }
+      },
+      "id": 917
     },
     {
       "no": 790,
@@ -16522,7 +17439,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 29,
         "spDefence": 131,
         "speed": 37
-      }
+      },
+      "id": 918
     },
     {
       "no": 791,
@@ -16540,7 +17458,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 113,
         "spDefence": 89,
         "speed": 97
-      }
+      },
+      "id": 919
     },
     {
       "no": 792,
@@ -16558,7 +17477,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 137,
         "spDefence": 107,
         "speed": 97
-      }
+      },
+      "id": 920
     },
     {
       "no": 793,
@@ -16576,7 +17496,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 127,
         "spDefence": 131,
         "speed": 103
-      }
+      },
+      "id": 921
     },
     {
       "no": 794,
@@ -16594,7 +17515,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 53,
         "spDefence": 53,
         "speed": 79
-      }
+      },
+      "id": 922
     },
     {
       "no": 795,
@@ -16612,7 +17534,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 137,
         "spDefence": 37,
         "speed": 151
-      }
+      },
+      "id": 923
     },
     {
       "no": 796,
@@ -16630,7 +17553,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 173,
         "spDefence": 71,
         "speed": 83
-      }
+      },
+      "id": 924
     },
     {
       "no": 797,
@@ -16648,7 +17572,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 107,
         "spDefence": 101,
         "speed": 61
-      }
+      },
+      "id": 925
     },
     {
       "no": 798,
@@ -16666,7 +17591,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 59,
         "spDefence": 31,
         "speed": 109
-      }
+      },
+      "id": 926
     },
     {
       "no": 799,
@@ -16684,7 +17610,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 97,
         "spDefence": 53,
         "speed": 43
-      }
+      },
+      "id": 927
     },
     {
       "no": 800,
@@ -16702,7 +17629,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 127,
         "spDefence": 89,
         "speed": 79
-      }
+      },
+      "id": 928
     },
     {
       "no": 800,
@@ -16720,7 +17648,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 113,
         "spDefence": 109,
         "speed": 77
-      }
+      },
+      "id": 929
     },
     {
       "no": 800,
@@ -16738,7 +17667,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 157,
         "spDefence": 127,
         "speed": 77
-      }
+      },
+      "id": 930
     },
     {
       "no": 800,
@@ -16756,7 +17686,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 167,
         "spDefence": 97,
         "speed": 129
-      }
+      },
+      "id": 931
     },
     {
       "no": 801,
@@ -16774,7 +17705,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 130,
         "spDefence": 115,
         "speed": 65
-      }
+      },
+      "id": 932
     },
     {
       "no": 802,
@@ -16792,7 +17724,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 90,
         "spDefence": 90,
         "speed": 125
-      }
+      },
+      "id": 933
     },
     {
       "no": 803,
@@ -16810,7 +17743,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 73,
         "spDefence": 67,
         "speed": 73
-      }
+      },
+      "id": 934
     },
     {
       "no": 804,
@@ -16828,7 +17762,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 127,
         "spDefence": 73,
         "speed": 121
-      }
+      },
+      "id": 935
     },
     {
       "no": 805,
@@ -16846,7 +17781,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 53,
         "spDefence": 101,
         "speed": 13
-      }
+      },
+      "id": 936
     },
     {
       "no": 806,
@@ -16864,7 +17800,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 151,
         "spDefence": 79,
         "speed": 107
-      }
+      },
+      "id": 937
     },
     {
       "no": 807,
@@ -16882,7 +17819,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 102,
         "spDefence": 80,
         "speed": 143
-      }
+      },
+      "id": 938
     },
     {
       "no": 808,
@@ -16900,7 +17838,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 35,
         "speed": 34
-      }
+      },
+      "id": 939
     },
     {
       "no": 809,
@@ -16918,7 +17857,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 65,
         "speed": 34
-      }
+      },
+      "id": 940
     },
     {
       "no": 810,
@@ -16936,7 +17876,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 40,
         "speed": 65
-      }
+      },
+      "id": 941
     },
     {
       "no": 811,
@@ -16954,7 +17895,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 60,
         "speed": 80
-      }
+      },
+      "id": 942
     },
     {
       "no": 812,
@@ -16972,7 +17914,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 70,
         "speed": 85
-      }
+      },
+      "id": 943
     },
     {
       "no": 813,
@@ -16990,7 +17933,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 40,
         "speed": 69
-      }
+      },
+      "id": 944
     },
     {
       "no": 814,
@@ -17008,7 +17952,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 60,
         "speed": 94
-      }
+      },
+      "id": 945
     },
     {
       "no": 815,
@@ -17026,7 +17971,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 75,
         "speed": 119
-      }
+      },
+      "id": 946
     },
     {
       "no": 816,
@@ -17044,7 +17990,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 40,
         "speed": 70
-      }
+      },
+      "id": 947
     },
     {
       "no": 817,
@@ -17062,7 +18009,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 55,
         "speed": 90
-      }
+      },
+      "id": 948
     },
     {
       "no": 818,
@@ -17080,7 +18028,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 125,
         "spDefence": 65,
         "speed": 120
-      }
+      },
+      "id": 949
     },
     {
       "no": 819,
@@ -17098,7 +18047,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 35,
         "spDefence": 35,
         "speed": 25
-      }
+      },
+      "id": 950
     },
     {
       "no": 820,
@@ -17116,7 +18066,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 75,
         "speed": 20
-      }
+      },
+      "id": 951
     },
     {
       "no": 821,
@@ -17134,7 +18085,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 33,
         "spDefence": 35,
         "speed": 57
-      }
+      },
+      "id": 952
     },
     {
       "no": 822,
@@ -17152,7 +18104,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 43,
         "spDefence": 55,
         "speed": 77
-      }
+      },
+      "id": 953
     },
     {
       "no": 823,
@@ -17170,7 +18123,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 53,
         "spDefence": 85,
         "speed": 67
-      }
+      },
+      "id": 954
     },
     {
       "no": 824,
@@ -17188,7 +18142,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 25,
         "spDefence": 45,
         "speed": 45
-      }
+      },
+      "id": 955
     },
     {
       "no": 825,
@@ -17206,7 +18161,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 90,
         "speed": 30
-      }
+      },
+      "id": 956
     },
     {
       "no": 826,
@@ -17224,7 +18180,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 120,
         "speed": 90
-      }
+      },
+      "id": 957
     },
     {
       "no": 827,
@@ -17242,7 +18199,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 47,
         "spDefence": 52,
         "speed": 50
-      }
+      },
+      "id": 958
     },
     {
       "no": 828,
@@ -17260,7 +18218,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 87,
         "spDefence": 92,
         "speed": 90
-      }
+      },
+      "id": 959
     },
     {
       "no": 829,
@@ -17278,7 +18237,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 60,
         "speed": 10
-      }
+      },
+      "id": 960
     },
     {
       "no": 830,
@@ -17296,7 +18256,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 120,
         "speed": 60
-      }
+      },
+      "id": 961
     },
     {
       "no": 831,
@@ -17314,7 +18275,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 45,
         "speed": 48
-      }
+      },
+      "id": 962
     },
     {
       "no": 832,
@@ -17332,7 +18294,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 90,
         "speed": 88
-      }
+      },
+      "id": 963
     },
     {
       "no": 833,
@@ -17350,7 +18313,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 38,
         "spDefence": 38,
         "speed": 44
-      }
+      },
+      "id": 964
     },
     {
       "no": 834,
@@ -17368,7 +18332,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 48,
         "spDefence": 68,
         "speed": 74
-      }
+      },
+      "id": 965
     },
     {
       "no": 835,
@@ -17386,7 +18351,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 50,
         "speed": 26
-      }
+      },
+      "id": 966
     },
     {
       "no": 836,
@@ -17404,7 +18370,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 90,
         "spDefence": 60,
         "speed": 121
-      }
+      },
+      "id": 967
     },
     {
       "no": 837,
@@ -17422,7 +18389,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 50,
         "speed": 30
-      }
+      },
+      "id": 968
     },
     {
       "no": 838,
@@ -17440,7 +18408,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 70,
         "speed": 50
-      }
+      },
+      "id": 969
     },
     {
       "no": 839,
@@ -17458,7 +18427,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 90,
         "speed": 30
-      }
+      },
+      "id": 970
     },
     {
       "no": 840,
@@ -17476,7 +18446,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 40,
         "speed": 20
-      }
+      },
+      "id": 971
     },
     {
       "no": 841,
@@ -17494,7 +18465,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 60,
         "speed": 70
-      }
+      },
+      "id": 972
     },
     {
       "no": 842,
@@ -17512,7 +18484,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 80,
         "speed": 30
-      }
+      },
+      "id": 973
     },
     {
       "no": 843,
@@ -17530,7 +18503,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 35,
         "spDefence": 50,
         "speed": 46
-      }
+      },
+      "id": 974
     },
     {
       "no": 844,
@@ -17548,7 +18522,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 70,
         "speed": 71
-      }
+      },
+      "id": 975
     },
     {
       "no": 845,
@@ -17566,7 +18541,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 85,
         "spDefence": 95,
         "speed": 85
-      }
+      },
+      "id": 976
     },
     {
       "no": 846,
@@ -17584,7 +18560,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 30,
         "speed": 66
-      }
+      },
+      "id": 977
     },
     {
       "no": 847,
@@ -17602,7 +18579,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 50,
         "speed": 136
-      }
+      },
+      "id": 978
     },
     {
       "no": 848,
@@ -17620,7 +18598,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 54,
         "spDefence": 35,
         "speed": 40
-      }
+      },
+      "id": 979
     },
     {
       "no": 849,
@@ -17638,7 +18617,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 114,
         "spDefence": 70,
         "speed": 75
-      }
+      },
+      "id": 980
     },
     {
       "no": 849,
@@ -17656,7 +18636,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 114,
         "spDefence": 70,
         "speed": 75
-      }
+      },
+      "id": 981
     },
     {
       "no": 850,
@@ -17674,7 +18655,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 50,
         "speed": 45
-      }
+      },
+      "id": 982
     },
     {
       "no": 851,
@@ -17692,7 +18674,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 90,
         "spDefence": 90,
         "speed": 65
-      }
+      },
+      "id": 983
     },
     {
       "no": 852,
@@ -17710,7 +18693,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 50,
         "speed": 32
-      }
+      },
+      "id": 984
     },
     {
       "no": 853,
@@ -17728,7 +18712,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 80,
         "speed": 42
-      }
+      },
+      "id": 985
     },
     {
       "no": 854,
@@ -17746,7 +18731,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 74,
         "spDefence": 54,
         "speed": 50
-      }
+      },
+      "id": 986
     },
     {
       "no": 855,
@@ -17764,7 +18750,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 134,
         "spDefence": 114,
         "speed": 70
-      }
+      },
+      "id": 987
     },
     {
       "no": 856,
@@ -17782,7 +18769,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 56,
         "spDefence": 53,
         "speed": 39
-      }
+      },
+      "id": 988
     },
     {
       "no": 857,
@@ -17800,7 +18788,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 86,
         "spDefence": 73,
         "speed": 49
-      }
+      },
+      "id": 989
     },
     {
       "no": 858,
@@ -17818,7 +18807,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 136,
         "spDefence": 103,
         "speed": 29
-      }
+      },
+      "id": 990
     },
     {
       "no": 859,
@@ -17836,7 +18826,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 55,
         "spDefence": 40,
         "speed": 50
-      }
+      },
+      "id": 991
     },
     {
       "no": 860,
@@ -17854,7 +18845,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 75,
         "spDefence": 55,
         "speed": 70
-      }
+      },
+      "id": 992
     },
     {
       "no": 861,
@@ -17872,7 +18864,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 75,
         "speed": 60
-      }
+      },
+      "id": 993
     },
     {
       "no": 862,
@@ -17890,7 +18883,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 81,
         "speed": 95
-      }
+      },
+      "id": 994
     },
     {
       "no": 863,
@@ -17908,7 +18902,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 60,
         "speed": 50
-      }
+      },
+      "id": 995
     },
     {
       "no": 864,
@@ -17926,7 +18921,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 145,
         "spDefence": 130,
         "speed": 30
-      }
+      },
+      "id": 996
     },
     {
       "no": 865,
@@ -17944,7 +18940,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 68,
         "spDefence": 82,
         "speed": 65
-      }
+      },
+      "id": 997
     },
     {
       "no": 866,
@@ -17962,7 +18959,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 110,
         "spDefence": 100,
         "speed": 70
-      }
+      },
+      "id": 998
     },
     {
       "no": 867,
@@ -17980,7 +18978,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 105,
         "speed": 30
-      }
+      },
+      "id": 999
     },
     {
       "no": 868,
@@ -17998,7 +18997,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 50,
         "spDefence": 61,
         "speed": 34
-      }
+      },
+      "id": 1000
     },
     {
       "no": 869,
@@ -18016,7 +19016,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 110,
         "spDefence": 121,
         "speed": 64
-      }
+      },
+      "id": 1001
     },
     {
       "no": 870,
@@ -18034,7 +19035,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 60,
         "speed": 75
-      }
+      },
+      "id": 1002
     },
     {
       "no": 871,
@@ -18052,7 +19054,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 91,
         "spDefence": 85,
         "speed": 15
-      }
+      },
+      "id": 1003
     },
     {
       "no": 872,
@@ -18070,7 +19073,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 45,
         "spDefence": 30,
         "speed": 20
-      }
+      },
+      "id": 1004
     },
     {
       "no": 873,
@@ -18088,7 +19092,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 125,
         "spDefence": 90,
         "speed": 65
-      }
+      },
+      "id": 1005
     },
     {
       "no": 874,
@@ -18106,7 +19111,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 20,
         "spDefence": 20,
         "speed": 70
-      }
+      },
+      "id": 1006
     },
     {
       "no": 875,
@@ -18124,7 +19130,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 90,
         "speed": 50
-      }
+      },
+      "id": 1007
     },
     {
       "no": 875,
@@ -18142,7 +19149,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 50,
         "speed": 130
-      }
+      },
+      "id": 1008
     },
     {
       "no": 876,
@@ -18160,7 +19168,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 105,
         "spDefence": 95,
         "speed": 95
-      }
+      },
+      "id": 1009
     },
     {
       "no": 876,
@@ -18178,7 +19187,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 95,
         "spDefence": 105,
         "speed": 85
-      }
+      },
+      "id": 1010
     },
     {
       "no": 877,
@@ -18196,7 +19206,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 58,
         "speed": 97
-      }
+      },
+      "id": 1011
     },
     {
       "no": 878,
@@ -18214,7 +19225,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 49,
         "speed": 40
-      }
+      },
+      "id": 1012
     },
     {
       "no": 879,
@@ -18232,7 +19244,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 69,
         "speed": 30
-      }
+      },
+      "id": 1013
     },
     {
       "no": 880,
@@ -18250,7 +19263,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 70,
         "speed": 75
-      }
+      },
+      "id": 1014
     },
     {
       "no": 881,
@@ -18268,7 +19282,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 90,
         "spDefence": 80,
         "speed": 55
-      }
+      },
+      "id": 1015
     },
     {
       "no": 882,
@@ -18286,7 +19301,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 80,
         "speed": 75
-      }
+      },
+      "id": 1016
     },
     {
       "no": 883,
@@ -18304,7 +19320,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 90,
         "speed": 55
-      }
+      },
+      "id": 1017
     },
     {
       "no": 884,
@@ -18322,7 +19339,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 120,
         "spDefence": 50,
         "speed": 85
-      }
+      },
+      "id": 1018
     },
     {
       "no": 885,
@@ -18340,7 +19358,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 40,
         "spDefence": 30,
         "speed": 82
-      }
+      },
+      "id": 1019
     },
     {
       "no": 886,
@@ -18358,7 +19377,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 60,
         "spDefence": 50,
         "speed": 102
-      }
+      },
+      "id": 1020
     },
     {
       "no": 887,
@@ -18376,7 +19396,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 75,
         "speed": 142
-      }
+      },
+      "id": 1021
     },
     {
       "no": 888,
@@ -18394,7 +19415,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 115,
         "speed": 138
-      }
+      },
+      "id": 1022
     },
     {
       "no": 888,
@@ -18412,7 +19434,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 115,
         "speed": 148
-      }
+      },
+      "id": 1023
     },
     {
       "no": 889,
@@ -18430,7 +19453,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 115,
         "speed": 138
-      }
+      },
+      "id": 1024
     },
     {
       "no": 889,
@@ -18448,7 +19472,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 145,
         "speed": 128
-      }
+      },
+      "id": 1025
     },
     {
       "no": 890,
@@ -18466,7 +19491,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 145,
         "spDefence": 95,
         "speed": 130
-      }
+      },
+      "id": 1026
     },
     {
       "no": 890,
@@ -18484,7 +19510,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 125,
         "spDefence": 250,
         "speed": 130
-      }
+      },
+      "id": 1027
     },
     {
       "no": 891,
@@ -18502,7 +19529,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 53,
         "spDefence": 50,
         "speed": 72
-      }
+      },
+      "id": 1028
     },
     {
       "no": 892,
@@ -18520,7 +19548,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 63,
         "spDefence": 60,
         "speed": 97
-      }
+      },
+      "id": 1029
     },
     {
       "no": 892,
@@ -18538,7 +19567,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 63,
         "spDefence": 60,
         "speed": 97
-      }
+      },
+      "id": 1030
     },
     {
       "no": 893,
@@ -18556,7 +19586,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 70,
         "spDefence": 95,
         "speed": 105
-      }
+      },
+      "id": 1031
     },
     {
       "no": 894,
@@ -18574,7 +19605,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 50,
         "speed": 200
-      }
+      },
+      "id": 1032
     },
     {
       "no": 895,
@@ -18592,7 +19624,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 100,
         "spDefence": 50,
         "speed": 80
-      }
+      },
+      "id": 1033
     },
     {
       "no": 896,
@@ -18610,7 +19643,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 65,
         "spDefence": 110,
         "speed": 30
-      }
+      },
+      "id": 1034
     },
     {
       "no": 897,
@@ -18628,7 +19662,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 145,
         "spDefence": 80,
         "speed": 130
-      }
+      },
+      "id": 1035
     },
     {
       "no": 898,
@@ -18646,7 +19681,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 80,
         "spDefence": 80,
         "speed": 80
-      }
+      },
+      "id": 1036
     },
     {
       "no": 898,
@@ -18664,7 +19700,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 165,
         "spDefence": 100,
         "speed": 150
-      }
+      },
+      "id": 1037
     },
     {
       "no": 898,
@@ -18682,7 +19719,8 @@ class PokemonData < ActiveHash::Base
         "spAttack": 85,
         "spDefence": 130,
         "speed": 50
-      }
+      },
+      "id": 1038
     }
   ]
 end
