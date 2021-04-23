@@ -2,8 +2,6 @@ class Pokemon < ApplicationRecord
   extend ActiveHash::Associations::ActiveRecordExtensions
 
   belongs_to :user, dependent: :destroy
-  belongs_to :pokemon_data
-  belongs_to :nature_data
 
   # numericalityは小数を許容するため、only_integerで整数のみを許可する
   with_options numericality: {only_integer: true} do
