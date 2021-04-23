@@ -5,8 +5,8 @@ ja:
         username: ユーザー名
         nickname: 表示名
       pokemon:
-        pokemon_data_id: ポケモンのデータ
-        nature_data_id: 性格のデータ
+        name: ポケモン
+        nature: 性格
         hp_iv: HPの個体値
         hp_ev: HPの努力値
         attack_iv: 攻撃の個体値

@@ -213,40 +213,16 @@ RSpec.describe Pokemon, type: :model do
     end
 
     context '新規登録できないとき' do
-      it 'ポケモンのデータが空では登録できない' do
-        @pokemon.pokemon_data_id = ''
+      it 'ポケモンが空では登録できない' do
+        @pokemon.name = ''
         @pokemon.valid?
-        expect(@pokemon.errors.full_messages).to include("ポケモンのデータは数値で入力してください")
-      end
-
-      it 'ポケモンのデータが文字列では登録できない' do
-        @pokemon.pokemon_data_id = "１２３"
-        @pokemon.valid?
-        expect(@pokemon.errors.full_messages).to include("ポケモンのデータは数値で入力してください")
-      end
-
-      it 'ポケモンのデータが小数では登録できない' do
-        @pokemon.pokemon_data_id = 123.4
-        @pokemon.valid?
-        expect(@pokemon.errors.full_messages).to include("ポケモンのデータは整数で入力してください")
+        expect(@pokemon.errors.full_messages).to include("ポケモンを入力してください")
       end
         
-      it '性格のデータが空では登録できない' do
-        @pokemon.nature_data_id = ''
+      it '性格が空では登録できない' do
+        @pokemon.nature = ''
         @pokemon.valid?
-        expect(@pokemon.errors.full_messages).to include("性格のデータは数値で入力してください")
-      end
-
-      it '性格のデータが文字列では登録できない' do
-        @pokemon.nature_data_id = "９８７"
-        @pokemon.valid?
-        expect(@pokemon.errors.full_messages).to include("性格のデータは数値で入力してください")
-      end
-
-      it '性格のデータが小数では登録できない' do
-        @pokemon.nature_data_id = 987.6
-        @pokemon.valid?
-        expect(@pokemon.errors.full_messages).to include("性格のデータは整数で入力してください")
+        expect(@pokemon.errors.full_messages).to include("性格を入力してください")
       end
 
       it 'Lvが1未満では登録できない' do
