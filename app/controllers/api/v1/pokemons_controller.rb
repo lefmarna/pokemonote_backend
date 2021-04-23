@@ -3,14 +3,13 @@ class Api::V1::PokemonsController < ApplicationController
 
   # GET /pokemons
   def index
-    @pokemons = Pokemon.all
-
-    render json: @pokemons
+    @pokemons = Pokemon.includes(:user)
+    render json: @pokemons.to_json(include: [user: {only: [:username, :nickname]}])
   end
 
   # GET /pokemons/1
   def show
-    render json: @pokemon
+    render json: @pokemon.to_json(include: [user: {only: [:username, :nickname]}])
   end
 
   # POST /pokemons
