@@ -5,8 +5,8 @@ class Api::V1::UsersController < ApplicationController
   # GET /users
   def index
     # ユーザーの一覧表示に画像も表示したいが、そのための処理はeach文などを使って書かなくてはならないのだろうか？ もっと良い書き方があれば知りたい
-    @users = User.select(:id, :username, :nickname)
-    render json: @users
+    @users = User.all
+    render json: @users.to_json(only: [:id, :nickname, :username])
   end
   
   # GET /users/1
