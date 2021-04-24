@@ -34,7 +34,7 @@ RSpec.describe "Api::V1::Users", type: :request do
 
   describe 'GET /show' do
     it 'リクエストが成功すること' do
-      get api_v1_user_path(@user)
+      get api_v1_users_path(@user)
       expect(response.status).to eq 200
     end
     
