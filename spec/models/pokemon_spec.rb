@@ -56,6 +56,16 @@ RSpec.describe Pokemon, type: :model do
         expect(@pokemon).to be_valid
       end
 
+      it 'HPの実数値が1以上であれば登録できる' do
+        @pokemon.hp = 1
+        expect(@pokemon).to be_valid
+      end
+
+      it 'HPの実数値が999以下であれば登録できる' do
+        @pokemon.hp = 999
+        expect(@pokemon).to be_valid
+      end
+
       it '攻撃の個体値が空でも登録できる' do
         @pokemon.attack_iv = ''
         expect(@pokemon).to be_valid
@@ -86,6 +96,16 @@ RSpec.describe Pokemon, type: :model do
         expect(@pokemon).to be_valid
       end
 
+      it '攻撃の実数値が1以上であれば登録できる' do
+        @pokemon.attack = 1
+        expect(@pokemon).to be_valid
+      end
+
+      it '攻撃の実数値が999以下であれば登録できる' do
+        @pokemon.attack = 999
+        expect(@pokemon).to be_valid
+      end
+      
       it '防御の個体値が空でも登録できる' do
         @pokemon.defence_iv = ''
         expect(@pokemon).to be_valid
@@ -113,6 +133,16 @@ RSpec.describe Pokemon, type: :model do
 
       it '防御の努力値が252以下であれば登録できる' do
         @pokemon.defence_ev = 252
+        expect(@pokemon).to be_valid
+      end
+
+      it '防御の実数値が1以上であれば登録できる' do
+        @pokemon.defence = 1
+        expect(@pokemon).to be_valid
+      end
+
+      it '防御の実数値が999以下であれば登録できる' do
+        @pokemon.defence = 999
         expect(@pokemon).to be_valid
       end
 
@@ -146,6 +176,16 @@ RSpec.describe Pokemon, type: :model do
         expect(@pokemon).to be_valid
       end
 
+      it '特攻の実数値が1以上であれば登録できる' do
+        @pokemon.sp_attack = 1
+        expect(@pokemon).to be_valid
+      end
+
+      it '特攻の実数値が999以下であれば登録できる' do
+        @pokemon.sp_attack = 999
+        expect(@pokemon).to be_valid
+      end
+
       it '特防の個体値が空でも登録できる' do
         @pokemon.sp_defence_iv = ''
         expect(@pokemon).to be_valid
@@ -176,6 +216,16 @@ RSpec.describe Pokemon, type: :model do
         expect(@pokemon).to be_valid
       end
 
+      it '特防の実数値が1以上であれば登録できる' do
+        @pokemon.sp_defence = 1
+        expect(@pokemon).to be_valid
+      end
+
+      it '特防の実数値が999以下であれば登録できる' do
+        @pokemon.sp_defence = 999
+        expect(@pokemon).to be_valid
+      end
+
       it '素早さの個体値が空でも登録できる' do
         @pokemon.speed_iv = ''
         expect(@pokemon).to be_valid
@@ -203,6 +253,16 @@ RSpec.describe Pokemon, type: :model do
 
       it '素早さの努力値が252以下であれば登録できる' do
         @pokemon.speed_ev = 252
+        expect(@pokemon).to be_valid
+      end
+
+      it '素早さの実数値が1以上であれば登録できる' do
+        @pokemon.speed = 1
+        expect(@pokemon).to be_valid
+      end
+
+      it '素早さの実数値が999以下であれば登録できる' do
+        @pokemon.speed = 999
         expect(@pokemon).to be_valid
       end
 
@@ -297,6 +357,36 @@ RSpec.describe Pokemon, type: :model do
         expect(@pokemon.errors.full_messages).to include("HPの努力値は整数で入力してください")
       end
 
+      it 'HPの実数値が空では登録できない' do
+        @pokemon.hp = ""
+        @pokemon.valid?
+        expect(@pokemon.errors.full_messages).to include("HPの実数値は数値で入力してください")
+      end
+
+      it 'HPの実数値が1未満では登録できない' do
+        @pokemon.hp = 0
+        @pokemon.valid?
+        expect(@pokemon.errors.full_messages).to include("HPの実数値は1以上の値にしてください")
+      end
+
+      it 'HPの実数値が999より大きいと登録できない' do
+        @pokemon.hp = 1000
+        @pokemon.valid?
+        expect(@pokemon.errors.full_messages).to include("HPの実数値は999以下の値にしてください")
+      end
+
+      it 'HPの実数値が文字列では登録できない' do
+        @pokemon.hp = "３３３"
+        @pokemon.valid?
+        expect(@pokemon.errors.full_messages).to include("HPの実数値は数値で入力してください")
+      end
+
+      it 'HPの実数値が小数では登録できない' do
+        @pokemon.hp = 33.3
+        @pokemon.valid?
+        expect(@pokemon.errors.full_messages).to include("HPの実数値は整数で入力してください")
+      end
+
       it '攻撃の個体値が0未満では登録できない' do
         @pokemon.attack_iv = -1
         @pokemon.valid?
@@ -343,6 +433,36 @@ RSpec.describe Pokemon, type: :model do
         @pokemon.attack_ev = 25.2
         @pokemon.valid?
         expect(@pokemon.errors.full_messages).to include("攻撃の努力値は整数で入力してください")
+      end
+
+      it '攻撃の実数値が空では登録できない' do
+        @pokemon.attack = ""
+        @pokemon.valid?
+        expect(@pokemon.errors.full_messages).to include("攻撃の実数値は数値で入力してください")
+      end
+
+      it '攻撃の実数値が1未満では登録できない' do
+        @pokemon.attack = 0
+        @pokemon.valid?
+        expect(@pokemon.errors.full_messages).to include("攻撃の実数値は1以上の値にしてください")
+      end
+
+      it '攻撃の実数値が999より大きいと登録できない' do
+        @pokemon.attack = 1000
+        @pokemon.valid?
+        expect(@pokemon.errors.full_messages).to include("攻撃の実数値は999以下の値にしてください")
+      end
+
+      it '攻撃の実数値が文字列では登録できない' do
+        @pokemon.attack = "３３３"
+        @pokemon.valid?
+        expect(@pokemon.errors.full_messages).to include("攻撃の実数値は数値で入力してください")
+      end
+
+      it '攻撃の実数値が小数では登録できない' do
+        @pokemon.attack = 33.3
+        @pokemon.valid?
+        expect(@pokemon.errors.full_messages).to include("攻撃の実数値は整数で入力してください")
       end
 
       it '防御の個体値が0未満では登録できない' do
@@ -392,7 +512,37 @@ RSpec.describe Pokemon, type: :model do
         @pokemon.valid?
         expect(@pokemon.errors.full_messages).to include("防御の努力値は整数で入力してください")
       end
-      
+
+      it '防御の実数値が空では登録できない' do
+        @pokemon.defence = ""
+        @pokemon.valid?
+        expect(@pokemon.errors.full_messages).to include("防御の実数値は数値で入力してください")
+      end
+
+      it '防御の実数値が1未満では登録できない' do
+        @pokemon.defence = 0
+        @pokemon.valid?
+        expect(@pokemon.errors.full_messages).to include("防御の実数値は1以上の値にしてください")
+      end
+
+      it '防御の実数値が999より大きいと登録できない' do
+        @pokemon.defence = 1000
+        @pokemon.valid?
+        expect(@pokemon.errors.full_messages).to include("防御の実数値は999以下の値にしてください")
+      end
+
+      it '防御の実数値が文字列では登録できない' do
+        @pokemon.defence = "３３３"
+        @pokemon.valid?
+        expect(@pokemon.errors.full_messages).to include("防御の実数値は数値で入力してください")
+      end
+
+      it '防御の実数値が小数では登録できない' do
+        @pokemon.defence = 33.3
+        @pokemon.valid?
+        expect(@pokemon.errors.full_messages).to include("防御の実数値は整数で入力してください")
+      end
+
       it '特攻の個体値が0未満では登録できない' do
         @pokemon.sp_attack_iv = -1
         @pokemon.valid?
@@ -439,6 +589,36 @@ RSpec.describe Pokemon, type: :model do
         @pokemon.sp_attack_ev = 25.2
         @pokemon.valid?
         expect(@pokemon.errors.full_messages).to include("特攻の努力値は整数で入力してください")
+      end
+
+      it '特攻の実数値が空では登録できない' do
+        @pokemon.sp_attack = ""
+        @pokemon.valid?
+        expect(@pokemon.errors.full_messages).to include("特攻の実数値は数値で入力してください")
+      end
+
+      it '特攻の実数値が1未満では登録できない' do
+        @pokemon.sp_attack = 0
+        @pokemon.valid?
+        expect(@pokemon.errors.full_messages).to include("特攻の実数値は1以上の値にしてください")
+      end
+
+      it '特攻の実数値が999より大きいと登録できない' do
+        @pokemon.sp_attack = 1000
+        @pokemon.valid?
+        expect(@pokemon.errors.full_messages).to include("特攻の実数値は999以下の値にしてください")
+      end
+
+      it '特攻の実数値が文字列では登録できない' do
+        @pokemon.sp_attack = "３３３"
+        @pokemon.valid?
+        expect(@pokemon.errors.full_messages).to include("特攻の実数値は数値で入力してください")
+      end
+
+      it '特攻の実数値が小数では登録できない' do
+        @pokemon.sp_attack = 33.3
+        @pokemon.valid?
+        expect(@pokemon.errors.full_messages).to include("特攻の実数値は整数で入力してください")
       end
       
       it '特防の個体値が0未満では登録できない' do
@@ -489,6 +669,36 @@ RSpec.describe Pokemon, type: :model do
         expect(@pokemon.errors.full_messages).to include("特防の努力値は整数で入力してください")
       end
 
+      it '特防の実数値が空では登録できない' do
+        @pokemon.sp_defence = ""
+        @pokemon.valid?
+        expect(@pokemon.errors.full_messages).to include("特防の実数値は数値で入力してください")
+      end
+
+      it '特防の実数値が1未満では登録できない' do
+        @pokemon.sp_defence = 0
+        @pokemon.valid?
+        expect(@pokemon.errors.full_messages).to include("特防の実数値は1以上の値にしてください")
+      end
+
+      it '特防の実数値が999より大きいと登録できない' do
+        @pokemon.sp_defence = 1000
+        @pokemon.valid?
+        expect(@pokemon.errors.full_messages).to include("特防の実数値は999以下の値にしてください")
+      end
+
+      it '特防の実数値が文字列では登録できない' do
+        @pokemon.sp_defence = "３３３"
+        @pokemon.valid?
+        expect(@pokemon.errors.full_messages).to include("特防の実数値は数値で入力してください")
+      end
+
+      it '特防の実数値が小数では登録できない' do
+        @pokemon.sp_defence = 33.3
+        @pokemon.valid?
+        expect(@pokemon.errors.full_messages).to include("特防の実数値は整数で入力してください")
+      end
+
       it '素早さの個体値が0未満では登録できない' do
         @pokemon.speed_iv = -1
         @pokemon.valid?
@@ -535,6 +745,36 @@ RSpec.describe Pokemon, type: :model do
         @pokemon.speed_ev = 25.2
         @pokemon.valid?
         expect(@pokemon.errors.full_messages).to include("素早さの努力値は整数で入力してください")
+      end
+
+      it '素早さの実数値が空では登録できない' do
+        @pokemon.speed = ""
+        @pokemon.valid?
+        expect(@pokemon.errors.full_messages).to include("素早さの実数値は数値で入力してください")
+      end
+
+      it '素早さの実数値が1未満では登録できない' do
+        @pokemon.speed = 0
+        @pokemon.valid?
+        expect(@pokemon.errors.full_messages).to include("素早さの実数値は1以上の値にしてください")
+      end
+
+      it '素早さの実数値が999より大きいと登録できない' do
+        @pokemon.speed = 1000
+        @pokemon.valid?
+        expect(@pokemon.errors.full_messages).to include("素早さの実数値は999以下の値にしてください")
+      end
+
+      it '素早さの実数値が文字列では登録できない' do
+        @pokemon.speed = "３３３"
+        @pokemon.valid?
+        expect(@pokemon.errors.full_messages).to include("素早さの実数値は数値で入力してください")
+      end
+
+      it '素早さの実数値が小数では登録できない' do
+        @pokemon.speed = 33.3
+        @pokemon.valid?
+        expect(@pokemon.errors.full_messages).to include("素早さの実数値は整数で入力してください")
       end
 
       it 'ユーザーが空では登録できない' do
