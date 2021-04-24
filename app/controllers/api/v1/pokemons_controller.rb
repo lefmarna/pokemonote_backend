@@ -45,6 +45,6 @@ class Api::V1::PokemonsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def pokemon_params
-      params.require(:pokemon).permit(:pokemon_data_id, :nature_data_id, :lv, :hp_iv, :hp_ev, :attack_iv, :attack_ev, :defence_iv, :defence_ev, :sp_attack_iv, :sp_attack_ev, :sp_defence_iv, :sp_defence_ev, :speed_iv, :speed_ev, :description).merge(user_id: current_api_v1_user.id)
+      params.require(:pokemon).permit(:name, :nature, :lv, :hp_iv, :hp_ev, :hp, :attack_iv, :attack_ev, :attack, :defence_iv, :defence_ev, :defence, :sp_attack_iv, :sp_attack_ev, :sp_attack, :sp_defence_iv, :sp_defence_ev, :sp_defence, :speed_iv, :speed_ev, :speed, :description).merge(user_id: current_api_v1_user.id)
     end
 end
