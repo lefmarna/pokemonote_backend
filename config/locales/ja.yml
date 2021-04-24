@@ -5,18 +5,24 @@ ja:
         username: ユーザー名
         nickname: 表示名
       pokemon:
-        pokemon_data_id: ポケモンのデータ
-        nature_data_id: 性格のデータ
+        name: ポケモン
+        nature: 性格
         hp_iv: HPの個体値
         hp_ev: HPの努力値
+        hp: HPの実数値
         attack_iv: 攻撃の個体値
         attack_ev: 攻撃の努力値
+        attack: 攻撃の実数値
         defence_iv: 防御の個体値
         defence_ev: 防御の努力値
+        defence: 防御の実数値
         sp_attack_iv: 特攻の個体値
         sp_attack_ev: 特攻の努力値
+        sp_attack: 特攻の実数値
         sp_defence_iv: 特防の個体値
         sp_defence_ev: 特防の努力値
+        sp_defence: 特防の実数値
         speed_iv: 素早さの個体値
         speed_ev: 素早さの努力値
+        speed: 素早さの実数値
         user: ユーザー
