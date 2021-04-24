@@ -1,5 +1,5 @@
 class Api::V1::UsersController < ApplicationController
-  before_action :authenticate_v1_user!, except: [:index, :show]
+  before_action :authenticate_api_v1_user!, except: [:index, :show]
   before_action :set_user, only: [:show, :update, :destroy]
 
   # GET /users
@@ -11,13 +11,14 @@ class Api::V1::UsersController < ApplicationController
   
   # GET /users/1
   def show
-    # if @user.image.attached?
-    #   user_with_image[:image] = url_for(@user.image)
-    # end
+    if @user.image.attached?
+      image = url_for(@user.image)
+    end
     @pokemons = Pokemon.where(user_id: @user.id).includes(:user).order(id: :DESC)
     render json: {
       user: @user.to_json(only: [:id, :nickname, :username]),
-      pokemons: @pokemons.to_json(include: [user: {only: [:nickname]}], only: [:id, :name, :nature, :lv, :hp_ev, :hp, :attack_ev, :attack, :defence_ev, :defence, :sp_attack_ev, :sp_attack, :sp_defence_ev, :sp_defence, :speed_ev, :speed, :user_id])
+      image: image,
+      pokemons: @pokemons.to_json(include: [user: {only: [:nickname, :username]}], only: [:id, :name, :nature, :lv, :hp_ev, :hp, :attack_ev, :attack, :defence_ev, :defence, :sp_attack_ev, :sp_attack, :sp_defence_ev, :sp_defence, :speed_ev, :speed])
     }
   end
 
@@ -49,7 +50,7 @@ class Api::V1::UsersController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_user
-      @user = User.find(params[:id])
+      @user = User.find_by(username: params[:username])
     end
 
     # Only allow a trusted parameter "white list" through.
