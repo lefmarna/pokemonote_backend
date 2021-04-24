@@ -11,15 +11,14 @@ class Api::V1::UsersController < ApplicationController
   
   # GET /users/1
   def show
-    response = {
-      id: @user.id,
-      username: @user.username,
-      nickname: @user.nickname
+    # if @user.image.attached?
+    #   user_with_image[:image] = url_for(@user.image)
+    # end
+    @pokemons = Pokemon.where(user_id: @user.id).includes(:user).order(id: :DESC)
+    render json: {
+      user: @user.to_json(only: [:id, :nickname, :username]),
+      pokemons: @pokemons.to_json(include: [user: {only: [:nickname]}], only: [:id, :name, :nature, :lv, :hp_ev, :hp, :attack_ev, :attack, :defence_ev, :defence, :sp_attack_ev, :sp_attack, :sp_defence_ev, :sp_defence, :speed_ev, :speed, :user_id])
     }
-    if @user.image.attached?
-      response[:image] = url_for(@user.image)
-    end
-    render json: response
   end
 
   # POST /users
