@@ -55,8 +55,6 @@ class Api::V1::PokemonsController < ApplicationController
   end
 
   def check_user
-    if current_api_v1_user.id != @pokemon.user.id
-      render json: @pokemon.errors, status: :unprocessable_entity
-    end
+    render json: @pokemon.errors, status: :unprocessable_entity if current_api_v1_user.id != @pokemon.user.id
   end
 end
