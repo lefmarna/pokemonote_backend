@@ -1,7 +1,7 @@
 class Api::V1::PokemonsController < ApplicationController
   before_action :authenticate_api_v1_user!, except: [:index, :show]
   before_action :set_pokemon, only: [:show, :update, :destroy]
-  before_action :check_user, only: [:edit, :update, :destroy]  
+  before_action :check_user, only: [:edit, :update, :destroy]
 
   # GET /pokemons
   def index
@@ -56,5 +56,4 @@ class Api::V1::PokemonsController < ApplicationController
       end
     end
     
-  end
 end
