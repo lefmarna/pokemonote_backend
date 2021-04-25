@@ -17,9 +17,9 @@ gem 'puma', '~> 3.11'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use Active Storage variant
-gem 'mini_magick'
-gem 'image_processing', '~> 1.2'
 gem "aws-sdk-s3", require: false
+gem 'image_processing', '~> 1.2'
+gem 'mini_magick'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
@@ -34,10 +34,10 @@ group :development, :test do
 
   # Capistrano
   gem 'capistrano'
-  gem 'capistrano-rbenv'
+  gem 'capistrano3-unicorn'  
   gem 'capistrano-bundler'
   gem 'capistrano-rails'
-  gem 'capistrano3-unicorn'  
+  gem 'capistrano-rbenv'
 end
 
 group :development do
@@ -54,10 +54,10 @@ group :development do
 end
 
 group :test do
-  gem 'rspec-rails'
-  gem 'rspec_junit_formatter' # CircleCIでRSpecを動かすのに必要
   gem 'factory_bot_rails'
   gem 'faker'
+  gem 'rspec_junit_formatter' # CircleCIでRSpecを動かすのに必要
+  gem 'rspec-rails'
 end
 
 group :production do
