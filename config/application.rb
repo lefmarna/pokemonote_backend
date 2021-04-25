@@ -1,17 +1,17 @@
 require_relative 'boot'
 
-require "rails"
+require 'rails'
 # Pick the frameworks you want:
-require "active_model/railtie"
-require "active_job/railtie"
-require "active_record/railtie"
-require "active_storage/engine"
-require "action_controller/railtie"
-require "action_mailer/railtie"
-require "action_mailbox/engine"
-require "action_text/engine"
-require "action_view/railtie"
-require "action_cable/engine"
+require 'active_model/railtie'
+require 'active_job/railtie'
+require 'active_record/railtie'
+require 'active_storage/engine'
+require 'action_controller/railtie'
+require 'action_mailer/railtie'
+require 'action_mailbox/engine'
+require 'action_text/engine'
+require 'action_view/railtie'
+require 'action_cable/engine'
 # require "sprockets/railtie"
 # require "rails/test_unit/railtie"
 
@@ -31,11 +31,11 @@ module PokemonoteBackend
     # RSpec関連のファイルを自動生成する設定
     config.generators do |g|
       g.test_framework :rspec,
-        controller_specs: false,
-        helper_specs: false,
-        routing_specs: false,
-        view_specs: false
-      g.fixture_replacement :factory_bot, dir: "spec/factories"
+                       controller_specs: false,
+                       helper_specs: false,
+                       routing_specs: false,
+                       view_specs: false
+      g.fixture_replacement :factory_bot, dir: 'spec/factories'
     end
 
     # Settings in config/environments/* take precedence over those specified here.

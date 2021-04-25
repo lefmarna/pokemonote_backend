@@ -29,6 +29,13 @@ Metrics/PerceivedComplexity:
 Metrics/CyclomaticComplexity:
   Max: 10
 
+# メソッドの行数が多すぎないかをチェック
+Metrics/MethodLength:
+  Max: 30
+  Exclude:
+    - app/models/concerns/nature_data.rb
+    - app/models/concerns/pokemon_data.rb
+
 # ネストが深すぎないかをチェック（if文のネストもチェック）
 Metrics/BlockNesting:
   Max: 5
@@ -64,3 +71,7 @@ Style/FrozenStringLiteralComment:
 # メソッドパラメータ名の最小文字数を設定
 Naming/MethodParameterName:
   MinNameLength: 1
+
+# Contextの命名規則を無効（日本語では使いにくい）
+RSpec/ContextWording:
+  Enabled: false

@@ -17,7 +17,7 @@ gem 'puma', '~> 3.11'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use Active Storage variant
-gem "aws-sdk-s3", require: false
+gem 'aws-sdk-s3', require: false
 gem 'image_processing', '~> 1.2'
 gem 'mini_magick'
 
@@ -34,7 +34,7 @@ group :development, :test do
 
   # Capistrano
   gem 'capistrano'
-  gem 'capistrano3-unicorn'  
+  gem 'capistrano3-unicorn'
   gem 'capistrano-bundler'
   gem 'capistrano-rails'
   gem 'capistrano-rbenv'
@@ -71,8 +71,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'rails-i18n'
 
 # ログイン認証
-gem "devise"
-gem "devise_token_auth"
+gem 'devise'
+gem 'devise_token_auth'
 
 # データの取り扱い
 gem 'active_hash'

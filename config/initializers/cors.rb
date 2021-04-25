@@ -10,8 +10,8 @@ Rails.application.config.middleware.insert_before 0, Rack::Cors do
     origins ENV['VUE_ORIGIN_ADDRESS']
 
     resource '*',
-      headers: :any,
-      expose: ['access-token', 'uid', 'client'], # 認証情報をレスポンスで返す
-      methods: [:get, :post, :put, :patch, :delete, :options, :head]
+             headers: :any,
+             expose: ['access-token', 'uid', 'client'], # 認証情報をレスポンスで返す
+             methods: [:get, :post, :put, :patch, :delete, :options, :head]
   end
 end

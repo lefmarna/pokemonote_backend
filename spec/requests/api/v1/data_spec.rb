@@ -1,7 +1,7 @@
 require 'rails_helper'
 
-RSpec.describe "Api::V1::Data::Natures", type: :request do
-  describe "GET /index" do
+RSpec.describe 'Api::V1::Data::Natures', type: :request do
+  describe 'GET /index' do
     it 'リクエストが成功すること' do
       get api_v1_data_path
       expect(response.status).to eq 200
