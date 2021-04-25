@@ -73,6 +73,3 @@ gem 'rails-i18n'
 # ログイン認証
 gem 'devise'
 gem 'devise_token_auth'
-
-# データの取り扱い
-gem 'active_hash'

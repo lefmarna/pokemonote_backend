@@ -14,6 +14,16 @@ AllCops:
     - "tmp/**/*"
     - "node_modules/**/*"
 
+Rails/FilePath:
+  Exclude:
+    - "config/environments/development.rb"
+
+# 1行あたりの文字数をチェックする
+Layout/LineLength:
+  Exclude:
+    - app/controllers/api/v1/pokemons_controller.rb
+    - app/controllers/api/v1/users_controller.rb
+    - config/initializers/devise.rb
 # Assignment: 変数への代入
 # Branch: メソッド呼び出し
 # Condition: 条件文
@@ -72,6 +82,17 @@ Style/FrozenStringLiteralComment:
 Naming/MethodParameterName:
   MinNameLength: 1
 
+# Moduleはデフォルトで100行までとなっているため、データ格納用に使っているModuleは除外している
+Metrics/ModuleLength:
+  Exclude:
+    - app/models/concerns/nature_data.rb
+    - app/models/concerns/pokemon_data.rb
+
 # Contextの命名規則を無効（日本語では使いにくい）
 RSpec/ContextWording:
   Enabled: false
+
+# devise-token-auth によって作られたモデルは ActiveRecord::Base を継承しているが、これに対して警告が出てしまうため除外
+Rails/ApplicationRecord:
+  Exclude:
+    - "app/models/user.rb"

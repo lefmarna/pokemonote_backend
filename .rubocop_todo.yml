@@ -12,11 +12,6 @@
 Metrics/BlockLength:
   Max: 645
 
-# Offense count: 2
-# Configuration parameters: CountComments, CountAsOne.
-Metrics/ModuleLength:
-  Max: 18689
-
 # Offense count: 410
 # Configuration parameters: AssignmentOnly.
 RSpec/InstanceVariable:
@@ -31,19 +26,6 @@ RSpec/RepeatedExample:
     - "spec/requests/api/v1/users_spec.rb"
 
 # Offense count: 1
-# Cop supports --auto-correct.
-Rails/ApplicationRecord:
-  Exclude:
-    - "app/models/user.rb"
-
-# Offense count: 1
-# Configuration parameters: EnforcedStyle.
-# SupportedStyles: slashes, arguments
-Rails/FilePath:
-  Exclude:
-    - "config/environments/development.rb"
-
-# Offense count: 1
 # Configuration parameters: Include.
 # Include: app/controllers/**/*.rb
 Rails/LexicallyScopedActionFilter:
@@ -51,30 +33,10 @@ Rails/LexicallyScopedActionFilter:
     - "app/controllers/api/v1/pokemons_controller.rb"
 
 # Offense count: 1
-# Configuration parameters: Include.
-# Include: app/models/**/*.rb
-Rails/UniqueValidationWithoutIndex:
-  Exclude:
-    - "app/models/user.rb"
-
-# Offense count: 1
 # Cop supports --auto-correct.
 Style/GlobalStdStream:
   Exclude:
     - "config/environments/production.rb"
-
-# Offense count: 1
-# Configuration parameters: MinBodyLength.
-Style/GuardClause:
-  Exclude:
-    - "app/controllers/api/v1/pokemons_controller.rb"
-
-# Offense count: 2
-# Cop supports --auto-correct.
-Style/IfUnlessModifier:
-  Exclude:
-    - "app/controllers/api/v1/pokemons_controller.rb"
-    - "app/controllers/api/v1/users_controller.rb"
 
 # Offense count: 2
 # Cop supports --auto-correct.

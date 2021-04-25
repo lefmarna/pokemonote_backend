@@ -1,6 +1,4 @@
 class Pokemon < ApplicationRecord
-  extend ActiveHash::Associations::ActiveRecordExtensions
-
   belongs_to :user, dependent: :destroy
 
   # 空を許可しない

@@ -10,9 +10,7 @@ class Api::V1::UsersController < ApplicationController
   def show
     @user = User.find_by(username: params[:username])
     @pokemons = Pokemon.where(user_id: @user.id).includes(:user).order(id: :DESC)
-    if @user.image.attached?
-      image = url_for(@user.image)
-    end
+    image = url_for(@user.image) if @user.image.attached?
     render json: {
       user: @user.to_json(only: [:id, :nickname, :username]),
       image: image,
