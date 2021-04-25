@@ -1,5 +1,7 @@
 class Api::V1::PokemonsController < ApplicationController
+  before_action :authenticate_api_v1_user!, except: [:index, :show]
   before_action :set_pokemon, only: [:show, :update, :destroy]
+  before_action :check_user, only: [:edit, :update, :destroy]  
 
   # GET /pokemons
   def index
@@ -47,4 +49,12 @@ class Api::V1::PokemonsController < ApplicationController
     def pokemon_params
       params.require(:pokemon).permit(:name, :nature, :lv, :hp_iv, :hp_ev, :hp, :attack_iv, :attack_ev, :attack, :defence_iv, :defence_ev, :defence, :sp_attack_iv, :sp_attack_ev, :sp_attack, :sp_defence_iv, :sp_defence_ev, :sp_defence, :speed_iv, :speed_ev, :speed, :description).merge(user_id: current_api_v1_user.id)
     end
+
+    def check_user
+      if current_api_v1_user.id != @pokemon.user.id
+        render json: @pokemon.errors, status: :unprocessable_entity
+      end
+    end
+    
+  end
 end
