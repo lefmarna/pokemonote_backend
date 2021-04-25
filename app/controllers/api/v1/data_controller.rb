@@ -3,7 +3,7 @@ class Api::V1::DataController < ApplicationController
   include NatureData
   include SpeedItems
   include SpeedAbilities
-  
+
   def index
     render json: {
       pokemonData: pokemon_data,

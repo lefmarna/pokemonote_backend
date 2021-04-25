@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe "Api::V1::Users", type: :request do
+RSpec.describe 'Api::V1::Users', type: :request do
   before do
     @user = FactoryBot.create(:user)
   end
@@ -10,7 +10,7 @@ RSpec.describe "Api::V1::Users", type: :request do
       get api_v1_users_path
       expect(response.status).to eq 200
     end
-    
+
     it 'レスポンスに「id」が存在すること' do
       get api_v1_users_path
       expect(response.body).to include(@user.id.to_s)
@@ -25,7 +25,7 @@ RSpec.describe "Api::V1::Users", type: :request do
       get api_v1_users_path
       expect(response.body).to include(@user.nickname)
     end
-    
+
     it 'レスポンスに「Email」が存在しないこと' do
       get api_v1_users_path
       expect(response.body).to include(@user.nickname)
@@ -37,7 +37,7 @@ RSpec.describe "Api::V1::Users", type: :request do
       get api_v1_users_path(@user)
       expect(response.status).to eq 200
     end
-    
+
     it 'レスポンスに「id」が存在すること' do
       get api_v1_users_path(@user)
       expect(response.body).to include(@user.id.to_s)
@@ -52,7 +52,7 @@ RSpec.describe "Api::V1::Users", type: :request do
       get api_v1_users_path(@user)
       expect(response.body).to include(@user.nickname)
     end
-    
+
     it 'レスポンスに「Email」が存在しないこと' do
       get api_v1_users_path(@user)
       expect(response.body).to include(@user.nickname)

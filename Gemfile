@@ -17,9 +17,9 @@ gem 'puma', '~> 3.11'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use Active Storage variant
-gem 'mini_magick'
+gem 'aws-sdk-s3', require: false
 gem 'image_processing', '~> 1.2'
-gem "aws-sdk-s3", require: false
+gem 'mini_magick'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
@@ -34,10 +34,10 @@ group :development, :test do
 
   # Capistrano
   gem 'capistrano'
-  gem 'capistrano-rbenv'
+  gem 'capistrano3-unicorn'
   gem 'capistrano-bundler'
   gem 'capistrano-rails'
-  gem 'capistrano3-unicorn'  
+  gem 'capistrano-rbenv'
 end
 
 group :development do
@@ -45,13 +45,19 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+
+  # RuboCop
+  gem 'rubocop', require: false
+  gem 'rubocop-performance', require: false
+  gem 'rubocop-rails', require: false
+  gem 'rubocop-rspec', require: false
 end
 
 group :test do
-  gem 'rspec-rails'
-  gem 'rspec_junit_formatter' # CircleCIでRSpecを動かすのに必要
   gem 'factory_bot_rails'
   gem 'faker'
+  gem 'rspec_junit_formatter' # CircleCIでRSpecを動かすのに必要
+  gem 'rspec-rails'
 end
 
 group :production do
@@ -65,8 +71,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'rails-i18n'
 
 # ログイン認証
-gem "devise"
-gem "devise_token_auth"
+gem 'devise'
+gem 'devise_token_auth'
 
 # データの取り扱い
 gem 'active_hash'
