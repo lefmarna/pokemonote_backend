@@ -92,6 +92,10 @@ Metrics/ModuleLength:
 RSpec/ContextWording:
   Enabled: false
 
+# 'インスタンス変数の代わりに let を使用する場合は true にする
+RSpec/InstanceVariable:
+  Enabled: false
+
 # devise-token-auth によって作られたモデルは ActiveRecord::Base を継承しているが、これに対して警告が出てしまうため除外
 Rails/ApplicationRecord:
   Exclude:

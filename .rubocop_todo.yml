@@ -12,14 +12,6 @@
 Metrics/BlockLength:
   Max: 645
 
-# Offense count: 410
-# Configuration parameters: AssignmentOnly.
-RSpec/InstanceVariable:
-  Exclude:
-    - "spec/models/pokemon_spec.rb"
-    - "spec/models/user_spec.rb"
-    - "spec/requests/api/v1/users_spec.rb"
-
 # Offense count: 4
 RSpec/RepeatedExample:
   Exclude:
