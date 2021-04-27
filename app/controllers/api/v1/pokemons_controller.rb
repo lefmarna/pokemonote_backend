@@ -6,13 +6,11 @@ class Api::V1::PokemonsController < ApplicationController
   # GET /pokemons
   def index
     @pokemons = Pokemon.includes(:user).order(id: :DESC)
-    render json: @pokemons.to_json(include: [user: { only: [:nickname, :username] }],
-                                   only: [:id, :name, :nature, :lv, :hp_ev, :hp, :attack_ev, :attack, :defence_ev, :defence, :sp_attack_ev, :sp_attack,
-                                          :sp_defence_ev, :sp_defence, :speed_ev, :speed])
   end
 
   # GET /pokemons/1
   def show
+    # 本当はjbuilderで書きたいが、こっちのほうがシンプルなので、とりあえずこの形にしている
     render json: @pokemon.to_json(include: [user: { only: [:username, :nickname] }])
   end
 
