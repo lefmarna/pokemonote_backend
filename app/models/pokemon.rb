@@ -1,5 +1,5 @@
 class Pokemon < ApplicationRecord
-  belongs_to :user, dependent: :destroy
+  belongs_to :user
 
   # 空を許可しない
   with_options presence: true do
