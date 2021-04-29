@@ -8,6 +8,6 @@ class Api::V1::UsersController < ApplicationController
   def show
     @user = User.find_by(username: params[:username])
     @pokemons = Pokemon.where(user_id: @user.id).includes(:user).order(id: :DESC)
-    @image = url_for(@user.image) if @user.image.attached?
+    @icon = url_for(@user.icon) if @user.icon.attached?
   end
 end

@@ -1,5 +1,5 @@
 json.user @user, :nickname, :username
-json.image @image
+json.icon @icon
 
 json.pokemons @pokemons do |pokemon|
   json.id pokemon.id

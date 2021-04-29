@@ -7,7 +7,7 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :validatable
   include DeviseTokenAuth::Concerns::User
 
-  has_one_attached :image
+  has_one_attached :icon
   has_many :pokemons, dependent: :destroy
 
   with_options presence: true do
