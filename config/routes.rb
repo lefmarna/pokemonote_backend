@@ -5,7 +5,11 @@ Rails.application.routes.draw do
         registrations: 'api/v1/auth/registrations'
       }
       resources :users, only: [:index, :show], param: :username
-      resources :pokemons
+      resources :pokemons do
+        member do
+          get 'edit'
+        end
+      end
       resources :data, only: :index
     end
   end

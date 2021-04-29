@@ -1,6 +1,6 @@
 class Api::V1::PokemonsController < ApplicationController
   before_action :authenticate_api_v1_user!, except: [:index, :show]
-  before_action :set_pokemon, only: [:show, :update, :destroy]
+  before_action :set_pokemon, only: [:show, :edit, :update, :destroy]
   before_action :check_user, only: [:edit, :update, :destroy]
 
   # GET /pokemons
@@ -23,6 +23,10 @@ class Api::V1::PokemonsController < ApplicationController
     else
       render json: @pokemon.errors, status: :unprocessable_entity
     end
+  end
+
+  def edit
+    render json: @pokemon.to_json(include: [user: { only: [:username, :nickname] }])
   end
 
   # PATCH/PUT /pokemons/1
