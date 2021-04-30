@@ -10,6 +10,7 @@ Rails.application.routes.draw do
           get 'edit'
         end
       end
+      resources :tips, only: :create
       resources :data, only: :index
     end
   end
