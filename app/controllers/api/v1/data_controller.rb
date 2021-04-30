@@ -5,11 +5,11 @@ class Api::V1::DataController < ApplicationController
   include SpeedAbilities
 
   def index
-    render json: {
-      pokemonData: pokemon_data,
-      natureData: nature_data,
-      speed_items: speed_items,
-      speed_abilities: speed_abilities
-    }
+    @pokemon_data = pokemon_data
+    @nature_data = nature_data
+    @speed_items = speed_items
+    @speed_abilities = speed_abilities
+    # 人気のポケモントップ5を取ってくる
+    @popularity_ranking = Pokemon.group(:name).order(count_all: :DESC).limit(5).count.keys
   end
 end
