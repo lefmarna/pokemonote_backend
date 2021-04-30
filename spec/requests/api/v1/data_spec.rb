@@ -19,12 +19,12 @@ RSpec.describe 'Api::V1::Data::Natures', type: :request do
 
     it 'レスポンスに「道具（素早さ）のデータ」が存在すること' do
       get api_v1_data_path
-      expect(response.body).to include('speed_items')
+      expect(response.body).to include('speedItems')
     end
 
     it 'レスポンスに「特性（素早さ）のデータ」が存在すること' do
       get api_v1_data_path
-      expect(response.body).to include('speed_abilities')
+      expect(response.body).to include('speedAbilities')
     end
   end
 end
