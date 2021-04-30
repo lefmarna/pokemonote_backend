@@ -26,3 +26,5 @@ ja:
         speed_ev: 素早さの努力値
         speed: 素早さの実数値
         user: ユーザー
+      tip:
+        price: チップ
