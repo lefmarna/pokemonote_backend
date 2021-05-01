@@ -6,7 +6,7 @@ RSpec.describe Tip, type: :model do
   end
 
   context 'チップを贈れるとき' do
-    it 'チップがあれば保存できる' do
+    it 'チップとトークンがあれば保存できる' do
       expect(@tip).to be_valid
     end
   end
@@ -16,6 +16,12 @@ RSpec.describe Tip, type: :model do
       @tip.price = ''
       @tip.valid?
       expect(@tip.errors.full_messages).to include('チップを入力してください')
+    end
+
+    it 'トークンが空では登録できない' do
+      @tip.token = ''
+      @tip.valid?
+      expect(@tip.errors.full_messages).to include('トークンを入力してください')
     end
 
     it 'ユーザーが空では保存できない' do
