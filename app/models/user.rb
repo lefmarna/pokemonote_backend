@@ -9,6 +9,7 @@ class User < ActiveRecord::Base
 
   has_one_attached :icon
   has_many :pokemons, dependent: :destroy
+  has_many :tips,     dependent: :destroy
 
   with_options presence: true do
     validates :username, uniqueness: { case_sensitive: false }, length: { minimum: 3, maximum: 25 },

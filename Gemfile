@@ -73,3 +73,6 @@ gem 'rails-i18n'
 # ログイン認証
 gem 'devise'
 gem 'devise_token_auth'
+
+# PAY.JPでの決済処理を行う
+gem 'payjp'
