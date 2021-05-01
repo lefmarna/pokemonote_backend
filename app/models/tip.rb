@@ -3,8 +3,6 @@ class Tip < ApplicationRecord
 
   belongs_to :user
 
-  with_options presence: true do
-    validates :price
-    validates :token
-  end
+  validates :price, numericality: { only_integer: true, greater_than_or_equal_to: 120, less_than_or_equal_to: 10_000 }
+  validates :token, presence: true
 end
