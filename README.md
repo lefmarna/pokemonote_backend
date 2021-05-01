@@ -1,5 +1,7 @@
 # Pokemonote
 
+[![Image from Gyazo](https://i.gyazo.com/bc77ce7a24382ded7afa75dbbf5eebe5.png)](https://gyazo.com/bc77ce7a24382ded7afa75dbbf5eebe5)
+
 ## Technology
 
 使用している技術は以下の通りです。（Node のパッケージや Ruby の gem については、主要なもののみを載せています）
