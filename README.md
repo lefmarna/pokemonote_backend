@@ -128,7 +128,7 @@ docker-compose exec web bash
 #### Association
 
 - has_many :pokemons, dependent: :destroy
-- has_many :sns_credentials, dependent: :destroy
+- has_many :tips, dependent: :destroy
 
 ### pokemons
 
@@ -161,13 +161,12 @@ docker-compose exec web bash
 
 - belongs_to :user
 
-### sns_credentials
+### tips
 
-| Column   | Type       | Option            |
-| -------- | ---------- | ----------------- |
-| provider | string     | null: false       |
-| uid      | string     | null: false       |
-| user     | references | foreign_key: true |
+| Column | Type       | Option                         |
+| ------ | ---------- | ------------------------------ |
+| price  | integer    | null: false                    |
+| user   | references | null: false, foreign_key: true |
 
 #### Association
 
