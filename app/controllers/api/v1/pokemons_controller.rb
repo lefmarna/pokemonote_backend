@@ -5,7 +5,7 @@ class Api::V1::PokemonsController < ApplicationController
 
   # GET /pokemons
   def index
-    @pokemons = Pokemon.includes(:user).order(id: :DESC)
+    @pokemons = Pokemon.includes(:user).order(updated_at: :DESC)
   end
 
   # GET /pokemons/1
