@@ -21,7 +21,7 @@ json.pokemons @pokemons do |pokemon|
     pokemon.sp_attack,
     pokemon.sp_defence,
     pokemon.speed
-  ]  
+  ]
   json.user do
     json.nickname pokemon.user.nickname
     json.username pokemon.user.username
