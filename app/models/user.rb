@@ -16,4 +16,8 @@ class User < ActiveRecord::Base
                          format: { with: /\A[a-z\d]+\z/i }
     validates :nickname
   end
+
+  # createアクションの時のみ有効
+  validates :password, on: :create,
+                       format: { with: /\A(?=.*?[a-z])(?=.*?\d)[a-z\d!@#$%^&*]+\z/i }
 end
