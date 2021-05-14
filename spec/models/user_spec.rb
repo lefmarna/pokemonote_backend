@@ -21,9 +21,15 @@ RSpec.describe User, type: :model do
         expect(@user).to be_valid
       end
 
-      it 'パスワードとパスワード（確認用）が6文字以上であれば登録できる' do
-        @user.password = '000000'
-        @user.password_confirmation = '000000'
+      it 'パスワードとパスワード（確認用）が8文字以上であれば登録できる' do
+        @user.password = '1234abcd'
+        @user.password_confirmation = '1234abcd'
+        expect(@user).to be_valid
+      end
+
+      it 'パスワードに許可されている記号が含まれていても登録できる' do
+        @user.password = '*1&a$2!b'
+        @user.password_confirmation = '*1&a$2!b'
         expect(@user).to be_valid
       end
     end
@@ -79,6 +85,41 @@ RSpec.describe User, type: :model do
         expect(@user.errors.full_messages).to include('パスワード（確認用）とパスワードの入力が一致しません')
       end
 
+      it 'パスワードが半角数字のみでは登録できない' do
+        @user.password = '123456'
+        @user.password_confirmation = '123456'
+        @user.valid?
+        expect(@user.errors.full_messages).to include('パスワードは不正な値です')
+      end
+
+      it 'パスワードが半角英語のみでは登録できない' do
+        @user.password = 'abcdef'
+        @user.password_confirmation = 'abcdef'
+        @user.valid?
+        expect(@user.errors.full_messages).to include('パスワードは不正な値です')
+      end
+
+      it 'パスワードに許可されていない記号が含まれていると登録できない' do
+        @user.password = '(1>a:2"b'
+        @user.password_confirmation = '(1>a:2"b'
+        @user.valid?
+        expect(@user.errors.full_messages).to include('パスワードは不正な値です')
+      end
+
+      it 'パスワードとパスワード（確認用）の大文字・小文字が異なると登録できない' do
+        @user.password = 'abcdef'
+        @user.password_confirmation = 'ABCDEF'
+        @user.valid?
+        expect(@user.errors.full_messages).to include('パスワード（確認用）とパスワードの入力が一致しません')
+      end
+
+      it 'パスワードに全角が含まれていると登録できない' do
+        @user.password = '123abｘ'
+        @user.password_confirmation = '123abｘ'
+        @user.valid?
+        expect(@user.errors.full_messages).to include('パスワードは不正な値です')
+      end
+
       it '重複したEメールが存在する場合は登録できない' do
         @user.save
         another_user = FactoryBot.build(:user)
@@ -87,11 +128,11 @@ RSpec.describe User, type: :model do
         expect(another_user.errors.full_messages).to include('Eメールはすでに存在します')
       end
 
-      it 'パスワードが5文字以下では登録できない' do
-        @user.password = '00000'
-        @user.password_confirmation = '00000'
+      it 'パスワードが7文字以下では登録できない' do
+        @user.password = 'abc&123'
+        @user.password_confirmation = 'abc&123'
         @user.valid?
-        expect(@user.errors.full_messages).to include('パスワードは6文字以上で入力してください')
+        expect(@user.errors.full_messages).to include('パスワードは8文字以上で入力してください')
       end
     end
   end
