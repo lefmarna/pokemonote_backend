@@ -74,6 +74,10 @@ Style/Documentation:
 Style/SymbolArray:
   Enabled: false
 
+# ％w（）構文を使用していないシンボルで構成される配列リテラルをチェック（無効）
+Style/WordArray:
+  Enabled: false
+
 # 文字列に値が代入されて変わっていないかチェック（無効）
 Style/FrozenStringLiteralComment:
   Enabled: false

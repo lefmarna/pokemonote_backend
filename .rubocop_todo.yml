@@ -29,19 +29,3 @@ Rails/LexicallyScopedActionFilter:
 Style/GlobalStdStream:
   Exclude:
     - "config/environments/production.rb"
-
-# Offense count: 2
-# Cop supports --auto-correct.
-# Configuration parameters: SafeForConstants.
-Style/RedundantFetchBlock:
-  Exclude:
-    - "config/puma.rb"
-
-# Offense count: 1099
-# Cop supports --auto-correct.
-# Configuration parameters: EnforcedStyle, MinSize, WordRegex.
-# SupportedStyles: percent, brackets
-Style/WordArray:
-  Exclude:
-    - "app/models/concerns/pokemon_data.rb"
-    - "config/initializers/cors.rb"
