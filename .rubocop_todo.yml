@@ -23,9 +23,3 @@ RSpec/RepeatedExample:
 Rails/LexicallyScopedActionFilter:
   Exclude:
     - "app/controllers/api/v1/pokemons_controller.rb"
-
-# Offense count: 1
-# Cop supports --auto-correct.
-Style/GlobalStdStream:
-  Exclude:
-    - "config/environments/production.rb"
