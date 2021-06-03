@@ -108,6 +108,11 @@ RSpec/ContextWording:
 RSpec/InstanceVariable:
   Enabled: false
 
+# requestのテストでは同名のexampleを許可する
+RSpec/RepeatedExample:
+  Exclude:
+    - "spec/requests/**/*"
+
 # devise-token-auth によって作られたモデルは ActiveRecord::Base を継承しているが、これに対して警告が出てしまうため除外
 Rails/ApplicationRecord:
   Exclude:
