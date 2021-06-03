@@ -48,11 +48,6 @@ RSpec.describe 'Api::V1::Users', type: :request do
       expect(response.body).to include(@user.nickname)
     end
 
-    it 'レスポンスに「id」が存在しないこと' do
-      get "/api/v1/users/#{@user.username}"
-      expect(response.body).not_to include(@user.id.to_s)
-    end
-
     it 'レスポンスに「Email」が存在しないこと' do
       get "/api/v1/users/#{@user.username}"
       expect(response.body).not_to include(@user.email)
