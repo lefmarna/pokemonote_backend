@@ -1,5 +1,3 @@
-inherit_from: .rubocop_todo.yml
-
 require:
   - rubocop-rails
   - rubocop-rspec
@@ -30,6 +28,14 @@ Layout/LineLength:
 # 上記項目をRubocopが計算して基準値を超えると警告を出す（上記頭文字をとって'Abc'）
 Metrics/AbcSize:
   Max: 50
+
+# 1ブロックあたりの長さをチェックする
+Metrics/BlockLength:
+  Max: 30
+  Exclude:
+    - "config/routes.rb"
+    - "spec/**/*"
+    - "Gemfile"
 
 # メソッドの中身が複雑になっていないか、Rubocopが計算して基準値を超えると警告を出す
 Metrics/PerceivedComplexity:
@@ -74,6 +80,10 @@ Style/Documentation:
 Style/SymbolArray:
   Enabled: false
 
+# ％w（）構文を使用していないシンボルで構成される配列リテラルをチェック（無効）
+Style/WordArray:
+  Enabled: false
+
 # 文字列に値が代入されて変わっていないかチェック（無効）
 Style/FrozenStringLiteralComment:
   Enabled: false
@@ -95,6 +105,11 @@ RSpec/ContextWording:
 # 'インスタンス変数の代わりに let を使用する場合は true にする
 RSpec/InstanceVariable:
   Enabled: false
+
+# requestのテストでは同名のexampleを許可する
+RSpec/RepeatedExample:
+  Exclude:
+    - "spec/requests/**/*"
 
 # devise-token-auth によって作られたモデルは ActiveRecord::Base を継承しているが、これに対して警告が出てしまうため除外
 Rails/ApplicationRecord:
